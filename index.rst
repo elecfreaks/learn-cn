@@ -1,0 +1,33 @@
+.. ElecFreaksWiki documentation master file, created by
+   sphinx-quickstart on Mon Mar 11 16:05:41 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+一站式micro:bit学习平台
+==========================================
+
+.. toctree::
+   :maxdepth: 2
+
+   heard/index
+   micropythonTutorial/index
+   microbitKit/Starter_Kit/index
+   microbitKit/Tinker_Kit/index
+   microbitKit/smart_home_kit/index
+   microbitKit/experiment_box/index
+   microbitKit/watch_kit/index
+   microbitKit/smart_coding_kit/index
+   microbitKit/basic_kit/index
+   microbitKit/Ring_bit_Car_Kit/index
+   microbitKit/ring_bit_v2/index
+   microbitKit/motor_bit_smart_car/index
+   microbitKit/robit_smart_car/index
+   microbitKit/iot_kit/index
+   microbitOctopus/input/index
+   microbitOctopus/output/index
+   microbitOctopus/sensor/index
+<<<<<<< HEAD
+   microbitExtensionModule/index
+=======
+   microbitExtensionModule/index
+>>>>>>> b35fb920f42491ea3dba7c878a5f65a17387550d
