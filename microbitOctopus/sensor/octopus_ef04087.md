@@ -44,7 +44,7 @@ SKU| EF04087
 #### 目的
 读取气压值，并显示在micro:bit上的屏幕上。
 
-#### 添加package
+### 添加package
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 ![](./images/LjMR5IU.png)
