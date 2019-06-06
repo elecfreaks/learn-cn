@@ -7,7 +7,7 @@ Octopus Analog Capacitive Soil Moisture Sensor是我们OCTOPUS系列的土壤湿
 
 采用电容感应原理来检测土壤湿度，避免了电阻式传感器极易被腐蚀的问题，极大地延长了它的工作寿命。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/sensor/images/04097_00.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04097_00.jpg)
 
 ## 特性 
 ---
@@ -26,7 +26,7 @@ Octopus Analog Capacitive Soil Moisture Sensor是我们OCTOPUS系列的土壤湿
 
 ## 外型与定位尺寸  
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/sensor/images/04097_01.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04097_01.png)
 
 ## 快速上手  
 ---  
@@ -34,7 +34,7 @@ Octopus Analog Capacitive Soil Moisture Sensor是我们OCTOPUS系列的土壤湿
 
 将模块通过带扣杜邦线插入octopus:bit上的P1引脚，将micro:bit主板插入octopus:bit。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/sensor/images/04097_02.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04097_02.png)
 
 ### 软件编程  
 

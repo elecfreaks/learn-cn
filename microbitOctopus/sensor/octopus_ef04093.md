@@ -7,7 +7,7 @@ Octopus Analog UV sensor (GUVA-S12SD)是我们OCTOPUS系列的紫外线传感器
 
 可以测量太阳光紫外线强度总量，线性电压信号输出，可用作紫外线测试仪，紫外线指数仪，火焰检测等。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/sensor/images/04093_00.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04093_00.jpg)
 
 ## 特性 
 ---
@@ -29,7 +29,7 @@ Octopus Analog UV sensor (GUVA-S12SD)是我们OCTOPUS系列的紫外线传感器
 
 ## 外型与定位尺寸  
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/output/images/eNbM5Kz.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/eNbM5Kz.png)
 
 ## 快速上手  
 ---  
@@ -37,7 +37,7 @@ Octopus Analog UV sensor (GUVA-S12SD)是我们OCTOPUS系列的紫外线传感器
 
 将模块通过带扣杜邦线插入octopus:bit上的P1引脚，将micro:bit主板插入octopus:bit。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/output/images/04095_2.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04095_2.png)
 
 ### 软件编程  
 
