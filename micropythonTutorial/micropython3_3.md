@@ -19,7 +19,8 @@
 ### microbit内置图像 ###
 - MicroPython中内置了很多有趣的图片，以点阵的方式显示。
 - 内置的所有图形如下图所示，其英文名为图像描述。
-| | | | | |
+
+||||||
 | :------------: | :-----------: | :------------: | :-----------: | :------------: |
 |Image.HEART|Image.CLOCK12| Image.CLOCK11|Image.CLOCK10|Image.CLOCK9|
 |Image.CLOCK8|Image.CLOCK7| Image.CLOCK6|Image.CLOCK5|Image.CLOCK4|

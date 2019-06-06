@@ -26,8 +26,4 @@
    microbitOctopus/input/index
    microbitOctopus/output/index
    microbitOctopus/sensor/index
-<<<<<<< HEAD
    microbitExtensionModule/index
-=======
-   microbitExtensionModule/index
->>>>>>> b35fb920f42491ea3dba7c878a5f65a17387550d
