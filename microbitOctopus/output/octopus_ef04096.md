@@ -9,7 +9,7 @@ Octopus 3V laser sensor是我们OCTOPUS系列的激光发射电子积木，它�
 
 特殊说明：请勿照射人的眼睛，此激光头发射的是红色激光束，只有在有雾或其他介质的前提下才能看到微弱的红线，而通常情况下看到的是一个红点。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/output/images/04096_00.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04096_00.jpg)
 
 ## 特性 
 ---
@@ -31,7 +31,7 @@ Octopus 3V laser sensor是我们OCTOPUS系列的激光发射电子积木，它�
 
 ### 外型与定位尺寸  
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/output/images/eNbM5Kz.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/eNbM5Kz.png)
 
 ## 快速上手  
 ---  
@@ -39,7 +39,7 @@ Octopus 3V laser sensor是我们OCTOPUS系列的激光发射电子积木，它�
 
 将模块通过带扣杜邦线插入octopus:bit上的P1引脚，将micro:bit主板插入octopus:bit。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitSensor/output/images/04095_2.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04095_2.png)
 
 ### 软件编程  
 
