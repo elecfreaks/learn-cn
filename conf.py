@@ -44,9 +44,6 @@ source_suffix = {
 # ones.
 # extensions = ['recommonmark']
 extensions = [
-    'sphinx_markdown_tables',
-]
-extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
