@@ -4,15 +4,16 @@
 ---
 这是Push Lock E-Switch按钮模块，它可以检测您的按压动作，非常适合初学者使用。
 
- ![](./images/SMeQQyr.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04035.jpg)
 
 ## 特性
 ---
-- 具备octopus系列即插即用的特性。
-
+- 三线端口设计，防止误插，易于使用。
+- 3V电压支持micro:bit驱动
 
 ## 技术规格
 ---
+
 项目 | 参数 
 :-: | :-: 
 SKU|EF04035
@@ -22,7 +23,7 @@ SKU|EF04035
 
 ## 外形与定位尺寸
 ---
- ![](./images/IYYxw8r.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/octopus_board.png)
 
 ## 快速上手
 ---
@@ -32,13 +33,13 @@ SKU|EF04035
 
 ***以sensor:bit为例***
 
-![](./images/tUcPhzM.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04035-2.png)
 
 ### 添加packege
 
 ###如下图编写程序
 ![](./images/gkU4VNN.png)
-
+ 
 ### 参考程序
 
 请参考程序连接：

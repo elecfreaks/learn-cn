@@ -2,10 +2,9 @@
 
 ## 简介
 ---
-- [x] 这个键盘使用模拟输入，使用一个IO口判断五个按键。
+- 这个键盘使用模拟输入，使用一个IO口判断五个按键。
 - 可以完成更多有趣的交互功能。
- 
- ![](http://)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04017.jpg)
 ## 特性
 ---
 - 三线端口设计，防止误插，易于使用。
@@ -26,7 +25,7 @@ SKU|EF04017
 
 ## 外形与定位尺寸
 ---
- ![](./images/R0ARLff.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04017-2.jpg)
 
 ## 快速上手
 ---
@@ -35,7 +34,7 @@ SKU|EF04017
 
 ***以sensor:bit为例***
 
-![](./images/ox97wuD.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04017-3.png)
 
 
 ### 如图所示编写程序
@@ -43,8 +42,7 @@ SKU|EF04017
 - 当返回值为：0~20，则为A按钮按下，显示一颗大心。
 - 以此类推。
 
- ![](./images/p4dwStN.png)
-
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04017-4.png)
 ### 参考程序
 
 请参考程序连接：[https://makecode.microbit.org/_dqjTtAM5sfmy](https://makecode.microbit.org/_dqjTtAM5sfmy)
