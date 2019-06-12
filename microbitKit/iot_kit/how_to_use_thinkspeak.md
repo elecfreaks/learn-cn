@@ -16,7 +16,7 @@
 
 - 确认邮箱地址，勾选使用此邮箱作为登陆账号，点击继续按钮。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_03png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_03.png)
 
 - 验证MathWorks账号，thinggspeak会发送邮件至你邮箱中，点击邮件内链接验证后点击continue继续
 
