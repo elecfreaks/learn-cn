@@ -22,7 +22,7 @@
 
 我们为这个实验编写的程序相当简单，收集两个传感器的数据 - 加速度值和光照值，并且每隔100ms通过将数据发送到串行通信端口。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_01.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_02.png)
 
 ### 第二步：下载程序到micro:bit 
 
@@ -61,6 +61,7 @@
 第二部分：用于将数据变成图表形式的函数代码。
 
 您可以在此博客[https://techcommunity.microsoft.com](https://techcommunity.microsoft.com/gxcuf89792/attachments/gxcuf89792/ExcelBlog/48.6/1/SensorVisualizer_BlogVersion.zip)中找到此Excel的副本。
+[也可以点击此处下载](https://github.com/elecfreaks/learn-cn/blob/master/microbitKit/iot_kit/file/SensorVisualizer_BlogVersion.zip?raw=true)
 
 假设您想自己构建它，或者至少完全理解它，那么现在是时候拉起袖子并编写一些VBA代码来读取串口数据，并将其写入excel网格中。
 
