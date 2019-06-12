@@ -4,7 +4,7 @@
 ---
 OCTOPUS电位器是一种简单的线性滑动电位器电子积木模块，可用于电阻分压器输出，HID控制面板，电子积木套件。
 
- ![](./images/zB1We7i.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04061.jpg)
 
 ## 特性
 ---
@@ -13,6 +13,7 @@ OCTOPUS电位器是一种简单的线性滑动电位器电子积木模块，可�
 
 ## 技术规格
 ---
+
 项目 | 参数 
 :-: | :-: 
 SKU|EF04061
@@ -24,7 +25,7 @@ SKU|EF04061
 ## 外形与定位尺寸
 ---
 
- ![](./images/dLwyWxY.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04061-2.jpg)
 
 ## 快速上手
 ---
@@ -34,7 +35,7 @@ SKU|EF04061
 
 ***以sensor：bit为例***
 
- ![](./images/ikkyw8U.png)
+  ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04061-3.png)
 
 ### 添加packege
 
@@ -42,8 +43,6 @@ SKU|EF04061
 1.使用micro:bit的点阵屏，显示读到的电位器的数值。
 
 2.向电位器写入数值1，,将电位器上的led灯点亮
-
- ![](./images/Q7yiG9T.png)
 
 ### 参考程序
 ---

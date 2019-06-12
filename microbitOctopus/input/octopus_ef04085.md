@@ -24,15 +24,16 @@ SKU|EF04085
 净重|3.5g
 
 ### 外型尺寸
-![](./images/X0thNO5.png)
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/octopus_board.png)
 
 ## 快速上手
 ---
 
 ### 硬件连接
 将该模块连接至micro:bit扩展板P1口。（如下图）
-![](./images/vbupjP9.png)
 
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04085.png)
 ### 软件编程
 打卡[Makecode在线编辑器](https://makecode.microbit.org/)，编写代码，使电位器控制micro:bit主板LED点阵灯的变化。
 

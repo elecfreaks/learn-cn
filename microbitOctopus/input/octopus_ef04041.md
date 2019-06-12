@@ -2,16 +2,18 @@
 
 ## 简介
 ---
-Octopus模拟旋转模块与micro:bit兼容，可以旋转300度。它基于电位计。
+Octopus模拟电位计旋转模块与micro:bit兼容，可以旋转300度。
 
- ![](./images/hkPYQxY.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041.jpg)
 
 ## 特性
 ---
 - 三线端口设计，防止误插，易于使用。
 - 3V电压支持micro:bit驱动
+
 ## 技术规格
 ---
+
 项目 | 参数
 :-: | :-: 
 SKU|04041
@@ -22,11 +24,10 @@ SKU|04041
 旋转角度|300度旋转传感器
 尺寸|19x27mm
 
-
 ## 外形与定位尺寸
 ---
 
- ![](./images/qj7G72X.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041-2.png)
 
 ## 快速上手
 ---
@@ -36,14 +37,14 @@ SKU|04041
 
 ***以sensor：bit为例***
 
- ![](./images/3Ltye1u.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041-3.png)
 
 ### 添加Package
 
 ### 如图所示编写程序
 使用led积木块中的下图积木块，显示对应的一个的扇形图
 
- ![](./images/Afb6xov.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041-4.png) 
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_2hr1UMdcp0uj](https://makecode.microbit.org/_2hr1UMdcp0uj)

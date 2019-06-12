@@ -38,7 +38,8 @@ SKU|EF04035
 ### 添加packege
 
 ###如下图编写程序
-![](./images/gkU4VNN.png)
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04035-3.png)
  
 ### 参考程序
 

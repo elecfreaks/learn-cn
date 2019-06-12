@@ -25,7 +25,7 @@ SKU|EF04017
 
 ## 外形与定位尺寸
 ---
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04017-2.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04017-2.png)
 
 ## 快速上手
 ---
