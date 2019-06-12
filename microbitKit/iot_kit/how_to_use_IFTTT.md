@@ -94,9 +94,9 @@ case_ifttt_04
 
 我们可以从Thingspeak频道的数据中看到温度超过30m度。  
 
-![](./images/c7wQ1HI.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ifttt_19.png)
 
 检查您的电子邮箱，看看您是否收到了IFTTT的电子邮件！ 
 
-![](./images/NQrmQV0.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ifttt_20.png)
 
