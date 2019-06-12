@@ -5,20 +5,15 @@
 
 - 制作一个环境质量监测站。
 
-
 ## 使用材料
 ---
-
-- 1 x [IOT:kit(物联网环境科学套件)]()
-
+- 1 x [IOT:kit(物联网环境科学套件):https://www.elecfreaks.com/store](https://www.elecfreaks.com/store/micro-bit-smart-science-iot-kit-with-micro-bit.html)
 
 ## 背景知识
 ---
-
 ### 什么是环境检测
 
 - [环境检测：]()环境监测是利用GIS技术对环境监测网络进行设计,环境监测收集的信息又能通过GIS适时储存和显示，并对所选评价区域进行详细的场地监测和分析。
-
 
 ## 硬件连接图
 ---
@@ -29,8 +24,7 @@ BME280模块连接到`IIC`接口`SCL-P19` `SDA-P20`。
 
 OLED屏幕连接`IIC`接口。 
 
-![](./images/lXpPGTA.png)
-
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_03_01.png)
 
 ## 软件
 ---
@@ -57,7 +51,7 @@ OLED屏幕连接`IIC`接口。
 
 初始化OLED屏幕为`64`像素*`128`像素。
 
-![](./images/RmoYl5S.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_03_02.png)
 
 ### 步骤 2
 
@@ -67,7 +61,7 @@ OLED屏幕连接`IIC`接口。
 
 插入`insert newline`积木块，另起一行。
 
-![](./images/r34zWZ5.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_03_03.png)
 
 ### 程序
 
@@ -76,8 +70,6 @@ OLED屏幕连接`IIC`接口。
 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gXa1mXargW1V" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
-
-
 ### 现象
 ---
 
