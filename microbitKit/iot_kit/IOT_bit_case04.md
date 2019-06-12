@@ -5,12 +5,10 @@
 
 - 制作一个智能灌溉控制系统。
 
-
 ## 使用材料
 ---
 
 - 1 x IOT:kit(物联网环境科学套件)
-
 
 ## 背景知识
 ---
@@ -31,7 +29,7 @@
 
 180°舵机连接到`P10`口。
 
-![](./images/riGjBfr.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_01.png)
 
 ## 软件
 ---
@@ -56,20 +54,20 @@
 
 在`on start`中插入`servo write`积木块，参数填入`0`复位舵机到0度关闭水阀。
 
-![](./images/rSut2te.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_02.png)
 
 ### 步骤 3
 
 在`forever`中插入`set to`积木块。
 读取水位值赋值给`water level`变量，读取土壤湿度值赋值给`soil humidity`变量。
 
-![](./images/w0KvPvn.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_03.png)
 
 ### 步骤 4
 
 之后判断水缸的水位是否低于10，如果低于10，播放`ba ding`提醒向自动灌溉水箱注水。
 
-![](./images/IgPcv9k.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_04.png)
 
 ### 步骤 5
 
@@ -77,7 +75,7 @@
 
 如果低于30，打开阀门浇水，如果不低于30，就关闭阀门。
 
-![](./images/okp5E4C.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_05.png)
 
 ### 程序
 
@@ -86,7 +84,6 @@
 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_dxTF0K1be0w0" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
-
 
 ### 现象
 ---
