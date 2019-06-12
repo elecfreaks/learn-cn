@@ -7,7 +7,7 @@
 
 - IoT:bit是一款基于micro:bit的物联网micro:bit扩展板，它使用ESP8266为WIFI扩展模块，使用串口与micro:bit通信，同时扩展了micro:bit上所有可用的IO口，以GVS形式引出，通过它能扩展各种3V的电子积木模块，如LED灯、光敏、舵机等。并且板载了蜂鸣器能够播放外音。板载RTC时钟，断电也可以继续计时。使用makecode编程扩展专属代码库，可以方便接入thingspeak，快速搭建物联网智能设备。
 
- ![](./images/NGKCsKq.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_01.jpg)
 
 ### 特性
 ---
@@ -19,7 +19,7 @@
 - 集成蜂鸣器和耳机接口。
 - 兼容乐高：4个标准间距的乐高固定孔。
 
-##硬件外观及参数
+## 硬件外观及参数
 ---
 
 ### 外形与安装定位尺寸
@@ -29,13 +29,13 @@
 - PCB板厚：1.5mm
 - 开孔直径：2.4mm
 
- ![](./images/5CDXW5R.png)
+ ![](./images/5CDXW5R.png?w=600&r=100)
 
 ### 参数
 ---
 
  |项目|参数|备注|
- |:-:|:-:|:-:|
+ |:---:|:---:|:---:|
  |直流供电电源|USB-5V|-|
  |最大工作电流|800mA|-|
  |工作温度|-25~80℃|-|
@@ -53,12 +53,12 @@
 ### 引脚接口框图
 ---
 
-![](./images/3Pb4vCV.png)
+![](./images/3Pb4vCV.png?w=600&r=100)
 
 ### 主体模块介绍
 ---
 
- ![](./images/bkO3DMr.png)
+ ![](./images/bkO3DMr.png?w=600&r=100)
 
 ## 软件支持
 ---
@@ -72,7 +72,7 @@
 
 - https://makecode.microbit.org
 
- ![](./images/LczawXh.png)
+ ![](./images/LczawXh.png?w=600&r=100)
 
 ### JavaScript代码编程
 ---
@@ -81,7 +81,7 @@
 
 - https://makecode.microbit.org
 
- ![](./images/X7zJlwA.png)
+ ![](./images/X7zJlwA.png?w=600&r=100)
 
 ### MicroPython代码编程
 ---
@@ -90,7 +90,7 @@
 
 - https://codewith.mu/
 
- ![](./images/CJytOdT.png)
+ ![](./images/CJytOdT.png?w=600&r=100)
 
 
 ## 快速上手  
@@ -114,7 +114,8 @@
 #### 软件编程平台 ###
 ---
 
-- makecode积木块在线编程：https://makecode.microbit.org
+- makecode积木块在线编程：
+(https://makecode.microbit.org)[https://makecode.microbit.org]
 
 
 #### 添加代码库 ###
