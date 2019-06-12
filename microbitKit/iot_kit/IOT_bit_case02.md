@@ -8,7 +8,7 @@
 ## 使用材料
 ---
 
-- 1 x [IOT:kit(物联网环境科学套件)]()
+- 1 x [IOT:kit(物联网环境科学套件):https://www.elecfreaks.com/store](https://www.elecfreaks.com/store/micro-bit-smart-science-iot-kit-with-micro-bit.html)
 
 ## 背景知识
 ---
@@ -27,8 +27,7 @@ OLED屏幕连接`IIC`接口。
 
 板载RTC时钟模块，已连接到`IIC`总线
 
-![](./images/GFc4ykB.png)
-
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_02_01.png)
 
 ## 软件
 ---
@@ -57,7 +56,7 @@ OLED屏幕连接`IIC`接口。
 
 在它之后插入设定RTC时钟积木块，设置为当前时间的小时和分钟数。（以14:15为例）
 
-![](./images/pe0ieLF.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_02_02.png)
 
 ### 步骤 2
 
@@ -67,7 +66,7 @@ OLED屏幕连接`IIC`接口。
 
 插入`insert newline`积木块，另起一行。
 
-![](./images/81EXZAx.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_02_03.png)
 
 ### 步骤 3
 再之后插入，`show string`积木块，`show number`积木块。
@@ -76,7 +75,7 @@ OLED屏幕连接`IIC`接口。
 
 暂停1秒。
 
-![](./images/SCNnj3C.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_02_04.png)
 ### 程序
 
 请参考程序连接：[https://makecode.microbit.org/_3y5WWxWUFYtV](https://makecode.microbit.org/_3y5WWxWUFYtV)
