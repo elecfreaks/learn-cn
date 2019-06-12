@@ -8,7 +8,7 @@
 ## 使用材料
 ---
 
-- 1 x IOT:kit(物联网环境科学套件)
+- 1 x [IOT:kit(物联网环境科学套件):https://www.elecfreaks.com/store](https://www.elecfreaks.com/store/micro-bit-smart-science-iot-kit-with-micro-bit.html)
 
 ## 背景知识
 ---

@@ -5,12 +5,10 @@
 
 - 制作一个监测站保护装置。
 
-
 ## 使用材料
 ---
 
-- 1 x IOT:kit(物联网环境科学套件)
-
+- 1 x [IOT:kit(物联网环境科学套件):https://www.elecfreaks.com/store](https://www.elecfreaks.com/store/micro-bit-smart-science-iot-kit-with-micro-bit.html)
 
 ## 背景知识
 ---
@@ -29,7 +27,7 @@
 
 板载蜂鸣器，已经连接到`P0`口。
 
-![](./images/AzFJx69.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_05_01.png)
 
 ## 软件
 ---
@@ -58,7 +56,7 @@
 
 如果`ultrasonic`变量小于30，播放一声`ba ding`提示请勿靠近。
 
-![](./images/u5y3z9s.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_05_02.png)
 
 
 
@@ -70,10 +68,9 @@
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_05sYuyciH93g" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
-
 ### 现象
 ---
-
+- 当检测到活物且距离足够近的时候，会播放声音提醒。
 ## 思考
 ---
 
