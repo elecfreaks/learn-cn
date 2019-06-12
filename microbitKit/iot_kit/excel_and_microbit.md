@@ -4,14 +4,13 @@
 ---
 我们的目标是使用micro:bit收集一些基本的传感器数据，然后在Excel中进行可视化。
 
-
 为实现这一目标，我们将通过三个步骤：
 
 1. 我们将对micro:bit进行编程以收集一些传感器数据并通过其内置的串行通信端口发送。
 2. 我们将micro:bit连接到PC的串行端口。
 3. 我们将在Excel中编写一个小程序，将串行端口中的数据写入Excel。
 
-![](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/13765i883EB36245B45F26/image-size/large?v=1.0&px=999)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_01.jpg)
 
 ## 实验流程 - 从micro:bit到Excel ##
 
@@ -23,7 +22,7 @@
 
 我们为这个实验编写的程序相当简单，收集两个传感器的数据 - 加速度值和光照值，并且每隔100ms通过将数据发送到串行通信端口。
 
- ![](./images/QvrpCgv.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_01.png)
 
 ### 第二步：下载程序到micro:bit 
 
@@ -31,29 +30,26 @@
 
 使用USB数据线将micro:bit连接到PC，会在PC我的电脑中显示一个micro:bit盘。
 
- ![](./images/WvsEyyC.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_03.png)
 
 然后在MakeCode界面中点击下载，将下载的HEX文件并将其保存到micro:bit盘上。
 
-![](./images/hoFCLgW.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_04.png)
 
 你也可以点击[此处](https://makecode.microbit.org/_cjvC4RU1CVUD)直接下载程序。
-
-
 ### 第三步：将它连接到PC
 
 现在我们的micro:bit正在运行并发送数据，在我们在Excel中尝试之前，最好验证PC是否确实可以看到传入的数据流。
-为此，您需要按照此 [页面https://www.microbit.co.uk/td/serial-library](https://www.microbit.co.uk/td/serial-library), 上的说明操作，这基本上意味着您需要做两件事：
+为此，您需要按照此 页面[https://www.microbit.co.uk/td/serial-library](https://www.microbit.co.uk/td/serial-library), 上的说明操作，这基本上意味着您需要做两件事：
 
 1. 安装一个驱动程序，它将使micro:bit“显示”为PC上的串行端口。
 
 2. 使用串行通信终端仿真器进行测试。
 
-
 您需要配置正确的COM端口。在我的环境中，它被配置为COM3。Excel中的示例代码假定，如果您的代码不同，则需要稍后修改Excel代码以反映正确的端口。
 完成后，您应该在模拟器中看到类似于此的数据流：
 
- ![](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/13768i03054CCA134AD00F/image-size/medium?v=1.0&px=400)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_05.jpg)
 
 **传入的数据流 - 光照水平和加速度**
 
@@ -64,7 +60,7 @@
 第一部分：用于与micro:bit通信的VBA代码。
 第二部分：用于将数据变成图表形式的函数代码。
 
-您可以在[此博客https://techcommunity.microsoft.com](https://techcommunity.microsoft.com/gxcuf89792/attachments/gxcuf89792/ExcelBlog/48.6/1/SensorVisualizer_BlogVersion.zip)中找到此Excel的副本。
+您可以在此博客[https://techcommunity.microsoft.com](https://techcommunity.microsoft.com/gxcuf89792/attachments/gxcuf89792/ExcelBlog/48.6/1/SensorVisualizer_BlogVersion.zip)中找到此Excel的副本。
 
 假设您想自己构建它，或者至少完全理解它，那么现在是时候拉起袖子并编写一些VBA代码来读取串口数据，并将其写入excel网格中。
 
@@ -74,7 +70,7 @@
 
 这是VBA代码中主循环的片段：
  
-![](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/13769iE0B5271D5697938C/image-size/large?v=1.0&px=999)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_06.jpg)
 
 此代码段中需要注意以下几点：
 
@@ -105,7 +101,7 @@ micro:bit中的亮度值范围为0到255.
 从值中创建两个图表。在它们两者中，X轴是行号，Y轴是从传感器进入的数据（光或加速度）。
 这就是它的样子：
 
-![](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/13770i859D1310A25977A3/image-size/large?v=1.0&px=999)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_07.jpg)
 
 ### 最后一步：传入的数据是实时可视化的！
 

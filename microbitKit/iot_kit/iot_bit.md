@@ -122,7 +122,7 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_12.jpg)
 
-**注意：**如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
+*注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 #### 如何驱动蜂鸣器 
 ---
@@ -204,18 +204,18 @@
 答：CR1220纽扣电池额定电压为3V，而部分品牌的纽扣电池出厂电压会偏高，甚至会达到在3.4V左右，电池电压过高会导致RTC芯片工作异常，想要正常使用RTC功能，可使用旧纽扣电池，或自行对纽扣电池进行放电。
 
  ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_27.jpg)
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_28.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_28.JPG)
 
 放电步骤：
 
 1、用一颗LED，将引脚如图所示接入电池（注意正负极不要接反）。
 
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_29.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_29.JPG)
 
 2、连接好后，LED亮起，3.4V的新电池大约放电10秒，即可达到3V左右。
 
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_30.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_30.JPG)
 
 3、用万用表测试电池电压，电池降至3V左右即可正常使用。
 
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_31.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_31.JPG)
