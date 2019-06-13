@@ -97,7 +97,7 @@
 
 - 首先安装CR1220纽扣电池为RTC时钟模块供电
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_08.1.gif)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_08.gif)
 
 - 然后把Microbit插到Iot:bit上，注意插接方向
 
