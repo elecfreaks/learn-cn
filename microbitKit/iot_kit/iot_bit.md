@@ -94,13 +94,16 @@
 ---
 ### 硬件安装及连接
 
-- 首先安装CR1220纽扣电池为RTC时钟模块供电,
+- 首先安装CR1220纽扣电池为RTC时钟模块供电
+
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_08.gif)
 
 - 然后把Microbit插到Iot:bit上，注意插接方向
+
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_09.gif)
 
-- 最后使用独立USB电源为扩展板供电，打开板载电源开关。 
+- 最后使用独立USB电源为扩展板供电，打开板载电源开关
+
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_10.gif)
 
 ### 软件编程  

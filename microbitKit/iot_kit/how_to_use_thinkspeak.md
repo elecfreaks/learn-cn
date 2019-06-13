@@ -1,4 +1,4 @@
-# 第一节：Thingspeak 平台
+# 第一节：使用Iot套件上传数据到Thingspeak IoT平台
 ---
 - ThingSpeak可以处理HTTP请求，并存储和处理数据。这个开放数据平台的主要功能包括开放应用程序、实时数据收集、地理位置数据、数据处理和可视化、设备状态信息和插件。它可以集成多个硬件和软件平台，包括Arduino、树莓派、ioBridge/RealTime.io、Electic lmp、移动和网络应用、社会网络和MATLAB数据分析。除了开源版本，还提供托管服务。
 
@@ -63,6 +63,10 @@
 
 ## 编程
 ---
+### 模块连接图
+- 将光线传感器模块连接到P1口。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_17.png)
 
 ### 步骤 1
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。

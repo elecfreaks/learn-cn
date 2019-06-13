@@ -1,4 +1,4 @@
-# 第三节：Excel与micro:bit
+# 第三节：使用Iot套件搭配Excel将数据可视化
 
 ## Excel 和 micro:bit - 黑客的乐趣和创造力！
 ---

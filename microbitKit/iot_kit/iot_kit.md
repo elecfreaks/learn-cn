@@ -8,18 +8,18 @@
 ## 装箱清单 
 ---
 
-|元件|数量|
-|:-:|:-:|
-|micro:bit|选配|
-|IoT:bit|1|
-|OLED屏幕|1|
-|BME280温湿度模块|1|
-|PIR人体红外传感器|1|
-|光线传感器|1|
-|噪声传感器|1|
-|水位传感器|1|
-|土壤湿度传感器|1|
-|超声波模块|1|
-|灰尘传感器|1|
-|180°舵机|1|
+|元件|数量|元器件使用说明|
+|:-:|:-:|:-:|
+|micro:bit| 选 配 |[micro:bit官方网站:https://microbit.org/](https://microbit.org)|
+|IoT:bit|1|[IoT扩展板使用指南](http://www.elecfreaks.com/learn-cn/microbitKit/iot_kit/iot_bit.html)|
+|OLED屏幕|1|[OLED显示屏资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/output/octopus_ef03155.html)|
+|BME280温湿度模块|1|[BME280资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/octopus_ef04087.html)|
+|PIR人体红外传感器|1|[人体红外传感器资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/octopus_ef04055.html)|
+|光线传感器|1|[光线传感器资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/octopus_ef04032.html)|
+|噪声传感器|1|[噪声传感器资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/octopus_ef04081.html)|
+|水位传感器|1|[水位传感器资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/octopus_ef04094.html)|
+|土壤湿度传感器|1|[土壤湿度传感器资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/octopus_ef04027.html)|
+|超声波模块|1|[Sonar:bit三线宽压超声波资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/sonar_bit.html)|
+|灰尘传感器|1|[灰尘传感器资料手册](http://www.elecfreaks.com/learn-cn/microbitOctopus/sensor/octopus_ef11083.html)|
+|180°舵机|1|[180°舵机micro:bit驱动示例代码](https://makecode.microbit.org/_3R4bPr75P4jJ)|
 
