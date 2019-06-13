@@ -28,6 +28,7 @@
 - 产品尺寸：71mm x 63mm x 23mm
 - PCB板厚：1.5mm
 - 开孔直径：2.4mm
+
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_02.png)
 
 ### 参数

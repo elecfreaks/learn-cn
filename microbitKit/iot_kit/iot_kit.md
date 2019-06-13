@@ -1,6 +1,7 @@
 # iot:kit套件介绍
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_kit_01.jpg)
+
 ## micro:bit 物联网科学套件
 ---
 物联网科学套件，是ELECFREAKS基于物联网扩展板(IoT:bit)研发新micro:bit套件，包括了超声波传感器，光敏传感器，水位传感器，灰尘传感器等，可以进行科学的研究学习型实验。
