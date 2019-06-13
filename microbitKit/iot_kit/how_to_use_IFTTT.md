@@ -85,7 +85,7 @@ URL是Web请求的链接，其必须包含IFTTT提供的私钥。
 以下是设置：测试通道400589（不同的帐户有不同的通道，请将其更改为您自己的通道）以查看温度值是否高于30.如果是，则触发ThingHTTP中的temperature_alarm服务。
 
  ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ifttt_18.png)
-case_ifttt_04
+
 有关React APP的更多详细信息，请参阅 [https://ww2.mathworks.cn/help/thingspeak/react-app.html](https://ww2.mathworks.cn/help/thingspeak/react-app.html).
 ### 第4步：测试
 到此步骤，您已完成所有设置。现在让我们来测试吧！如果温度尚未达到30度，您可以用手握住micro：bit来提高温度。

@@ -51,7 +51,7 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_05.jpg)
 
-**传入的数据流 - 光照水平和加速度**
+***传入的数据流 - 光照水平和加速度
 
 ### 第四部：让我们进行Excel编程！ 
 
