@@ -54,8 +54,6 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_10.png)
 
-## 编程
-
 ## 软件
 ---
 
@@ -77,7 +75,7 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_12.jpg)
 
-**注意：**如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
+***注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
 
@@ -114,3 +112,23 @@
 thingspeak可以查看所有数据。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_13.png)
+
+## Thingspeak 添加可视化
+- - - - -
+- 点击添加可视化按钮，可以选择三个可视化小器件，分别为:[码表]、[数值显示]、[阙值指示灯]。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_14.png)
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_15.png)
+
+- 选择码表类型，点击NEXT，填写图表名字(Name)，图表通道(Field1)，最小值最大值。然后点击Create新建图表。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_16.png)
+
+- 图表就会和通道1(Field 1)数值同时产生变化了。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_19.png)
+
+- 同理添加数值显示和阙值指示灯图表。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_20.png)
