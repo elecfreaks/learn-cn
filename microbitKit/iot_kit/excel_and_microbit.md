@@ -42,7 +42,9 @@
 现在我们的micro:bit正在运行并发送数据，在我们在Excel中尝试之前，最好验证PC是否确实可以看到传入的数据流。
 为此，您需要按照此 页面[https://www.microbit.co.uk/td/serial-library](https://www.microbit.co.uk/td/serial-library), 上的说明操作，这基本上意味着您需要做两件事：
 
-1. 安装一个驱动程序，它将使micro:bit“显示”为PC上的串行端口。
+1. 安装一个驱动程序，它将使micro:bit“显示”为PC上的串行端口,可以点击此处[下载驱动程序](https://github.com/elecfreaks/learn-cn/blob/master/microbitKit/iot_kit/file/teraterm-4.102.rar?raw=true)
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ifttt_21.gif)
 
 2. 使用串行通信终端仿真器进行测试。
 
