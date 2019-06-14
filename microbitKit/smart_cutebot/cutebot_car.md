@@ -42,6 +42,13 @@ Cutebot同时搭载了很多车载设备，包括超声波导航距离传感器�
 
 - - - - -
 
+车辆板载一颗蜂鸣器，连接到micro:bit主板的P0口，可以使用`Music`积木块中的积木来驱动。
+
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_13.jpg)
+
+- - - - -
+
 正上方装有三颗AA电池电池盒扩展板，用来驱动整个小车。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_04.jpg)
@@ -60,7 +67,7 @@ Cutebot同时搭载了很多车载设备，包括超声波导航距离传感器�
 
 - - - - -
 
-尾部红外线接收头旁边为小车总电源开关。
+尾部红外线接收头旁边为小车总电源开关，同时配有一颗LED灯指示开关状态。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_07.jpg)
 
@@ -84,9 +91,9 @@ Cutebot同时搭载了很多车载设备，包括超声波导航距离传感器�
 
 - - - - -
 
-底部两侧边安装了两颗Rainbow LED 全彩灯珠，连接到micro:bit主板的P15口，需要使用扩展Neopixel来驱动使用，可以作为小车示廓灯或其他功能使用。
+底部两侧边安装了两颗Rainbow LED 全彩灯珠，连接到micro:bit主板的P15口，需要使用扩展`Neopixel`来驱动使用，可以作为小车示廓灯或其他功能使用。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_07.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_11.jpg)
 ## 零件清单
 ---
 
