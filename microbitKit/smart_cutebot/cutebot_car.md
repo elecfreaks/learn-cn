@@ -15,7 +15,7 @@ Cutebot同时搭载了很多车载设备，包括超声波导航距离传感器�
  
 ## 产品图片
 ---
-
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-01-01.png)
 
 ## 技术参数
 ---
