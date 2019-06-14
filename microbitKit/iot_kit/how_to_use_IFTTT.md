@@ -1,4 +1,4 @@
-# 第二节：Iot套件搭配Thingspeak平台和ITFFF平台制作温度报警器
+# 第二节：Iot套件搭配Thingspeak平台和IFTTT平台制作温度报警器
 
 ## 如何通过IFTTT发送温度阈值报警电子邮件
 ---
@@ -54,6 +54,8 @@ IFTTT是“if this then that”的缩写。事实上，它会对您的网站行�
 已完成。 
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ifttt_12.png)
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ifttt_22.png)
 
 单击“文档”。 
 
