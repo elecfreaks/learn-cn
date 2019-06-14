@@ -3,25 +3,25 @@
 如果想使用Cute:bot的扩展积木块，则需要添加新的扩展包。
 通过以下步骤添加扩展积木块。
 
-## 第一步 
+- 第一步 
 
 - 点击高级(Advanced)，在下拉菜单中点击扩展(Extensions)，进入添加积木块菜单。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-1.png)
 
-## 第二步 
+- 第二步 
 
 - 在搜索框中搜索“cutebot”，点击图片中“cutebot”，添加扩展包。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-11.png)
 
-## 第三步 
+- 第三步 
 
 - 完成添加。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-2.png)
 
-### 积木块介绍 
+## 积木块介绍 
 ---
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-3.png)
@@ -66,8 +66,8 @@
 - 使用此积木块控制左右RGB车灯显示的颜色。
 
 
-### 常见问题
+## 常见问题
 ---
 *注意*：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
-### 相关阅读  
+## 相关阅读  
 ---
