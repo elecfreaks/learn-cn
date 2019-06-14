@@ -15,7 +15,7 @@ Cutebot同时搭载了很多车载设备，包括超声波导航距离传感器�
  
 ## 产品图片
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-01-01.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_01.jpg)
 
 ## 技术参数
 ---
@@ -30,7 +30,63 @@ Cutebot同时搭载了很多车载设备，包括超声波导航距离传感器�
 
 ## 功能模块描述
 ---
+小车正前方配备超声波接口和micro:bit的IIC接口
 
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_02.jpg)
+
+- - - - -
+
+前方左右两边各配备两颗RGB全彩色LED车灯，通过扩展板控制，不占用micro:bitIO口数量。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_03.jpg)
+
+- - - - -
+
+正上方装有三颗AA电池电池盒扩展板，用来驱动整个小车。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_04.jpg)
+
+- - - - -
+
+电池盒扩展板上同时扩展了micro:bit的IIC接口和P1，P2 IO接口。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_05.jpg)
+
+- - - - -
+
+小车尾部带有红外线接收头，连接在micro:bit主板的P16接口。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_06.jpg)
+
+- - - - -
+
+尾部红外线接收头旁边为小车总电源开关。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_07.jpg)
+
+- - - - -
+
+左右两边为两个 微型高速直流齿轮减速电机 驱动的车轮，转速高达(300转/分钟)，享受飞驰一般的速度。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_08.jpg)
+
+- - - - -
+
+小车底部前方有两个巡线头，用于检测黑线及边缘，连接到micro:bit主板的P13和P14接口。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_09.jpg)
+
+- - - - -
+
+小车底部前方装配一个金属万向轮，小车用 左右轮速度差的方式 完成360度全方向行驶。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_10.jpg)
+
+- - - - -
+
+底部两侧边安装了两颗Rainbow LED 全彩灯珠，连接到micro:bit主板的P15口，需要使用扩展Neopixel来驱动使用，可以作为小车示廓灯或其他功能使用。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot_01_07.jpg)
 ## 零件清单
 ---
 
