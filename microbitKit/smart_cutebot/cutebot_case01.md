@@ -28,7 +28,7 @@
 ### 步骤 2
 
 - 在`On start`(开始)积木块中显示图标，选择一颗心；
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-11.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_01_02.png)
 
 ### 步骤 3
 
