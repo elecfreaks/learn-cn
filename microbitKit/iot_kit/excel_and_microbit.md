@@ -53,9 +53,22 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_05.jpg)
 
+3. 如果在终端仿真器中测试通过，然后进入`设备管理器`—选择`端口`，找到`USB串行设备`。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_10.jpg)
+
+右键属性，选择端口设置，将第一个数据改为`115200`。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_11.jpg)
+
+然后点击`高级`，将左下角`COM端口号`设置为`1`或者`2`，依次点击确定完成设置。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_12.jpg)
+
+
 ***传入的数据流 - 光照水平和加速度
 
-### 第四部：让我们进行Excel编程！ 
+### 第四步：让我们进行Excel编程！ 
 
 现在我们有了一个传入数据流，让我们进入Excel。
 电子表格由两部分组成：
@@ -65,7 +78,7 @@
 您可以在此博客[https://techcommunity.microsoft.com](https://techcommunity.microsoft.com/gxcuf89792/attachments/gxcuf89792/ExcelBlog/48.6/1/SensorVisualizer_BlogVersion.zip)中找到此Excel的副本。
 [也可以点击此处下载](https://github.com/elecfreaks/learn-cn/blob/master/microbitKit/iot_kit/file/SensorVisualizer_BlogVersion.zip?raw=true)
 
-假设您想自己构建它，或者至少完全理解它，那么现在是时候拉起袖子并编写一些VBA代码来读取串口数据，并将其写入excel网格中。
+当你打开这个Excel副本时，Excel会提醒`宏已经被禁止`，点击`启动宏`，这对我们来说很重要。
 
 因为micro:bit会发送无穷无尽的数据，为了本实验的目的，我们将通过收集的最后30个数据样本进行迭代。
 
@@ -106,7 +119,25 @@ micro:bit中的亮度值范围为0到255.
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_07.jpg)
 
+### 第五步：修改VBA代码
+
+点击`视图`—选择`宏`
+
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_13.jpg)
+
+选择`StartBtn_Click`宏点击`编辑`
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_14.jpg)
+
+在这行代码中，将`COM`后边的值改为之前设置的端口号，这里的示例是`2`
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_15.jpg)
+
+点击左上角保存，保存Excel，然后重新打开这个Excel副本。
+
 ### 最后一步：传入的数据是实时可视化的！
 
 您现在要做的就是点击“开始”，查看正在进行的数据并立即转换为图表！
 
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_07.jpg)
