@@ -44,7 +44,7 @@ robit smart car是基于micro:bit的一个智能小车,它的核心扩展板是r
 ### 第二步：将魔术贴的勾面粘在车架上
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_03.JPG)
 ### 第三步：将4颗M4*6单通铜柱安装在Robit正面
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_04.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_04.JPG)
 ### 第四步：在底盘上紧固四个M3×30单通铜管
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_05.JPG)
 ### 第五步：用四个M3*5螺钉将Robit板固定到底盘上
