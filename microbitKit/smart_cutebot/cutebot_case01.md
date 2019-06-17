@@ -6,7 +6,7 @@
 
 ## 使用材料
 ---
-- 1 x [Cute:bot套件](https://www.elecfreaks.com/store/cute-bot.html)
+- 1 x [Cutebot套件](https://www.elecfreaks.com/store/cute-bot.html)
 
 ## 软件平台
 ---

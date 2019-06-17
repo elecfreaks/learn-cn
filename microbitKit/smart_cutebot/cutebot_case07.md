@@ -1,11 +1,12 @@
 # 案例07:防跌落小车
+
 ## 目的
 ---
 - 让你的Cute:bot智能赛车完成最基本的前进后退。
 
 ## 使用材料
 ---
-- 1 x [Cute:bot套件](https://www.elecfreaks.com/store/cute-bot.html)
+- 1 x [Cutebot套件](https://www.elecfreaks.com/store/cute-bot.html)
 
 ## 软件平台
 ---
