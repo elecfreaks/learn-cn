@@ -1,8 +1,8 @@
-# 案例08:全速前进或倒退
+# 案例08:沿着黑线行驶
 
 ## 目的
 ---
-- 让你的Cute:bot智能赛车完成寻黑线绕圈跑。。
+- 让你的Cute:bot智能赛车完成寻黑线绕圈跑。
 
 ## 使用材料
 ---
@@ -20,7 +20,7 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-1.png)
 
-- 为了给Ring:bit套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“ringbit"，然后点击下载这个代码库。
+- 为了给Cutebot套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索`Cutebot`，然后点击下载这个代码库。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-11.png)
 
