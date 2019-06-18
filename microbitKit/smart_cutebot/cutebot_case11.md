@@ -3,6 +3,7 @@
 ## 目的
 ---
 - 使用另一块micorbit主板远程操控Cutebot赛车。
+- 两块主板都需要编程
 
 ## 使用材料
 ---
@@ -26,42 +27,55 @@
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
-### 步骤 2
+### 步骤 2: 遥控器编程
 
-- 在`On start`(开始)积木块中显示图标，选择一颗心；
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_01_02.png)
+- 在`On start`(开始)积木块中设置无线电组别为`1`；
+- 当`按钮A按下`时无线发送数字`1`；
+- 当`按钮B按下`时无线发送数字`2`；
+- 当`按钮A+B按下`时无线发送数字`3`；
 
-### 步骤 3
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_11_01.png)
 
-- 在`Forever`(永久循环)积木块中插入三次`if`(判断)积木块。
-- 首先判断巡线头状态是否为 ○ ● ，即左巡线头未检测到黑线，右巡线头检测到黑线。
-- 将左轮速度设置为`50`，右轮速度`25`，利用速度差完成右转，回归黑线道路。
-- 再判断巡线头是否为 ● ○ ，左转回归黑线。
-- 当巡线头为 ● ● ，证明小车在黑线上，以`50`的速度直行。
+#### 程序
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_06_01.png)
-
-
-### 程序
-
-请参考程序连接：[https://makecode.microbit.org/_brF6tzUKwess](https://makecode.microbit.org/_brF6tzUKwess)
+请参考程序连接：[https://makecode.microbit.org/_VbpXHCC4jW3T](https://makecode.microbit.org/_VbpXHCC4jW3T)
 
 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_brF6tzUKwess" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_VbpXHCC4jW3T" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
 </iframe>
 </div>  
----
+
+### 步骤 3: 小车编程
+
+- 在`On start`(开始)积木块中插入显示图标积木块，设置无线电组别为`1`，一定要和遥控端设置为同一组别，否则无法匹配。
+- 然后在`on radio received`积木块中插入三次判断语句，分别判断无线电接收值是否为`1`，`2`，或者`3`；
+- 当无线电收到的数字为`1`时，左转；
+- 当无线电收到的数字为`2`时，右转；
+- 当无线电收到的数字为`3`时，直行。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_11_02.png)
+
+#### 程序
+
+请参考程序连接：[https://makecode.microbit.org/_MreDFh8se1LK](https://makecode.microbit.org/_MreDFh8se1LK)
+
+你也可以通过以下网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_MreDFh8se1LK" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+</iframe>
+</div>  
 
 ## 结论
 ---
-- 小车按照地图黑线匀速前进，偏离黑线会保持速度和方向行驶，直到回归黑线。
+- 按下遥控端microbit的A+B按钮，小车直行
+- 按下遥控端microbit的A按钮，小车左转
+- 按下遥控端microbit的B按钮，小车右转
 
 ## 思考
 ---
-- 如何在Cutebot自带地图外侧的白圈内行驶而不驶出地图。
-
 ## 常见问题
 ---
 ## 相关阅读  
