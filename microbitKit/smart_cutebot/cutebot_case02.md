@@ -37,7 +37,7 @@
 - 在`Forever`(无限循环)积木块中插入设置左右轮速度积木块，将速度值设置为`speed`，然后将`speed`加一。
 - 并且判断如果`speed`速度等于`100`的时候，速度已经为最大值，将速度`speed`设置为0，重新起步。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_01_02.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_02_02.png)
 
 ### 程序
 
