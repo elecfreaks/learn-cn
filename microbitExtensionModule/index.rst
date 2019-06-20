@@ -17,3 +17,4 @@ micro:bit 扩展板
     Robit_CN.md
     iot_bit.md
     edge_bit_CN.md
+    wukong.md

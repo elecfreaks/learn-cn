@@ -1,18 +1,18 @@
 # 多功能扩展板:悟空（Wukong）
 
 ## 简介
----
+- - - - -
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_02.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_00.jpg)
 
 悟空 是一款基于micro:bit的高集成度多功能扩展板，它的大小与micro:bit相近，功能十分丰富，集成了蜂鸣器、舵机驱动、电机驱动等。
 自带400mAh锂电池包，板载电源管理系统，支持快速充电，充满仅需20分钟，满负载运行时间可达到40分钟以上。
 扩展板底座为乐高标准 7 X 5 方形积木块，完美接入乐高积木。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_01.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_01.png)
 
 ## 特性 
----
+- - - - -
 
 - 外形小巧，高集成度
 - 标准乐高积木接口
@@ -50,7 +50,7 @@
 ## 外型与定位尺寸
 - - - - -
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_02.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_02.png)
 
 
 ## 主要模块介绍  
@@ -58,56 +58,59 @@
 
 ### 开关，usb供电口及电量指示灯
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_07.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_07.jpg)
 
 ### micro:bit主板插销
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_15.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_15.jpg)
 
 ### 电机驱动接口  
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_03.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_03.jpg)
 
 ### 舵机驱动接口
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_04.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_04.jpg)
 
 ### 8路标准GVS接口及5v接口
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_05.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_05.jpg)
 
 ### I2C排母接口
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_06.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_06.jpg)
 
 ### 4颗Rainbow LED
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_08.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_08.jpg)
 
 ### 蜂鸣器(背面)及蜂鸣器功能开关
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_09.jpg)
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_10.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_09.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_10.jpg)
 
 ### 8颗氛围灯(背面)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_11.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_11.jpg)
 
 ### 锂电池接口(背面)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_12.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_12.jpg)
 
 ### 乐高固定螺丝孔M3(背面)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/microbitExtensionModule/images/wukong_13.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_13.jpg)
 
 
 ## 快速上手  
----  
+- - - - -
 
 ### 硬件连接
 
 - 将micro:bit主板插入主板插销座，主板带LOGO一面，朝向蜂鸣器开关一侧。
+- 单击一次电源开关打开电源。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_20.jpg)
 
 ### 软件编程平台
 
@@ -120,10 +123,9 @@
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-1.png)
 
 - 在搜索框中搜索`wukong`，点击图片中`wukong`，添加扩展包。
+- 添加完成。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-11.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/wukong_14.png)
 
-你也能通过下列窗口直接下载代码
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_3At2iE5Ue3XK" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-## 常见问题
+## 相关文档
+- - - - -
