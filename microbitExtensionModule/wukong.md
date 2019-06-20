@@ -9,7 +9,7 @@
 自带400mAh锂电池包，板载电源管理系统，支持快速充电，充满仅需20分钟，满负载运行时间可达到40分钟以上。
 扩展板底座为乐高标准 7 X 5 方形积木块，完美接入乐高积木。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_01.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_01.jpg)
 
 ## 特性 
 - - - - -
