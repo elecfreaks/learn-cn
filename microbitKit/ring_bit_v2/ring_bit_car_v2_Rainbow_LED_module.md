@@ -63,7 +63,7 @@
 - 在forever中循环位移颜色。
 - 显示颜色。
 
- ![](./images/BokHpFU.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_08.png)
 
  程序代码链接：[https://makecode.microbit.org/_fRoTgh969fp3](https://makecode.microbit.org/_fRoTgh969fp3)
 
