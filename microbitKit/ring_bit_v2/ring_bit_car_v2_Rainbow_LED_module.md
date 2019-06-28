@@ -5,7 +5,7 @@
 - Ring:bit car V2灯条模块，是Ring:bit二代小车的专用扩展模块，连接简单功能强大，一卡一锁为你的Ring:bit小车扩展更多灯带。
 - 搭载8颗Rainbow LED灯珠，全彩色，可以实现自动车灯、彩虹车灯等功能。
  
- ![](./images/keVKcZt.jpg) ![](./images/1MpxeNl.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_01.jpg) ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_02.jpg)
 
 ## 特性
 ---
@@ -35,7 +35,7 @@
 ## 外形与安装定位尺寸
 ---
 
- ![](./images/oMYvA7j.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_03.png)
 
 ## 快速上手
 ---	
@@ -44,15 +44,15 @@
 
 - 首先将灯条模块插入Ring:bit小车底板插口。
  
- ![](./images/W74Qmw5.gif)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_04.gif)
 
 - 随后在反面用两颗螺丝固定。
 
- ![](./images/DdDtrst.gif) ![](./images/rmNWX7j.gif)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_05.gif) ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_06.gif)
 
 - 扩展完成。
 
- ![](./images/SkGJN5h.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_07.jpg)
 
 ### 软件编程  
 ---
@@ -65,18 +65,15 @@
 
  ![](./images/BokHpFU.png)
 
- 程序代码链接：[https://makecode.microbit.org/_Eyc3eCLLj2YF](https://makecode.microbit.org/_Eyc3eCLLj2YF)
+ 程序代码链接：[https://makecode.microbit.org/_fRoTgh969fp3](https://makecode.microbit.org/_fRoTgh969fp3)
 
  你也能通过下列窗口直接下载代码：
 
- <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Eyc3eCLLj2YF" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+ <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fRoTgh969fp3" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果
 ---
 - 彩虹车灯。
-
- ![](./images/tb3xtb6.gif)
- ![](./images/tqwSQ3y.gif)
 
 ## 常见问题
 ---
