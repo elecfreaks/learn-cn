@@ -5,7 +5,7 @@
 - Ring:bit car V2巡线模块，是Ring:bit二代小车的专用扩展模块，连接简单功能强大，一卡一锁为你的Ring:bit小车扩展巡线功能。
 - 搭载双红外探头，有效探测距离2~12mm，可以完成巡线绕圈，黑线检测，边缘检测等功能。
  
- ![](./images/IZEjlSs.jpg) ![](./images/x5TV42w.jpg)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_01.jpg) ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_02.jpg)
 
 ## 特性
 ---
@@ -33,7 +33,7 @@
 ## 外形与安装定位尺寸
 ---
 
- ![](./images/R1Xee8w.png)
+ ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_03.png)
 
 
 ## 快速上手
