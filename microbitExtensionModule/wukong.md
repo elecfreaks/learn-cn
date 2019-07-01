@@ -125,7 +125,7 @@
 - 在搜索框中搜索`wukong`，点击图片中`wukong`，添加扩展包。
 - 添加完成。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_14.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_14.png)
 
 ## 相关文档
 - - - - -
