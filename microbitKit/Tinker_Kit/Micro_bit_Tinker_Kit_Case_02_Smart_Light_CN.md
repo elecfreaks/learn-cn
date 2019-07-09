@@ -12,9 +12,9 @@
 
 
 ## 所需材料：  
----  
+---  
 
-- 1 x BBC micro:bit
+- 1 x BBC micro:bit
 - 1 x USB线
 - 1 x 扩展板
 - 1 X 人体红外传感器模块
@@ -39,10 +39,10 @@
 
 ### 步骤 2： 编程前的准备
 
-我们将在MakeCode中添加一个代码库以方便使用我们的元器件。在MakeCode的代码抽屉中点击“Advanced” 查看更多代码选项，然后在代码抽屉底部选择“Add Package”。
+我们将在MakeCode中添加一个代码库以方便使用我们的元器件。在MakeCode的代码抽屉中点击“Advanced” 查看更多代码选项，然后在代码抽屉底部选择“Add Package”。
 ![](./images/EbsfYUB.jpg)
 
-此时，将会弹出一个对话框。在对话框中搜索“tinker kit", 然后点击下载这个代码库。 
+此时，将会弹出一个对话框。在对话框中搜索“tinker kit", 然后点击下载这个代码库。 
 
 ![](./images/Ry7hl2a.png)
 
@@ -61,11 +61,8 @@
 
 如果你不想自己动手编写这些代码的话，你可以从下面这个链接下载程序的完整代码：
 
-[https://makecode.microbit.org/_aFUP7wcy94sv](https://makecode.microbit.org/_aFUP7wcy94sv)
+[https://makecode.microbit.org/_AiaJ4ogeHi5x](https://makecode.microbit.org/_AiaJ4ogeHi5x)
 
-或者，你也可以从下面这个页面下载代码：
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_aFUP7wcy94sv" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 如果人体红外传感器检测到运动，LED灯就会亮起。如果没有任何物体运动，LED灯就会关闭。它的工作原理非常简单。
 
