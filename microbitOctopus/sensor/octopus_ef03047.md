@@ -41,6 +41,8 @@
 
 ### 软件编程  
 
+添加扩展[https://github.com/DoraLC/pxt-tcs3200-color-sensor](https://github.com/DoraLC/pxt-tcs3200-color-sensor)到makecode，在OLED上显示检测到的RGB值。
+
 程序代码链接：[https://makecode.microbit.org/_JU5Dau19mE9c](https://makecode.microbit.org/_JU5Dau19mE9c)
 
 你也能通过下列窗口直接下载代码
@@ -51,3 +53,5 @@
 OLED显示屏显示当前红蓝绿的值。
 
 ## 常见问题
+
+首次使用或重启或更换灯等，请调整WB（白平衡）
