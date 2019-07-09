@@ -86,7 +86,7 @@
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_11.png)
 
 ***注意：8266模块暂时不支持5G路由器WIFI信号，请连接2.4G路由器WIKI信号***
-### 步骤 2
+### 步骤 3
 
 在`forever`中依次插入`connect thinkspeak`积木块，`set data`积木块，`send data`积木块和`pause`积木块。
 
@@ -96,13 +96,21 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_12.png)
 
+### 步骤 4
+
+在`On start`中初始化OLED`initialize OLED`以显示IoT工作状态。
+
+在`serial on data received`当串口收到数据中插入显示积木块，显示串口读取字符直到遇到换行。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ts_21.png)
+
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_Rfe5wJhT1f2D](https://makecode.microbit.org/_Rfe5wJhT1f2D)
+请参考程序连接：[https://makecode.microbit.org/_Xeq4Xs1HdKPd](https://makecode.microbit.org/_Xeq4Xs1HdKPd)
 
 你也可以通过以下网页修改程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Rfe5wJhT1f2D" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Xeq4Xs1HdKPd" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 ---
