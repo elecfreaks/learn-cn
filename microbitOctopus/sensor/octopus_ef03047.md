@@ -28,7 +28,7 @@
 ## 外型与定位尺寸  
 ---
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/03047_01.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/03047_01.png)
 
 ## 快速上手  
 ---  
@@ -37,7 +37,7 @@
 将模块S0连接到P15口，S1连接到P1，S2连接到P8，S3连接到P12，OUT连接到P2，VCC连接电源，GND连接接地。将micro:bit主板插入octopus:bit。
 将OLED连接到IIC接口。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/03047_02.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/03047_02.png)
 
 ### 软件编程  
 
