@@ -39,7 +39,7 @@ SKU|EF04101
 
 - 连接扩展板的P1口
 
-***以snesor：bit为例***
+***以sensor：bit为例***
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_03.png)
 
