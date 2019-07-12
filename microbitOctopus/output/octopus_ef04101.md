@@ -37,7 +37,7 @@ SKU|EF04101
 ---
 ### 所需器材及连接示意图
 
-- 连接扩展板的P1口
+- 连接扩展板的P1口，将冷光线连接到模块另一端。
 
 ***以sensor：bit为例***
 
@@ -56,10 +56,10 @@ SKU|EF04101
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fRzWh9M1jDKP" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
----
+
 
 ### 结果
-- 
+
 按下按钮A点亮EL冷光条，按下按钮B熄灭EL冷光条
 
 ## 相关产品
