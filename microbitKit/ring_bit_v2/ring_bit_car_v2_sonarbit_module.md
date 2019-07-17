@@ -71,5 +71,7 @@
 
 - LED 点阵显示屏显示超声波返回的厘米数值
 
-## 常见问题
+## 相关文档
 ---
+[案例10:防撞小车](http://www.elecfreaks.com/learn-cn/microbitKit/ring_bit_v2/ring_bit_car_v2_case_10.html)
+
