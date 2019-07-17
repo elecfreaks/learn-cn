@@ -7,6 +7,8 @@ EL（electroluminescent）是通过加在两电极的电源产生电场，被电
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_01.jpg)
 
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_06.jpg)
+
 ## 特性
 ---
 - 三线端口防止错误插拔，易于使用。
@@ -43,6 +45,8 @@ SKU|EF04101
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_03.png)
 
+
+
 ### 如图所示编写程序
 
 按下按钮A点亮EL冷光条，按下按钮B熄灭EL冷光条
@@ -62,5 +66,8 @@ SKU|EF04101
 
 按下按钮A点亮EL冷光条，按下按钮B熄灭EL冷光条
 
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_05.jpg)
+
 ## 相关产品
 
+[https://www.elecfreaks.com/store/catalogsearch/result/?q=Neon+Light](https://www.elecfreaks.com/store/catalogsearch/result/?q=Neon+Light)
