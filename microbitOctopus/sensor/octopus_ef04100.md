@@ -34,7 +34,7 @@ Octopus MG811 CO2 Gas Sensor是我们OCTOPUS系列的二氧化碳传感器电子
 ## 外型与定位尺寸  
 ---
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04097_02.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04100_02.png)
 
 ## 快速上手  
 ---  
