@@ -100,11 +100,11 @@ IO口使用注意事项
 ### 程序
 
 
-请参考程序连接：[https://makecode.microbit.org/_AqMEtEbUtPTE](https://makecode.microbit.org/_AqMEtEbUtPTE)
+请参考程序连接：[https://makecode.microbit.org/_8utHHdRTKLyF](https://makecode.microbit.org/_8utHHdRTKLyF)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_AqMEtEbUtPTE" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_8utHHdRTKLyF" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ## 结论
 ---

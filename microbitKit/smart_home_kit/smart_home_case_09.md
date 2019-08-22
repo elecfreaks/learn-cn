@@ -30,10 +30,8 @@
 
 - 一个安静而舒适的房间。
 测试时需将测试者的手指与土壤湿度传感器如下图固定住效果会更好。
+
 ![](./images/K242fJs.png)
-
-  
-
 
 ## 硬件连接图
 ---
@@ -69,10 +67,7 @@ OLED显示器插入IIC接口
 ### 步骤 3
 
 - 首先读取P1引脚的土壤湿度传感器的数据，记录两个手指每秒钟的导电性，然后根据这些值计算出平均值。测试者没有说谎的时候，即为Calm（平静）数值。
-然后使用for element 循环，计算出第一分钟获取读数的标准偏差，标准偏差说明了一个读数的差值，一个较大的标准偏差，是从理论上讲说明测试者不够平静，最好在平静的状态下进行测试
-
-
-。 
+然后使用for element 循环，计算出第一分钟获取读数的标准偏差，标准偏差说明了一个读数的差值，一个较大的标准偏差，是从理论上讲说明测试者不够平静，最好在平静的状态下进行测试。 
 
 ![](./images/oNEHxlw.png)
 
@@ -83,19 +78,22 @@ OLED显示器插入IIC接口
 
 ### 步骤 5
 - 对受试者的测试数据，进行判定，当所得出的reading 这个值的平均值高于标准偏差的平均值，我们可以得出结论，测试者的皮肤导电性明显增强，因为他在说谎，此时microbit led显示屏上会显示一个X的形状。
+
 ![](./images/dsdFy0A.png)
+
 ### 步骤 6
 - 当判定的值小于标准偏差5次偏差的平均值，那么说明测试者的皮肤导电性没有改变，此时测试者没有说谎。
 此时micro:bit led显示屏上会显示一个√的形状。
+
 ![](./images/3dkL5m6.png)
 
 ### 程序
 
-请参考程序连接：https://makecode.microbit.org/_FEV9JH1x9KJV](https://makecode.microbit.org/_FEV9JH1x9KJV)
+请参考程序连接：[https://makecode.microbit.org/_gvHXo5WVM8cP](https://makecode.microbit.org/_gvHXo5WVM8cP)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_FEV9JH1x9KJV" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gvHXo5WVM8cP" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ## 结论
