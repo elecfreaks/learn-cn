@@ -5,7 +5,7 @@
 - Ring:bit car V2巡线模块，是Ring:bit二代小车的专用扩展模块，连接简单功能强大，一卡一锁为你的Ring:bit小车扩展巡线功能。
 - 搭载双红外探头，有效探测距离2~12mm，可以完成巡线绕圈，黑线检测，边缘检测等功能。
  
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_01.jpg) ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_02.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_01.jpg)![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_02.jpg)
 
 ## 特性
 ---
@@ -65,11 +65,11 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_08.png)
 
- 程序代码链接：[https://makecode.microbit.org/_bFF7pXWwWaYL](https://makecode.microbit.org/_bFF7pXWwWaYL)
+ 程序代码链接：[https://makecode.microbit.org/_Tsp78xP5yPu2](https://makecode.microbit.org/_Tsp78xP5yPu2)
 
  你也能通过下列窗口直接下载代码：
 
- <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_bFF7pXWwWaYL" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+ <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Tsp78xP5yPu2" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果
 ---

@@ -5,7 +5,7 @@
 - Ring:bit car V2灯条模块，是Ring:bit二代小车的专用扩展模块，连接简单功能强大，一卡一锁为你的Ring:bit小车扩展更多灯带。
 - 搭载8颗Rainbow LED灯珠，全彩色，可以实现自动车灯、彩虹车灯等功能。
  
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_01.jpg) ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_02.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_01.jpg)![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_02.jpg)
 
 ## 特性
 ---
@@ -65,11 +65,11 @@
 
  ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_Rainbow_08.png)
 
- 程序代码链接：[https://makecode.microbit.org/_fRoTgh969fp3](https://makecode.microbit.org/_fRoTgh969fp3)
+ 程序代码链接：[https://makecode.microbit.org/_3Wc1k8Ckg9vF](https://makecode.microbit.org/_3Wc1k8Ckg9vF)
 
  你也能通过下列窗口直接下载代码：
 
- <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fRoTgh969fp3" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+ <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_3Wc1k8Ckg9vF" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果
 ---
