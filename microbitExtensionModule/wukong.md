@@ -38,7 +38,7 @@
 | 供电电池 |400mAh聚合物锂电池|快充20分钟，满载工作40分钟以上|安全防爆|
 | 工作电压 |3.7v~5v|锂电池供电3.7v，USB口直供5v|-|
 | 工作温度 |-20℃~60℃|充电温度0℃~40℃|-|
-| 电机驱动 |2路 (M1，M2)|板载电机驱动电路驱动 |-|
+| 电机驱动 |2路 (M1，M2)|板载电机驱动电路驱动 |3.7V|
 | 舵机驱动 |8路舵机接口 (S0~S7)|板载舵机驱动电路驱动|-|
 | IO口引出 |P0、P1、P2、P8、P12、P13、P14、P15、IIC|支持拖动3V和5V器件|GVS端子|
 | Rainbow LED |LED0、LED1、LED2、LED3|扩展Neopixel库使用|连接到micro:bit引脚P16|
@@ -68,7 +68,7 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_03.jpg)
 
-### 舵机驱动接口
+### 3V舵机驱动接口
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_04.jpg)
 
@@ -127,5 +127,72 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_14.png)
 
-## 相关文档
+## 使用方法
 - - - - -
+### 开机及充电方法
+
+- 创新电源开关，单击电源开关开机，电源指示灯亮起。
+- 双击电源开关，关机，电源指示灯熄灭。
+- 将USB电源线连接至充电接口，常亮灯为当前所剩电量，剩余灯依次点亮则进入充电模式。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_07.jpg)
+
+### 驱动呼吸灯
+
+- 悟空扩展板底板有8颗蓝色LED呼吸灯，可以控制其开关或者亮度。
+
+参考程序连接：[https://makecode.microbit.org/_4ub57g5FuJ1v](https://makecode.microbit.org/_4ub57g5FuJ1v)；你也可以通过下方网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_4ub57g5FuJ1v" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+### 驱动电机
+
+- 悟空扩展板有两路电机驱动分为M1和M2，可以连接市面上常用的电机。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_03.jpg)
+
+参考程序连接：[https://makecode.microbit.org/_78keCLdmU1Ez](https://makecode.microbit.org/_78keCLdmU1Ez)，你也可以通过下方网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_78keCLdmU1Ez" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+### 驱动蜂鸣器
+
+- 悟空扩展板带有一个蜂鸣器，位置在底板下方，已经连接micro:bit主板的P0口，可以直接使用`音乐`积木块驱动，同时可以拨动正面的蜂鸣器开关来启用或者禁用蜂鸣器功能。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_09.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_10.jpg)
+
+参考程序连接：[https://makecode.microbit.org/_JmM5btU4dHUb](https://makecode.microbit.org/_JmM5btU4dHUb)
+
+你也可以通过下方网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_JmM5btU4dHUb" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+### 驱动彩虹灯
+
+- 将舵机连接至舵机驱动接口，使用Wukong扩展库中的积木块进行驱动。
+- 
+参考程序连接：[https://makecode.microbit.org/_gFiciE4PLF37](https://makecode.microbit.org/_gFiciE4PLF37)
+
+你也可以通过下方网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gFiciE4PLF37" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+### 驱动舵机
+
+- 将舵机连接至舵机驱动接口，使用Wukong扩展库中的积木块进行驱动。
+- 
+参考程序连接：[https://makecode.microbit.org/_gFiciE4PLF37](https://makecode.microbit.org/_gFiciE4PLF37)
+
+你也可以通过下方网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gFiciE4PLF37" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+### 驱动舵机
+
+- 将舵机连接至舵机驱动接口，使用Wukong扩展库中的积木块进行驱动。
+- 
+参考程序连接：[https://makecode.microbit.org/_gFiciE4PLF37](https://makecode.microbit.org/_gFiciE4PLF37)
+
+你也可以通过下方网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gFiciE4PLF37" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
