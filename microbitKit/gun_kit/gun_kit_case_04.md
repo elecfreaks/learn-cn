@@ -24,11 +24,11 @@
 ---
 
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项.
+在MakeCode的代码抽屉中点击Advanced，查看更多代码选项.
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_03_02.png)
 
-- 为了给gun_kit手枪套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“github.com/elecfreaks/pxt-microbit-toy-gun"，然后点击下载这个代码库.
+为了给gun_kit手枪套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“github.com/elecfreaks/pxt-microbit-toy-gun"，然后点击下载这个代码库.
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_01_03.png)
 
@@ -63,7 +63,6 @@
 ---
 - 开启手枪后8颗LED显示绿色,当手枪射击时发出声音.
 - 每次被击中时，将一颗LED灯变红,并发出被击中的提示声.
-- 
 ## 思考
 ---
 如何在射击时发出声音并计算子弹数量.

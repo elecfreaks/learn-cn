@@ -26,11 +26,11 @@
 ---
 
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_03_02.png)
 
-- 为了给gun_kit手枪套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“github.com/elecfreaks/pxt-microbit-toy-gun"，然后点击下载这个代码库。
+为了给gun_kit手枪套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“github.com/elecfreaks/pxt-microbit-toy-gun"，然后点击下载这个代码库。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_01_03.png)
 
@@ -38,6 +38,7 @@
 ### 步骤 2
 
 在`on start`中插入`set openFire button`积木块，初始化彩虹LED灯环,设置引脚为`P12`,`8`颗灯珠,使用`GRB`色彩,并设置变量`i`= 0。
+
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_03_04.png)
 
 

@@ -25,18 +25,18 @@
 ---
 
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced,查看更多代码选项。
+在MakeCode的代码抽屉中点击Advanced,查看更多代码选项。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_01_02.png)
 
-- 为了给gun_kit手枪套件编程,我们需要添加一个扩展库。在代码抽屉底部找到“Extension”,并点击它。这时会弹出一个对话框。搜索“github.com/elecfreaks/pxt-microbit-toy-gun",然后点击下载这个代码库。
+为了给gun_kit手枪套件编程,我们需要添加一个扩展库。在代码抽屉底部找到“Extension”,并点击它。这时会弹出一个对话框。搜索“github.com/elecfreaks/pxt-microbit-toy-gun",然后点击下载这个代码库。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_01_03.png)
 
 ***注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 ### 步骤 2
 
-- 在`on start`中依次插入`set openFire button`积木块,设置为`P8`口,`set IR send`积木块,设置为`P1`口,`set bullet type`积木块,并选择参数`Pistol Cartridge`.
+在`on start`中依次插入`set openFire button`积木块,设置为`P8`口,`set IR send`积木块,设置为`P1`口,`set bullet type`积木块,并选择参数`Pistol Cartridge`.
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/case_02_04%20.png)
 
 
