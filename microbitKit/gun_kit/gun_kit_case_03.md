@@ -49,7 +49,7 @@
 ### 步骤 4
 
 如图所示，
-当`A`键被按下时，将i设置为8，并将彩虹LED灯环上的灯珠全部点亮为蓝色。
+当手枪摇晃时，将i设置为8，并将彩虹LED灯环上的灯珠全部点亮为蓝色。
 
 
 
@@ -57,15 +57,15 @@
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_fgiWY2Cwc5Cw](https://makecode.microbit.org/_fgiWY2Cwc5Cw)
+请参考程序连接：[https://makecode.microbit.org/_Uy8cfPFY66D5](https://makecode.microbit.org/_Uy8cfPFY66D5)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fgiWY2Cwc5Cw]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Uy8cfPFY66D5]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 ---
-- 按下`A`键后8颗LED点亮，每一次按下射击键则发出声音并按顺序熄灭一颗LED灯，当LED灯全部熄灭时则发出提示音，此时按下`A`键可重新装弹。
+- 摇晃手枪后8颗LED点亮，每一次按下射击键则发出声音并按顺序熄灭一颗LED灯，当LED灯全部熄灭时则发出提示音，此时摇晃手枪可重新装弹。
 
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/gun_kit/images/gun_kit_case_03_07.gif)
