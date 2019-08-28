@@ -170,29 +170,33 @@
 
 ### 驱动彩虹灯
 
-- 将舵机连接至舵机驱动接口，使用Wukong扩展库中的积木块进行驱动。
-- 
-参考程序连接：[https://makecode.microbit.org/_gFiciE4PLF37](https://makecode.microbit.org/_gFiciE4PLF37)
+- 悟空扩展板上拥有4颗彩虹灯，分为LED0、LED1、LED2、LED3，已经连接至micro:bit主板的P16口，可以使用悟空扩展库里流光溢彩灯积木块驱动使用。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_08.jpg)
+
+参考程序连接：[https://makecode.microbit.org/_61T2w6cqTib0](https://makecode.microbit.org/_61T2w6cqTib0)
 
 你也可以通过下方网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gFiciE4PLF37" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
-### 驱动舵机
-
-- 将舵机连接至舵机驱动接口，使用Wukong扩展库中的积木块进行驱动。
-- 
-参考程序连接：[https://makecode.microbit.org/_gFiciE4PLF37](https://makecode.microbit.org/_gFiciE4PLF37)
-
-你也可以通过下方网页直接下载程序。
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gFiciE4PLF37" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_61T2w6cqTib0" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 驱动舵机
 
-- 将舵机连接至舵机驱动接口，使用Wukong扩展库中的积木块进行驱动。
-- 
-参考程序连接：[https://makecode.microbit.org/_gFiciE4PLF37](https://makecode.microbit.org/_gFiciE4PLF37)
+- 将舵机连接至舵机驱动接口S0~S7，使用Wukong扩展库中的舵机积木块进行驱动。
+- 180度舵机可以设置舵机角度0~180度。
+- 360度舵机设置0度为正转最大速度，180度为反转最大速度，90度为停止，0~90度和90~180度为速度调制范围。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_04.jpg)
+
+参考程序连接：[https://makecode.microbit.org/_6Pw63w49u5qq](https://makecode.microbit.org/_6Pw63w49u5qq)
 
 你也可以通过下方网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gFiciE4PLF37" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_6Pw63w49u5qq" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+### 5V电源引脚使用
+
+- 在悟空扩展板的中间有一组3对5V的电源接口，可以驱动5V的传感器或者5V的舵机，只需要将5V模块的供电接口连接至5V电源接口，信号线连接至舵机信号线口或者传感器信号线口。
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitExtensionModule/images/wukong_16.png)
+
