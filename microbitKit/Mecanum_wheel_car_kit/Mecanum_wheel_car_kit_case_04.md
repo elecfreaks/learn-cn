@@ -1,93 +1,89 @@
-# 案例01：连接Scratch-Windows
+# Mecanum wheel car kit套件案例03：智能避障小车
 
 ## 目的
 ---
-- 使用smart coding kit手表套件Pro完成Scratch的连接。
+
+- 使用Mecanum wheel car kit套件和joystick:bit制作一辆可以遥控的小车
 
 ## 使用材料
 ---
 
-- 1 x smart coding kit 手表套件Pro
-- 1 x 带有蓝牙的电脑
-> 系统版本（Windows 10 version 1709+）（macOS 10.13+）
-
-> 
-> 蓝牙版本（Bluetooth 4.0）
+- Mecanum wheel car kit套件、joystick:bit
 
 ## 背景知识
 ---
 
-### 什么是Scratch
-
-- [Scratch](https://baike.baidu.com/item/Scratch/15493636?fr=aladdin)是麻省理工学院的“终身幼儿园团队”（Lifelong Kindergarten Group）开发的图形化编程工具，主要面对青少年开放。
-![](https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=df7338639f8fa0ec6bca6c5f47fe328b/2cf5e0fe9925bc31e1c3fbc850df8db1ca1370c0.jpg)
-
-
-## 软件准备
+## 软件
 ---
 
-- Scratch网页在线编程：[https://scratch.mit.edu/projects/editor](https://scratch.mit.edu/projects/editor)
+[微软makecode](https://makecode.microbit.org/#)
 
-- Scratch本地编程软件：[https://scratch.mit.edu/download](https://scratch.mit.edu/download)
-
-- 以上二选一即可，软件或者网页都可以。
-
-- Scratch Link连接软件(Windows)：[https://downloads.scratch.mit.edu/link/windows.zip](https://downloads.scratch.mit.edu/link/windows.zip)
-
-- Scratch Link连接软件(macOS)：[https://downloads.scratch.mit.edu/link/mac.zip](https://downloads.scratch.mit.edu/link/mac.zip)
-
-- micro:bit固件：[https://downloads.scratch.mit.edu/microbit/scratch-microbit-1.1.0.hex.zip](https://downloads.scratch.mit.edu/microbit/scratch-microbit-1.1.0.hex.zip)
-
-## 连接步骤
+## 编程
 ---
+
 ### 步骤 1
+ 在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-- 将micro:bit连接到你的电脑，将上一步准备的micro:bit固件直接发送到micro:bit盘。
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_01.png)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_01.gif)
+为了给Mecanum wheel car kit套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”wukong”，然后点击下载这个代码库。
 
-- 然后为micro:bit单独供电，micro:bit上会显示一串字符，为蓝牙识别码。
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_02.png)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_02.jpg)
+为了使用joystick:bit，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”joystickbit”，然后点击下载这个代码库。
 
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_04_04.png)
+
+
+
+*注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
 
-- 打开Scratch Link软件，你的状态栏显示一个Scratch Link图标。
+麦克纳姆轮小车程序如下：
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_03.png)
 
-- 然后打开Scratch编程软件，在左下角点击`+`号，选择micro:bit扩展。
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_04_05.png)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_04.png)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_07.png)
+先设置无线设置组，然后初始化麦克纳姆轮小车舵机。将无线接收到的数据存入`I`。然后通过判断变量`I`的值来控制麦克纳姆轮小车的动作。
 
-- 在弹出的搜索框中选择你的micro:bit。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_05.png)
+### 步骤 3
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_06.png)
+游戏手柄程序如下：
 
-## 结束
+
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_04_06.png)
+
+
+设置无线设置组，然后通过判断手柄摇杆和按键的状态来发送数字。
+
+
+### 程序
+
+麦克纳姆轮小车程序：请参考程序连接：[https://makecode.microbit.org/_T2iiDyJyEJyp](https://makecode.microbit.org/_T2iiDyJyEJyp)
+
+你也可以通过以下网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_T2iiDyJyEJyp]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+
+游戏手柄程序：请参考程序连接：[https://makecode.microbit.org/_e5dHb6c9xbt8](https://makecode.microbit.org/_e5dHb6c9xbt8)
+
+你也可以通过以下网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_e5dHb6c9xbt8]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+### 现象
+
+通过游戏手柄控制小车行动。
+
+
+## 思考
 ---
-- 连接成功黄色感叹号变成绿色的对勾。
-- 就可以使用micro:bit和Scratch配合编程啦。
-
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_08.png)
 
 ## 常见问题
 ---
-**无法连接Scratch**
-
-1. 本页顶部列出了最低操作系统版本。
-2. 一次只能有一个scratch副本与micro:bit连接。如果在其他浏览器选项卡中打开了Scratch，请将其关闭，然后重试。
-3. 如果有另一台计算机连接到您的micro:bit，请断开micro:bit或关闭该计算机上的连接，然后重试。
-4. 有时在使用micro:bit时，您可能会意外地在USB和电源端口之间按下背面的“重置”按钮。确保手指（和脚趾）远离它！
-
 ## 相关阅读  
 ---
-Scratch官方连接教程文档：[https://scratch.mit.edu/microbit](https://scratch.mit.edu/microbit)
-
-Scratch官方网站：[https://scratch.mit.edu](https://scratch.mit.edu)
-
