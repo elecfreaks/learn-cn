@@ -11,7 +11,9 @@
 ## 组装视频
 ---
 
-<iframe src="//player.bilibili.com/player.html?aid=67229888&cid=116572655&page=1" scrolling="no" border="0"framespacing="0" allowfullscreen="true" width="800px" height="600px"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=67229888&cid=116572655&page=1" scrolling="no" border="0"framespacing="0" allowfullscreen="true" width="600px" height="600px"> </iframe>
+
+
 ## 清单
 ---
 - 1 x micro:bit(选配)
