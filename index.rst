@@ -23,6 +23,7 @@
    microbitKit/motor_bit_smart_car/index
    microbitKit/robit_smart_car/index
    microbitKit/smart_cutebot/index
+   microbitKit/Mecanum_wheel_car_kit/index
    microbitKit/iot_kit/index
    microbitOctopus/input/index
    microbitOctopus/output/index

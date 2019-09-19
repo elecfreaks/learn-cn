@@ -14,5 +14,3 @@
     Mecanum_wheel_car_kit_case_02.md
     Mecanum_wheel_car_kit_case_03.md
     Mecanum_wheel_car_kit_case_04.md
-    Mecanum_wheel_car_kit_case_05.md
-    Mecanum_wheel_car_kit_case_06.md
