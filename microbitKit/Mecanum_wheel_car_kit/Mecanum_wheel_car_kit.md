@@ -1,6 +1,6 @@
 # 麦克纳姆轮小车套件介绍
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum wheel car kit_01.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_01.jpg)
 
 ## 简介
 ---
@@ -11,8 +11,7 @@
 ## 组装视频
 ---
 
-<iframe src="//player.bilibili.com/player.html?aid=67229888&cid=116572655&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
+<iframe src="//player.bilibili.com/player.html?aid=67229888&cid=116572655&page=1" scrolling="no" border="0"framespacing="0" allowfullscreen="true" width="800px" height="600px"> </iframe>
 ## 清单
 ---
 - 1 x micro:bit(选配)
@@ -22,7 +21,7 @@
 - N x 搭建积木
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum wheel car kit_02.jpg)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_02.jpg)
 
 
 ## 常见问题
