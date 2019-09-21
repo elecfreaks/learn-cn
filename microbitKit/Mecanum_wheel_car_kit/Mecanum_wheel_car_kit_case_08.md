@@ -1,9 +1,9 @@
-# Mecanum wheel car kit套件案例04：转向灯
+# Mecanum wheel car kit套件案例08：寻找光源
 
 ## 目的
 ---
 
-- 使用Mecanum wheel car kit套件制作一辆可以显示转弯方向的小车
+- 使用Mecanum wheel car kit套件制作一辆可以寻找光源的小车
 
 ## 使用材料
 ---
@@ -47,32 +47,32 @@
 
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_04_05.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_08_05.png)
 
 
 ### 步骤 4
 
-如图所示，设置变量`L`和`R`为0~100的随机数；然后判断L和R的数值大小，如果R>L则设置LED0为黑色、LED1为黄色，如果L>R则设置LED1为黑色、LED0为黄色，然后刷新显示；最后将小车左前轮和左后轮速度设置为变量`L`的值，右前轮和右后轮速度设置为变量`R`的值，并延时2秒。
+如图所示，设置变量`i`设为亮度级别；然后判断变量`i`的值，当`i`的值小于50 的时候小车向左旋转，当`i`的值大于或等于50 的时候小车向前行驶。
 
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_04_06.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_08_06.png)
 
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_4ya4KTUXz5zx](https://makecode.microbit.org/_4ya4KTUXz5zx)
+请参考程序连接：[https://makecode.microbit.org/_Kv3dfY02f52g](https://makecode.microbit.org/_Kv3dfY02f52g)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_4ya4KTUXz5zx]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Kv3dfY02f52g]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 
-小车每2秒随机调整左右轮速度改变前进方向，当左转时则点亮左边LED灯，当左转时则点亮左边LED灯。
+小车周围没有光源时，小车原地旋转，当小车旋转的过程中检测到周围有大于阈值的光源时，则向光源方向直线行驶。
 
 ## 思考
----
+如何让小车在离光源越远的地方速度越快，在离光源越近的地方速度越慢。
 
 ## 常见问题
 ---

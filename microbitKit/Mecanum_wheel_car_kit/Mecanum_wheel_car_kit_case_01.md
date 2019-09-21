@@ -1,14 +1,14 @@
-# 麦克纳姆轮小车套件案例01：全速前进和侧向行驶
+# Mecanum wheel car kit套件案例01：全速前进和侧向行驶
 
 ## 目的
 ---
 
-- 使用麦克纳姆轮小车套件制作一辆可以全速前进或者侧向行驶的小车
+- 使用Mecanum wheel car kit套件制作一辆可以全速前进或者侧向行驶的小车
 
 ## 使用材料
 ---
 
-- 麦克纳姆轮小车套件
+- Mecanum wheel car kit套件
 
 ## 背景知识
 ---
@@ -52,7 +52,7 @@
 
 ### 步骤 4
 
-如图所示，设置按钮`A`按下时，小车向左移动，按钮`B`按下时，小车向右移动，按钮`A+B`按下时，小车向前移动，当`徽标朝上`时，小车停止移动。
+如图所示，设置按钮`A`按下时，小车向左移动，按钮`B`按下时，小车向右移动，按钮`A+B`按下时，小车向前移动，当`屏幕朝下`时，小车停止移动。
 
 
 
@@ -61,15 +61,15 @@
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_c9cU6wF1HHA2](https://makecode.microbit.org/_c9cU6wF1HHA2)
+请参考程序连接：[https://makecode.microbit.org/_hmd77raCzXTd](https://makecode.microbit.org/_hmd77raCzXTd)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_c9cU6wF1HHA2]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_hmd77raCzXTd]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 
-按钮`A`按下时，小车向左移动，按钮`B`按下时，小车向右移动，按钮`A+B`按下时，小车向前移动，当`徽标朝上`时，小车停止移动。
+按钮`A`按下时，小车向左移动，按钮`B`按下时，小车向右移动，按钮`A+B`按下时，小车向前移动，当`屏幕朝下`时，小车停止移动。
 
 ## 思考
 ---
