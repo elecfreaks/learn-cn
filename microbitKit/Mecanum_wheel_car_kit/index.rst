@@ -4,11 +4,9 @@
     麦克纳姆轮小车套件
 
 
-    .. toctree::
-    :
-    maxdepth: 2
-    :
-    numbered: 2
+.. toctree::
+    :maxdepth: 2
+    :numbered: 2
 
 
     Mecanum_wheel_car_kit.md
