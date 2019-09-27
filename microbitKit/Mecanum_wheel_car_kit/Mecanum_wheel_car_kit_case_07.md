@@ -1,14 +1,14 @@
-# Mecanum wheel car kit套件案例07：遥控麦克纳姆轮小车
+# 麦克纳姆轮小车套件案例07：遥控麦克纳姆轮小车
 
 ## 目的
 ---
 
-- 使用Mecanum wheel car kit套件和joystick:bit制作一辆可以遥控的小车
+- 使用麦克纳姆轮小车套件和joystick:bit制作一辆可以遥控的小车
 
 ## 使用材料
 ---
 
-- Mecanum wheel car kit套件、joystick:bit
+- 麦克纳姆轮小车套件、joystick:bit
 
 ## 背景知识
 ---
@@ -26,7 +26,7 @@
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_01.png)
 
-为了给Mecanum wheel car kit套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”wukong”，然后点击下载这个代码库。
+为了给麦克纳姆轮小车套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”wukong”，然后点击下载这个代码库。
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_02.png)
 
