@@ -18,3 +18,5 @@ micro:bit 扩展板
     iot_bit.md
     edge_bit_CN.md
     wukong.md
+    joystick_bit_v1.md
+    joystick_bit_v2.md
