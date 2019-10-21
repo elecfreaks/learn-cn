@@ -15,6 +15,7 @@ Octopus Single RGB Rainbow LED是我们OCTOPUS系列的单颗彩虹LED电子积�
 
 ## 参数
 ---
+
 项目 | 参数 
 :-: | :-: 
 品名|Octopus Single RGB Rainbow LED

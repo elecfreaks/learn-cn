@@ -19,6 +19,7 @@ Octopus 3V laser sensor是我们OCTOPUS系列的激光发射电子积木，它�
 
 ## 参数
 ---
+
 - 品名：激光头电子积木
 - SKU：EF04096
 - 工作电压：DC 3~5.5V

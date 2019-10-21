@@ -12,6 +12,7 @@ Octopus 5mmLED灯模块，能和micro:bit/Arduino板搭配起来实现调整环�
 
 ## 技术规格
 ---
+
 项目 | 参数 
 :-: | :-: 
 SKU|04062
