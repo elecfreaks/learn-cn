@@ -38,22 +38,22 @@ SKU|EF04078
 
 ***以sensor:bit为例***
 
-![](./images/jifx0hA.png)
+![](./images/ef04078_08.jpg)
 
 ### 添加Package
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 ![](./images/smtcNoB.png)
 
-点击“Extensions”，在弹出的对话框中搜索“oled"，下载oled-ssd1306代码库。
-![](./images/VGSLRXB.png)
+点击“Extensions”，在弹出的对话框中搜索“https://github.com/elecfreaks/pxt-gesture”，下载手势识别传感器代码库。
+![](./images/ef04078_05.png)
 
 ### 如图所示编写程序
 
-![](./images/5LEttGM.png)
+![](./images/ef04078_06.png)
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_HzWesKaPva7e](https://makecode.microbit.org/_HzWesKaPva7e)
+请参考程序连接：[https://makecode.microbit.org/_4v60A10d9U2g](https://makecode.microbit.org/_4v60A10d9U2g)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
@@ -61,7 +61,7 @@ SKU|EF04078
 ---
 
 ### 结果
-- 随着手势动作的不一样，micro:bit点阵屏上显示出不同的数据值。
+- 随着手势动作的不一样，micro:bit点阵屏上显示出不同方向的箭头。
 
 ## 相关案例
 ---
