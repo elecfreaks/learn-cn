@@ -1,9 +1,20 @@
 # 麦克纳姆轮小车装配步骤
 ![](./images/step_1.jpg)
+
+## 组装视频
+---
+
+<iframe src="//player.bilibili.com/player.html?aid=67229888&cid=116572655&page=1" scrolling="no" border="0"framespacing="0" allowfullscreen="true" width="700px" height="600px"> </iframe>
+
 ## 离线版PDF下载
 
+[主流下载:Github ](https://github.com/elecfreaks/learn-cn/raw/master/microbitKit/Mecanum_wheel_car_kit/files/wukong_assembly_step_chinese_v1.1.pdf)
 
-## 在线教程
+[分流下载:腾讯微云 ](https://share.weiyun.com/52uvghq)
+
+[分流下载:码云Gitee ](https://gitee.com/lionkkk/elecfreaks_files/raw/master/wukong_assembly_step_chinese_v1.1.pdf)
+
+## 在线图片教程
 
 ![](./images/step_2.jpg)
 ![](./images/step_3.jpg)
