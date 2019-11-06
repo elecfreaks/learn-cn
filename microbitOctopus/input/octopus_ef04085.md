@@ -4,6 +4,8 @@
 ---
 octopus蓝色电位器电子积木是一个10K的电位器模块。通过旋转电位器旋钮来改变电阻值，既能实现分压，又能为单片机的模拟输入IO口提供模拟量信号。该模块接口采用3线防反插接口，可以方便使用GVS线连接。
 
+![](./images/04085.JPG)
+
 ## 特性
 ---
 - 采用3线防反插接口。
@@ -25,7 +27,7 @@ SKU|EF04085
 
 ### 外型尺寸
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/octopus_board.png)
+![](./images/octopus_board.png)
 
 ## 快速上手
 ---
@@ -33,7 +35,8 @@ SKU|EF04085
 ### 硬件连接
 将该模块连接至micro:bit扩展板P1口。（如下图）
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04085.png)
+![](./images/04085.png)
+
 ### 软件编程
 打卡[Makecode在线编辑器](https://makecode.microbit.org/)，编写代码，使电位器控制micro:bit主板LED点阵灯的变化。
 

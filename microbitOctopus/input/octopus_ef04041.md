@@ -4,7 +4,7 @@
 ---
 Octopus模拟电位计旋转模块与micro:bit兼容，可以旋转300度。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041.jpg)
+![](./images/04041.jpg)
 
 ## 特性
 ---
@@ -27,7 +27,7 @@ SKU|04041
 ## 外形与定位尺寸
 ---
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041-2.png)
+![](./images/octopus_board.png)
 
 ## 快速上手
 ---
@@ -37,14 +37,9 @@ SKU|04041
 
 ***以sensor：bit为例***
 
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041-3.png)
+ ![](./images/04041-3.png)
 
 ### 添加Package
-
-### 如图所示编写程序
-使用led积木块中的下图积木块，显示对应的一个的扇形图
-
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04041-4.png) 
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_2hr1UMdcp0uj](https://makecode.microbit.org/_2hr1UMdcp0uj)

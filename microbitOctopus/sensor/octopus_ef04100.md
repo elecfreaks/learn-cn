@@ -13,7 +13,7 @@ Octopus MG811 CO2 Gas Sensor是我们OCTOPUS系列的二氧化碳传感器电子
 - 存储时请密封保存，以免探头因长期暴露在空气中，导致探头“中毒”，此时需要连续加热48小时来恢复活性！
 - 本产品采用MG-811探头属于电化学传感器，为得到更精确的测量值，请先对传感器进行标定操作。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04100_00.jpg)
+![](./images/04100_00.jpg)
 
 ## 特性 
 ---
@@ -34,7 +34,7 @@ Octopus MG811 CO2 Gas Sensor是我们OCTOPUS系列的二氧化碳传感器电子
 ## 外型与定位尺寸  
 ---
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04100_02.png)
+![](./images/04100_02.png)
 
 ## 快速上手  
 ---  
@@ -42,7 +42,7 @@ Octopus MG811 CO2 Gas Sensor是我们OCTOPUS系列的二氧化碳传感器电子
 
 将模块通过带扣杜邦线插入Arduino UNO上的A0引脚，Arduino主控板必须外接供电（7.5V-9V）。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04100_01.jpg)
+![](./images/04100_01.jpg)
 
 ### 软件编程  
 

@@ -4,7 +4,7 @@
 ---
 OCTOPUS电位器是一种简单的线性滑动电位器电子积木模块，可用于电阻分压器输出，HID控制面板，电子积木套件。
 
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04061.jpg)
+ ![](./images/04061.jpg)
 
 ## 特性
 ---
@@ -25,7 +25,7 @@ SKU|EF04061
 ## 外形与定位尺寸
 ---
 
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04061-2.jpg)
+ ![](./images/04061-2.jpg)
 
 ## 快速上手
 ---
@@ -35,7 +35,7 @@ SKU|EF04061
 
 ***以sensor：bit为例***
 
-  ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04061-3.png)
+  ![](./images/04061-3.png)
 
 ### 添加packege
 
@@ -46,16 +46,17 @@ SKU|EF04061
 
 ### 参考程序
 ---
-请参考程序连接：[https://makecode.microbit.org/_19baPjHKcJMT](https://makecode.microbit.org/_19baPjHKcJMT)
+请参考程序连接：[https://makecode.microbit.org/_azRa44aXt3Kh](https://makecode.microbit.org/_azRa44aXt3Kh)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_19baPjHKcJMT" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_azRa44aXt3Kh" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
 ---
-- 随着电位器的阻值被改变，micro:bit的点阵屏上显示出对应的0-1023区间内的阻值，同时点阵屏上的led灯被点亮。
+- 随着电位器的阻值被改变，micro:bit的点阵屏上显示出对应的0-1023区间内的阻值，
+- 同时滑动条上的led灯被点亮。
 
 ## 相关案例
 ---

@@ -31,12 +31,6 @@ Octopus 5mmLED灯模块，能和micro:bit/Arduino扩展板搭配,实现调整环
 
 ![](./images/fDm8yzB.png)
 ### 添加Package
-在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
-
-![](./images/smtcNoB.png)
-
-点击“Extensions”，在弹出的对话框中搜索“oled"，下载oled-ssd1306代码库。
-![](./images/VGSLRXB.png)
 
 ### 如图所示编写程序
 向P0引脚中每隔一秒钟写入1或0

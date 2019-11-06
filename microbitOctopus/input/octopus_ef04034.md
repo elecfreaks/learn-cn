@@ -4,7 +4,7 @@
 ---
  这是一个数字按钮传感器，可以检测您的按压动作，适合初学者使用。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04034.jpg)
+![](./images/04034.jpg)
 
 ## 特性
 ---
@@ -18,7 +18,7 @@
 :-: | :-: 
 SKU|EF04034
 电源需求|3V-5.5V
-接口类型|模拟
+接口类型|数字
 引脚定义|1-Signal 2-VCC 3-GND
 响应|快速响应和高灵敏度
 电路|简单的驱动电路
@@ -26,7 +26,8 @@ SKU|EF04034
 
 ## 外形与定位尺寸
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/octopus_board.png)
+
+![](./images/octopus_board.png)
 
 ## 快速上手
 ---
@@ -36,11 +37,11 @@ SKU|EF04034
 
 ***以sensor:bit为例***
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04034-2.png)
+![](./images/04034-2.png)
 
 ### 如图所示编写程序
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/input/images/04034-3.png)
+![](./images/04034-3.png)
 
 ### 参考程序
 
@@ -52,7 +53,7 @@ SKU|EF04034
 ---
 
 ### 结果
-- 当按钮被按下显示心型图案，当按钮被放开显示矩形图案
+- 当按钮被按下显示心形图案，当按钮被放开显示矩形图案
 
 ## 相关案例
 ---

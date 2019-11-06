@@ -4,6 +4,8 @@
 ---
 Octopus Single RGB Rainbow LED是我们OCTOPUS系列的单颗彩虹LED电子积木，它的基本设计是根据OCTOPUS电子积木系列设定的，它的外形、PCB固定孔、电子积木的接口的设定是相同的。板载的LED是一个集控制电路与发光电路与一体的智能外控led，具有低电压驱动、亮度高、散射角度大等优点。 
 
+![](./images/04091.jpg)
+
 ## 特性 
 ---
 
@@ -46,14 +48,18 @@ SKU|EF04091
 
 ![](./images/meteyoR.png)
 
-编写程序使用加速度计控制LED颜色。
-程序代码链接：[[https://makecode.microbit.org/_Fu0g597xD85g](https://makecode.microbit.org/_Fu0g597xD85g)](https://makecode.microbit.org/40248-92205-21488-21926)
 
-你也能通过下列窗口直接下载代码
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:40248-92205-21488-21926" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+### 参考程序
+
+请参考程序连接：[https://makecode.microbit.org/_FH59EbdYFT6W](https://makecode.microbit.org/_FH59EbdYFT6W)
+
+你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_FH59EbdYFT6W" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+---
 
 ### 结果  
 
-一开始led发白光，摇晃micro:bit主板led灯渐变颜色。
+Rainbow Led循环显示红，绿，蓝三种颜色。
 
 ## 常见问题

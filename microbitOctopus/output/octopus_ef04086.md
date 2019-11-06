@@ -4,7 +4,7 @@
 ---
 
 1 Channel Relay 3V Relay Module 是我们OCTOPUS系列的一路继电器电子积木，它的基本设计是根据OCTOPUS电子积木系列设定的，它的外形、PCB固定孔、电子积木的接口的设定是相同的。OCTOPUS 1 Channel Relay采用超小、高质量HUIKE继电器，可以控制各种家用电器，及大电流负载。是电子爱好者的DIY的常用配件模块。
-
+![](./images/04086.jpg)
 ## 特性 
 ---
 - 采用大电流继电器，最高电流可达30A。
@@ -36,16 +36,18 @@ SKU| EF04086
 
 ![](./images/cJGeHvd.png)
 
-### 软件编程  
+### 参考程序
 
-打开makecode，编写程序向P1口写入高电平，使常开触点闭合，常闭触点断开，便实现了用代码控制触点开关的通断。
-程序代码链接：[https://makecode.microbit.org/_Lvega7TP6ggz](https://makecode.microbit.org/_Lvega7TP6ggz)
+请参考程序连接：[https://makecode.microbit.org/_J82V5PgzghKR](https://makecode.microbit.org/_J82V5PgzghKR)
 
-你也能通过下列窗口直接下载代码
-[<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Lvega7TP6ggz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>](<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Lvega7TP6ggz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>)
+你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_J82V5PgzghKR" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+---
 
 ### 结果  
-
+按下按钮A，写入0，NC（常闭触点导通）
+按下按钮B，写入1，NO（常开触点导通）
 常开触点吸合，常闭触点断开。
 
 ## 常见问题

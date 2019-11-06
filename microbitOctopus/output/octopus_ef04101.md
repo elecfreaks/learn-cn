@@ -5,9 +5,9 @@
 EL冷光线驱动板，用于驱动市面上常见冷光线、冷光板等，EL 冷光线（发光线）又称冷光霓虹管。具有不发热、防水、能任意弯成各种形状或图形。它的发光颜色丰富，有红、绿、蓝、黄、紫、橙、透明、粉红、桔黄、白光等。
 EL（electroluminescent）是通过加在两电极的电源产生电场，被电场激发的电子碰击发光中心，而引起电子能级的迁跃，变化、复合导致发光的一种物理现象，即电致发光现象。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_01.jpg)
+![](./images/04101_01.jpg)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_06.jpg)
+![](./images/04101_06.jpg)
 
 ## 特性
 ---
@@ -33,7 +33,7 @@ SKU|EF04101
 ## 外形与定位尺寸
 ---
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_02.png)
+![](./images/04101_02.png)
 
 ## 快速上手
 ---
@@ -43,7 +43,7 @@ SKU|EF04101
 
 ***以sensor：bit为例***
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_03.png)
+![](./images/04101_03.png)
 
 
 
@@ -51,7 +51,7 @@ SKU|EF04101
 
 按下按钮A点亮EL冷光条，按下按钮B熄灭EL冷光条
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_04.png)
+![](./images/04101_04.png)
 
 ### 参考程序
 
@@ -66,7 +66,7 @@ SKU|EF04101
 
 按下按钮A点亮EL冷光条，按下按钮B熄灭EL冷光条
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/output/images/04101_05.jpg)
+![](./images/04101_05.jpg)
 
 ## 相关产品
 

@@ -5,6 +5,8 @@
 
 8x16 matrix module是一款可以显示数字、常用字母及符号的8x16点阵屏幕，支持屏幕滚动。采用IIC 总线协议控制，连接简单，控制方便。
 
+![](./images/03418.jpg)
+
 ## 特性 
 ---
 
@@ -55,16 +57,25 @@ SKU|EF03418
 将micro:bit主板插入sensor:bit主板，将8x16 matrix module插入sensor:bit上的IIC通讯接口排母。
 ![](./images/yWAKyvO.jpg)
 
+### 添加Package
+- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+
+ ![](./images/smtcNoB.png)
+
+- 点击“Extensions”，在弹出的对话框中搜索"https://github.com/elecfreaks/pxt-Matrix-8x16
+"，下载8*16点阵代码库。
+ 
+![](./images/03418.png)
+
 ### 软件编程  
 
-打开makecode，编写程序让8x16led点阵显示刷屏效果。
-程序代码链接：[https://makecode.microbit.org/_FsFWvpXP4gsm](https://makecode.microbit.org/_FsFWvpXP4gsm)
+程序代码链接：[https://makecode.microbit.org/_R8RbWkh6pTP0](https://makecode.microbit.org/_R8RbWkh6pTP0)
 
 你也能通过下列窗口直接下载代码
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_FsFWvpXP4gsm" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_R8RbWkh6pTP0" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果  
 
-8x16 matrix module先从上往下刷屏显示，然后从左往右刷屏显示。
+点阵显示一个Emoji表情。
 
 ## 常见问题
