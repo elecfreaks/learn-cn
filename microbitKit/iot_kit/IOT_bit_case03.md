@@ -24,7 +24,7 @@ BME280模块连接到`IIC`接口`SCL-P19` `SDA-P20`。
 
 OLED屏幕连接`IIC`接口。 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_03_01.png)
+![](./images/case_03_01.png)
 
 ## 软件
 ---
@@ -37,11 +37,11 @@ OLED屏幕连接`IIC`接口。
 ### 步骤 1
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_11.jpg)
+![](./images/iot_bit_11.jpg)
 
 - 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_12.jpg)
+![](./images/iot_bit_12.jpg)
 
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -51,7 +51,7 @@ OLED屏幕连接`IIC`接口。
 
 初始化OLED屏幕为`64`像素*`128`像素。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_03_02.png)
+![](./images/case_03_02.png)
 
 ### 步骤 2
 
@@ -61,7 +61,7 @@ OLED屏幕连接`IIC`接口。
 
 插入`insert newline`积木块，另起一行。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_03_03.png)
+![](./images/case_03_03.png)
 
 ### 程序
 

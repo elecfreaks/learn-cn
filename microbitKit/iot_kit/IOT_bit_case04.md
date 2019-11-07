@@ -29,7 +29,7 @@
 
 180°舵机连接到`P10`口。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_01.png)
+![](./images/case_04_01.png)
 
 ## 软件
 ---
@@ -42,11 +42,11 @@
 ### 步骤 1
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_11.jpg)
+![](./images/iot_bit_11.jpg)
 
 - 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_12.jpg)
+![](./images/iot_bit_12.jpg)
 
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -54,20 +54,20 @@
 
 在`on start`中插入`servo write`积木块，参数填入`0`复位舵机到0度关闭水阀。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_02.png)
+![](./images/case_04_02.png)
 
 ### 步骤 3
 
 在`forever`中插入`set to`积木块。
 读取水位值赋值给`water level`变量，读取土壤湿度值赋值给`soil humidity`变量。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_03.png)
+![](./images/case_04_03.png)
 
 ### 步骤 4
 
 之后判断水缸的水位是否低于10，如果低于10，播放`ba ding`提醒向自动灌溉水箱注水。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_04.png)
+![](./images/case_04_04.png)
 
 ### 步骤 5
 
@@ -75,7 +75,7 @@
 
 如果低于30，打开阀门浇水，如果不低于30，就关闭阀门。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_04_05.png)
+![](./images/case_04_05.png)
 
 ### 程序
 

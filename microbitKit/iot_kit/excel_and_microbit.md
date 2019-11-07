@@ -10,7 +10,7 @@
 2. 我们将micro:bit连接到PC的串行端口。
 3. 我们将在Excel中编写一个小程序，将串行端口中的数据写入Excel。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_01.jpg)
+![](./images/case_excel_01.jpg)
 
 ## 实验流程 - 从micro:bit到Excel ##
 
@@ -22,7 +22,7 @@
 
 我们为这个实验编写的程序相当简单，收集两个传感器的数据 - 加速度值和光照值，并且每隔100ms通过将数据发送到串行通信端口。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_02.png)
+![](./images/case_excel_02.png)
 
 ### 第二步：下载程序到micro:bit 
 
@@ -30,11 +30,11 @@
 
 使用USB数据线将micro:bit连接到PC，会在PC我的电脑中显示一个micro:bit盘。
 
- ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_03.png)
+ ![](./images/case_excel_03.png)
 
 然后在MakeCode界面中点击下载，将下载的HEX文件并将其保存到micro:bit盘上。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_04.png)
+![](./images/case_excel_04.png)
 
 你也可以点击[此处](https://makecode.microbit.org/_cjvC4RU1CVUD)直接下载程序。
 ### 第三步：将它连接到PC
@@ -44,26 +44,26 @@
 
 1. 安装一个驱动程序，它将使micro:bit“显示”为PC上的串行端口,可以点击此处[下载驱动程序](https://github.com/elecfreaks/learn-cn/blob/master/microbitKit/iot_kit/file/teraterm-4.102.rar?raw=true)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_ifttt_21.gif)
+![](./images/case_ifttt_21.gif)
 
 2. 使用串行通信终端仿真器进行测试。
 
 您需要配置正确的COM端口。在我的环境中，它被配置为COM3。Excel中的示例代码假定，如果您的代码不同，则需要稍后修改Excel代码以反映正确的端口。
 完成后，您应该在模拟器中看到类似于此的数据流：
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_05.jpg)
+![](./images/case_excel_05.jpg)
 
 3. 如果在终端仿真器中测试通过，然后进入`设备管理器`—选择`端口`，找到`USB串行设备`。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_10.jpg)
+![](./images/case_excel_10.jpg)
 
 右键属性，选择端口设置，将第一个数据改为`115200`。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_11.jpg)
+![](./images/case_excel_11.jpg)
 
 然后点击`高级`，将左下角`COM端口号`设置为`1`或者`2`，依次点击确定完成设置。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_12.jpg)
+![](./images/case_excel_12.jpg)
 
 
 ***传入的数据流 - 光照水平和加速度
@@ -86,7 +86,7 @@
 
 这是VBA代码中主循环的片段：
  
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_06.jpg)
+![](./images/case_excel_06.jpg)
 
 此代码段中需要注意以下几点：
 
@@ -117,22 +117,22 @@ micro:bit中的亮度值范围为0到255.
 从值中创建两个图表。在它们两者中，X轴是行号，Y轴是从传感器进入的数据（光或加速度）。
 这就是它的样子：
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_07.jpg)
+![](./images/case_excel_07.jpg)
 
 ### 第五步：修改VBA代码
 
 点击`视图`—选择`宏`
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_13.jpg)
+![](./images/case_excel_13.jpg)
 
 选择`StartBtn_Click`宏点击`编辑`
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_14.jpg)
+![](./images/case_excel_14.jpg)
 
 在这行代码中，将`COM`后边的值改为之前设置的端口号，这里的示例是`2`
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_15.jpg)
+![](./images/case_excel_15.jpg)
 
 点击左上角保存，保存Excel，然后重新打开这个Excel副本。
 
@@ -140,4 +140,4 @@ micro:bit中的亮度值范围为0到255.
 
 您现在要做的就是点击“开始”，查看正在进行的数据并立即转换为图表！
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_excel_07.jpg)
+![](./images/case_excel_07.jpg)

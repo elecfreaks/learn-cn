@@ -11,6 +11,7 @@ iot:bit物联网套件
 
     iot_kit.md
     iot_bit.md
+    how_to_use_kidsiot.md
     how_to_use_thinkspeak.md
     how_to_use_IFTTT.md
     excel_and_microbit.md

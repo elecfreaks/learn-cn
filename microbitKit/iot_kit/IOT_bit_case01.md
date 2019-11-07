@@ -16,7 +16,7 @@
 - [物联网](https://zh.wikipedia.org/wiki/%E8%B6%85%E8%81%B2%E6%B3%A2)是一个由相互关联的计算设备、机械和数字机器、物体、动物或人组成的系统，这些计算机设备、机械和数字机器、物体、动物或人具有唯一标识符（uids），并且能够在网络上传输数据，而不需要人与人或人与计算机之间的交互。
 简单概括可为：把所有物品通过信息传感设备与互联网连接起来，进行信息交换，即物物相息，以实现智能化识别和管理。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_01_01.png)
+![](./images/case_01_01.png)
 
 ## 硬件连接图
 ---
@@ -25,7 +25,7 @@
 
 OLED屏幕连接`IIC`接口。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_01_02.png)
+![](./images/case_01_02.png)
 
 ## 软件
 ---
@@ -38,11 +38,11 @@ OLED屏幕连接`IIC`接口。
 ### 步骤 1
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_11.jpg)
+![](./images/iot_bit_11.jpg)
 
 - 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/iot_bit_12.jpg)
+![](./images/iot_bit_12.jpg)
 
 ***注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 ### 步骤 2
@@ -51,7 +51,7 @@ OLED屏幕连接`IIC`接口。
 
 初始化OLED屏幕为`64`像素*`128`像素。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_01_03.png)
+![](./images/case_01_03.png)
 
 ### 步骤 2
 
@@ -61,7 +61,7 @@ OLED屏幕连接`IIC`接口。
 
 暂停`60s`，一分钟显示一次。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/iot_kit/images/case_01_04.png)
+![](./images/case_01_04.png)
 
 ### 程序
 
