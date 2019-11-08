@@ -39,15 +39,19 @@ SKU|EF04081
 
 2.显示读取到的声音信息
 
- ![](./images/s2Rucs0.png)
+
+
+![](./images/04081_01.png)
+
+
 
 ### 参考程序
 
-请参考程序连接：[https://makecode.microbit.org/_ebfHWPiUA0Tm](https://makecode.microbit.org/_ebfHWPiUA0Tm)
+请参考程序连接：[https://makecode.microbit.org/_c9P1uiUkC7JE](https://makecode.microbit.org/_c9P1uiUkC7JE)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ebfHWPiUA0Tm" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_c9P1uiUkC7JE" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果

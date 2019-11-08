@@ -7,7 +7,11 @@ Octopus Analog Capacitive Soil Moisture Sensor是我们OCTOPUS系列的土壤湿
 
 采用电容感应原理来检测土壤湿度，避免了电阻式传感器极易被腐蚀的问题，极大地延长了它的工作寿命。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04097_00.jpg)
+
+
+![](./images/04097_00.jpg)
+
+
 
 ## 特性 
 ---
@@ -26,7 +30,9 @@ Octopus Analog Capacitive Soil Moisture Sensor是我们OCTOPUS系列的土壤湿
 
 ## 外型与定位尺寸  
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04097_01.png)
+
+![](./images/04097_01.png)
+
 
 ## 快速上手  
 ---  
@@ -34,17 +40,23 @@ Octopus Analog Capacitive Soil Moisture Sensor是我们OCTOPUS系列的土壤湿
 
 将模块通过带扣杜邦线插入octopus:bit上的P1引脚，将micro:bit主板插入octopus:bit。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04097_02.png)
+
+![](./images/04097_02.png)
+
 
 ### 软件编程  
 
-打开makecode，模拟读取P1口，返回值为土壤湿度，显示在LED点阵显示屏上。
-程序代码链接：[https://makecode.microbit.org/_4urWJCMeuh4L](https://makecode.microbit.org/_4urWJCMeuh4L)
+
+
+![](./images/04027_03.png)
+
+
+程序代码链接：[https://makecode.microbit.org/_8EuFUqJA3Vff](https://makecode.microbit.org/_8EuFUqJA3Vff)
 
 你也能通过下列窗口直接下载代码
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
  <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-         src="https://makecode.microbit.org/#pub:_4urWJCMeuh4L" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+         src="https://makecode.microbit.org/#pub:_8EuFUqJA3Vff" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
  </iframe>
 </div>  
 

@@ -50,17 +50,24 @@ SKU| EF04087
 
 ![](./images/LjMR5IU.png)
 
-点击“Add Package”，在弹出的对话框中搜索“weather"，下载weather-bit代码库。
-![](./images/2pzeQRn.png)
+点击“Add Package”，在弹出的对话框中搜索“iot"，下载iot-environment-bit代码库。
+
+
+![](./images/AaZxCEb.jpg)
+
 
 如图所示编写程序，读取气压值。  
-![](./images/uzGqxBD.png)
+
+
+![](./images/04087_03.png)
+
+
 
 #### 程序下载
-程序代码链接：[https://makecode.microbit.org/_cPih8ybrDXuz](https://makecode.microbit.org/_cPih8ybrDXuz)
+程序代码链接：[https://makecode.microbit.org/_X4T7s8YerXdc](https://makecode.microbit.org/_X4T7s8YerXdc)
 
 你也能通过下列窗口直接下载代码  
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_0Eji5aiUVWPi" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_X4T7s8YerXdc" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果  
 micro:bit点阵屏幕上滚动显示气压值，单位为MPa。

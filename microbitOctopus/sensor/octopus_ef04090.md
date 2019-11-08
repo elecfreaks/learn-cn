@@ -61,26 +61,35 @@ ZH03B传感器模块用于检测所处环境的PM2.5浓度。
 ## 快速上手
 
 ### 硬件连接
-将PM2.5电子积木通过micro:bit扩展板连接至micro:bit的P1口
-![](./images/icDTCQO.png)
+将PM2.5电子积木通过iot:bit的P1口
+
 
 ### 软件编程
 #### 步骤1 打开makecode
 打开[makecode](https://makecode.microbit.org/ "makecode")在线编程网页。
 
-#### 步骤2 添加package
+#### 步骤2 
 搜索关键词`iot`，添加`iot-environment-kit`软件包。
-![](./images/JVVC7Iw.png)
+
+
+![](./images/AaZxCEb.jpg)
+
 
 #### 步骤3 编写程序
 
-![](./images/Y893J8M.png)
+
+
+![](./images/04090_03.png)
+
+
+
+
 
 #### 步骤4 下载
-完整的程序代码如下：[https://makecode.microbit.org/_4TvKWEihahzh](https://makecode.microbit.org/_4TvKWEihahzh)
+完整的程序代码如下：[https://makecode.microbit.org/_A1qAkv6w9Wev](https://makecode.microbit.org/_A1qAkv6w9Wev)
 
 你也能通过以下网页直接下载程序：  
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_4TvKWEihahzh" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_A1qAkv6w9Wev" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 #### 结果
 5x5屏幕滚动显示PM2.5的数值，单位为μg/m3。

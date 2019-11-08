@@ -36,7 +36,7 @@ SKU|EF11083
 ### 所需器材及连接示意图
 ---
 
-- 如下图所示，led连接扩展板的P2口 ,out口连接在P1口。
+- 如下图所示，led连接扩展板的P1口 ,out口连接在P2口。
 
 ***以sensor：bit为例***
 
@@ -52,18 +52,20 @@ SKU|EF11083
 
 
 ### 如图所示编写程序
-1.使用micro：bit的led显示积木块
 
-2.使用iot函数库中的dust积木块获取实验数据，将其显示在led上
 
- ![](./images/MF4stwK.png)
+
+![](./images/11083_03.png)
+
+
+ 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_Fp7JYc0Wh9hY](https://makecode.microbit.org/_Fp7JYc0Wh9hY)
+请参考程序连接：[https://makecode.microbit.org/_HWvDbU9aV407](https://makecode.microbit.org/_HWvDbU9aV407)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Fp7JYc0Wh9hY" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_HWvDbU9aV407" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果

@@ -11,7 +11,10 @@ Octopus Water level sensor是我们OCTOPUS系列的水位传感器电子积木�
 
 特别注意：MAX水位线上方元件不防水，请勿将其没入水中。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04094_00.jpg)
+
+![](./_image/2019-11-07-17-44-26.jpg)
+
+
 
 ## 特性 
 ---
@@ -30,7 +33,7 @@ Octopus Water level sensor是我们OCTOPUS系列的水位传感器电子积木�
 
 ## 外型与定位尺寸  
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04094_01.png)
+
 
 ## 快速上手  
 ---  
@@ -38,11 +41,11 @@ Octopus Water level sensor是我们OCTOPUS系列的水位传感器电子积木�
 
 将模块通过带扣杜邦线插入octopus:bit上的P1引脚，将micro:bit主板插入octopus:bit。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/04094_02.png)
+
 
 ### 软件编程  
 
-打开makecode，模拟读取P1口，返回值为水位值，显示在LED点阵显示屏上。
+
 程序代码链接：[https://makecode.microbit.org/_4urWJCMeuh4L](https://makecode.microbit.org/_4urWJCMeuh4L)
 
 你也能通过下列窗口直接下载代码
