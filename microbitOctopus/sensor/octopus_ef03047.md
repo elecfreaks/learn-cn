@@ -5,7 +5,7 @@
 
 色彩传感器模块基于TCS3200，它是一个可编程的彩色光电转换器，它可以过滤来自光源的RGB数据并将其转换为方波（50％占空比），其频率与光强度成正比（光照幅度）。满量程输出频率可通过两个控制输入引脚（SO，S1可选选项2％，20％，100％频率）按三个预设值之一进行缩放，而引脚S2，S3控制RGB滤波器。数字输入和数字输出允许直接连接到micro:bit或其他逻辑电路。输出使能（OE）将输出置于高阻态，以便多单元共享微控制器输入线。最后，用户可以通过RGB值计算光的颜色。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/03047_00.jpg)
+![](./images/03047_00.jpg)
 
 ## 特性 
 ---
@@ -28,7 +28,7 @@
 ## 外型与定位尺寸  
 ---
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/03047_01.png)
+![](./images/03047_01.png)
 
 ## 快速上手  
 ---  
@@ -37,7 +37,7 @@
 将模块S0连接到P15口，S1连接到P1，S2连接到P8，S3连接到P12，OUT连接到P2，VCC连接电源，GND连接接地。将micro:bit主板插入octopus:bit。
 将OLED连接到IIC接口。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitOctopus/sensor/images/03047_02.png)
+![](./images/03047_02.png)
 
 ### 软件编程  
 

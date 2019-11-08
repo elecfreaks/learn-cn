@@ -12,7 +12,7 @@ Octopus Water level sensor是我们OCTOPUS系列的水位传感器电子积木�
 特别注意：MAX水位线上方元件不防水，请勿将其没入水中。
 
 
-![](./_image/2019-11-07-17-44-26.jpg)
+![](./images/04094_01.jpg)
 
 
 
