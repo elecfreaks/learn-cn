@@ -1,4 +1,4 @@
-# 第四节：KidsIot平台使用手册
+# 第一节：KidsIot平台使用手册
 ---
 - KidsIot是恩孚科技出品的一个简单易用的物联网平台，3分钟连接物联网，实施远程操控microbit。（中/英文切换文暂时没有更新）
  平台链接：[KidsIoT云平台: https://www.kidsiot.cn/](https://www.kidsiot.cn/)

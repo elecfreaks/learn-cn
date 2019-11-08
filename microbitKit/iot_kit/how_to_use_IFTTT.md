@@ -1,4 +1,4 @@
-# 第二节：Iot套件搭配Thingspeak平台和IFTTT平台制作温度报警器
+# 第四节：Iot套件搭配Thingspeak平台和IFTTT平台制作温度报警器
 
 ## 如何通过IFTTT发送温度阈值报警电子邮件
 ---
