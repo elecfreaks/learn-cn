@@ -28,7 +28,7 @@
 ![](./images/kidsiot_06.jpg)
 
 
-##KidsIoT 平台使用指南
+## KidsIoT 平台使用指南
 
 - 点击主页上的Sign in，进入登陆界面
 
@@ -59,7 +59,7 @@
 
 [微软makecode](https://makecode.microbit.org/#)
 
-## 编程
+### 编程
 ---
 ### 模块连接图
 - 将光线传感器模块连接到P1口。
