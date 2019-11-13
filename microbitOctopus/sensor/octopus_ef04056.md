@@ -6,7 +6,7 @@
 
 
 
-![](./image/04056_1.jpg)
+![](./images/04056_1.jpg)
 
 
 
@@ -48,14 +48,14 @@ SKU|EF04056
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 
-![](./image/smtcNoB.png)
+![](./images/smtcNoB.png)
 
 
 点击“Extensions”，在弹出的对话框中搜索“TM1637"，下载TM1637代码库。
 
 
 
-![](./image/04056_3.png)
+![](./images/04056_3.png)
 
 
 
@@ -66,7 +66,7 @@ SKU|EF04056
 
 
 
-![](./image/04056_5.png)
+![](./images/04056_5.png)
 
 
 

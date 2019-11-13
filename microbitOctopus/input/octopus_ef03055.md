@@ -5,7 +5,7 @@
 
 
 
-![](./image/03055_1.jpg)
+![](./images/03055_1.jpg)
 
 
 ## 特性
@@ -44,14 +44,14 @@ SKU|EF03055
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
 
-![](./image/smtcNoB.png)
+![](./images/smtcNoB.png)
 
 
 点击“Extensions”，在弹出的对话框中搜索“iot"，下载iot代码库。
 
 
 
-![](./image/AaZxCEb.jpg)
+![](./images/AaZxCEb.jpg)
 
 
 ### 如图所示编写程序
@@ -60,7 +60,7 @@ SKU|EF03055
  
 
 
-![](./image/03055_3.png)
+![](./images/03055_3.png)
 
 
 
