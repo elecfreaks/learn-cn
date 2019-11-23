@@ -24,7 +24,7 @@ SKU|EF04014
 
 ## 外形与定位尺寸
 ---
- ![](./images/vw9iSOe.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
