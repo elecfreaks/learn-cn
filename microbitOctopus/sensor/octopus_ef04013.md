@@ -29,7 +29,7 @@ SKU|EF04013
 ## 外形与定位尺寸
 --- 
 
- ![](./images/vtK7bwP.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
