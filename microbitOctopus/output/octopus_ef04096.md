@@ -32,7 +32,7 @@ Octopus 3V laser sensor是我们OCTOPUS系列的激光发射电子积木，它�
 
 ### 外型与定位尺寸  
 
-![](./images/eNbM5Kz.png)
+![](./images/cdNd1Kw.png)
 
 ## 快速上手  
 ---  
