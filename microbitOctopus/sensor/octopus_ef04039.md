@@ -23,7 +23,7 @@ SKU|EF04039
 
 ## 外形与定位尺寸
 ---
- ![](./images/doEjdcR.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
