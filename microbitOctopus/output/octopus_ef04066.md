@@ -16,11 +16,12 @@ Octopus 5mmLED灯模块，能和micro:bit/Arduino扩展板搭配,实现调整环
 :-: | :-: 
 电压|3.3V~5V
 重量|5克
+SKU|04066
 
 ## 外形与定位尺寸
 ---
 
- ![](./images/D93Zvpm.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
