@@ -28,7 +28,7 @@ SKU|EF04079
 ## 外形与定位尺寸
 ---
 
- ![](./images/e5NlyhB.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
