@@ -27,7 +27,7 @@ SKU|EF04002
 ## 外形与定位尺寸
 ---
 
- ![](./images/ktk6q7u.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
