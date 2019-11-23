@@ -18,7 +18,7 @@
 :-: | :-: 
 SKU|EF04008
 电源需求|3V-5.5V
-接口类型|模拟
+接口类型|数字
 引脚定义|1-Signal 2-VCC 3-GND
 响应|快速响应和高灵敏度
 电路|简单的驱动电路
@@ -26,6 +26,7 @@ SKU|EF04008
 
 ## 外形与定位尺寸
 ---
+
 
 
 ## 快速上手
@@ -38,32 +39,27 @@ SKU|EF04008
 
  ![](./images/ALobDLt.png)
 
-### 添加Package
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
- ![](./images/smtcNoB.png)
-
-- 点击“Extensions”，在弹出的对话框中搜索“iot"，下载iot代码库。
-
- ![](./images/AaZxCEb.jpg)
-
- ![](./images/KBD2b39.png)
 
 ### 如图所示编写程序
-- 显示当前噪音分贝值。
+- 显示当前环境有无声音。
 
- ![](./images/eGW5JbX.png)
+
+
+![](./images/04008_3.png)
+
+
 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_TzgHwu4jUAdy](https://makecode.microbit.org/_TzgHwu4jUAdy)
+请参考程序连接：[https://makecode.microbit.org/_bh2a112LoCkh](https://makecode.microbit.org/_bh2a112LoCkh)
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_TzgHwu4jUAdy" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_bh2a112LoCkh" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
-- micro:bit的点阵屏上显示出当前环境的噪声分贝大小。
+- 根据当前环境有无声音显示不同的图标。
 
 ## 相关案例
 ---
