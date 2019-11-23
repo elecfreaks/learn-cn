@@ -21,7 +21,7 @@ SKU|04062
 
 ## 外形与定位尺寸
 ---
- ![](./images/S2mhxLt.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
