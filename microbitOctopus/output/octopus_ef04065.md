@@ -22,7 +22,7 @@ SKU|EF04065
 
 ## 外形与定位尺寸
 ---
- ![](./images/G7swW1F.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
