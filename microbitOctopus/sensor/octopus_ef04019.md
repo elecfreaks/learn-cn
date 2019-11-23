@@ -29,7 +29,7 @@ SKU|EF04019
 ## 外形与定位尺寸
 ---
 
- ![](./images/aQIDnpP.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
