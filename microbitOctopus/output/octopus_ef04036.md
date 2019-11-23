@@ -22,7 +22,7 @@ SKU|04036
 ## 外形与定位尺寸
 ---
 
- ![](./images/oFiMInJ.png)
+ ![](./images/cdNd1Kw.png)
 
 ## 快速上手
 ---
