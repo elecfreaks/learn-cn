@@ -17,11 +17,11 @@
 ### 步骤 1
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-1.png)
+![](./images/cutebot-pk-1.png)
 
 - 为了给Cutebot套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索`Cutebot`，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-11.png)
+![](./images/cutebot-pk-11.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -31,20 +31,20 @@
 - `right`右侧灯为从第`0`颗灯开始往后`1`颗灯。
 - `left`左侧灯为从第`1`颗灯开始往后`1`颗灯。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_06_01.png)
+![](./images/case_06_01.png)
 
 ### 步骤 3
 
 - 在`on button A pressed`(当按钮A按下时)积木块中插入`repeat`(循环)积木块，右侧示廓灯显示黄色，左侧LED大灯显示黄色(RGB控制)，延迟500ms后，关闭左侧示廓灯和LED大灯，完成一次闪烁。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_06_02.png)
+![](./images/case_06_02.png)
 
 
 ### 步骤 4
 
 - 在`on button B pressed`(当按钮B按下时)积木块中与右侧同理，只不过将右侧改为左侧。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_06_03.png)
+![](./images/case_06_03.png)
 
 ### 程序
 

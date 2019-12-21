@@ -19,11 +19,11 @@
 ### 步骤 1
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-1.png)
+![](./images/cutebot-pk-1.png)
 
 - 为了给Cutebot套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索`Cutebot`，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/cutebot-pk-11.png)
+![](./images/cutebot-pk-11.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -34,7 +34,7 @@
 - 当`按钮B按下`时无线发送数字`2`；
 - 当`按钮A+B按下`时无线发送数字`3`；
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_11_01.png)
+![](./images/case_11_01.png)
 
 #### 程序
 
@@ -55,7 +55,7 @@
 - 当无线电收到的数字为`2`时，右转；
 - 当无线电收到的数字为`3`时，直行。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_cutebot/images/case_11_02.png)
+![](./images/case_11_02.png)
 
 #### 程序
 
