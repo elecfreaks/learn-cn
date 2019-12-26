@@ -44,37 +44,37 @@
 
 - 将micro:bit连接到你的电脑，将上一步准备的micro:bit固件直接发送到micro:bit盘。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_01.gif)
+![](./images/case_01_01.gif)
 
 - 然后为micro:bit单独供电，micro:bit上会显示一串字符，为蓝牙识别码。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_02.jpg)
+![](./images/case_01_02.jpg)
 
 
 ### 步骤 2
 
 - 打开Scratch Link软件，你的状态栏显示一个Scratch Link图标。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_03.png)
+![](./images/case_01_03.png)
 
 - 然后打开Scratch编程软件，在左下角点击`+`号，选择micro:bit扩展。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_04.png)
+![](./images/case_01_04.png)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_07.png)
+![](./images/case_01_07.png)
 
 - 在弹出的搜索框中选择你的micro:bit。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_05.png)
+![](./images/case_01_05.png)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_06.png)
+![](./images/case_01_06.png)
 
 ## 结束
 ---
 - 连接成功黄色感叹号变成绿色的对勾。
 - 就可以使用micro:bit和Scratch配合编程啦。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/case_01_08.png)
+![](./images/case_01_08.png)
 
 ## 常见问题
 ---

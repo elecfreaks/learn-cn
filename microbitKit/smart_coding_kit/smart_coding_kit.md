@@ -1,6 +1,6 @@
 # 手表套件Pro介绍
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_00.jpg)
+![](./images/smart_coding_kit_00.jpg)
 
 ## 简介
 ---
@@ -18,16 +18,16 @@ micro:bit手表套件Pro基于一代手表套件进行了升级，
 ---
 将两节3V的2025电池插入电池插座
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_01.png)
+![](./images/smart_coding_kit_01.png)
 
 使用螺丝将你的micro:bit和纽扣电池扩展板Pro固定在一起
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_02.png)
+![](./images/smart_coding_kit_02.png)
 
 将较长的表带穿过纽扣电池板Pro上的孔，安装表带
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_03.png)
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_04.png)
+![](./images/smart_coding_kit_03.png)
+![](./images/smart_coding_kit_04.png)
 
 
 
@@ -43,7 +43,7 @@ micro:bit手表套件Pro基于一代手表套件进行了升级，
 - 1 x micro:bit说明书
 - 1 x micro:bit
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_05.png)
+![](./images/smart_coding_kit_05.png)
 
 
 ## 常见问题

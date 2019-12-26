@@ -22,7 +22,7 @@ wear:bit纽扣电池板Pro是一种小尺寸的微型扩展板。
 
 ## 外型与定位尺寸
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/wear_bit_00.jpg)
+![](./images/wear_bit_00.jpg)
 
 ## 参数
 ---
@@ -40,20 +40,20 @@ wear:bit纽扣电池板Pro是一种小尺寸的微型扩展板。
 
 左档打开电源，右档关闭电源。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/wear_bit_01.png)
+![](./images/wear_bit_01.png)
 
 ### 两个CR2025电池座
 
 可以便捷插入2025电池（3V锂锰扣式电池）供电
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/wear_bit_02.png)
+![](./images/wear_bit_02.png)
 
 ### 蜂鸣器及开关
 
 
 蜂鸣器由P0口控制，能够播放音乐。拨动开关可以控制蜂鸣器的工作或禁用。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/wear_bit_03.png)
+![](./images/wear_bit_03.png)
 
 
 ## 快速上手  
@@ -63,11 +63,11 @@ wear:bit纽扣电池板Pro是一种小尺寸的微型扩展板。
 
 并将两个3V的2025电池装入wear:bit扩展板上电池座中。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_01.png)
+![](./images/smart_coding_kit_01.png)
 
 使用螺丝将你的micro:bit和纽扣电池扩展板Pro固定在一起。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/smart_coding_kit/images/smart_coding_kit_02.png)
+![](./images/smart_coding_kit_02.png)
 
 拨动到开档，2025电池给micro：bit主板和wear:bit主板供电。
 
