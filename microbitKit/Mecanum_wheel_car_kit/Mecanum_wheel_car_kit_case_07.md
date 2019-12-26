@@ -24,15 +24,15 @@
 ### 步骤 1
  在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_01.png)
+![](./images/Mecanum_wheel_car_kit_case_01_01.png)
 
 为了给麦克纳姆轮小车套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”wukong”，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_02.png)
+![](./images/Mecanum_wheel_car_kit_case_01_02.png)
 
 为了使用joystick:bit，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”joystickbit”，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_07_04.png)
+![](./images/Mecanum_wheel_car_kit_case_07_04.png)
 
 
 
@@ -43,7 +43,7 @@
 麦克纳姆轮小车程序如下：
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_07_05.png)
+![](./images/Mecanum_wheel_car_kit_case_07_05.png)
 
 
 先设置无线设置组，然后初始化麦克纳姆轮小车舵机。将无线接收到的数据存入`I`。然后通过判断变量`I`的值来控制麦克纳姆轮小车的动作。
@@ -54,7 +54,7 @@
 游戏手柄程序如下：
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_07_06.png)
+![](./images/Mecanum_wheel_car_kit_case_07_06.png)
 
 
 设置无线设置组，然后通过判断手柄摇杆和按键的状态来发送数字。

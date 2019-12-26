@@ -24,11 +24,11 @@
 ### 步骤 1
  在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_01.png)
+![](./images/Mecanum_wheel_car_kit_case_01_01.png)
 
 为了给麦克纳姆轮小车套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”wukong”，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_02.png)
+![](./images/Mecanum_wheel_car_kit_case_01_02.png)
 
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -38,7 +38,7 @@
 
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_03.png)
+![](./images/Mecanum_wheel_car_kit_case_01_03.png)
 
 
 ### 步骤 3
@@ -47,7 +47,7 @@
 
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_04.png)
+![](./images/Mecanum_wheel_car_kit_case_01_04.png)
 
 
 ### 步骤 4
@@ -56,7 +56,7 @@
 
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_05.png)
+![](./images/Mecanum_wheel_car_kit_case_01_05.png)
 
 
 ### 程序

@@ -24,15 +24,15 @@
 ### 步骤 1
  在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_01.png)
+![](./images/Mecanum_wheel_car_kit_case_01_01.png)
 
 为了给麦克纳姆轮小车套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”wukong”，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_02.png)
+![](./images/Mecanum_wheel_car_kit_case_01_02.png)
 
 为了使用超声波模块，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”github.com/elecfreaks/pxt-sonarbit”，然后点击下载这个代码库。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_03_04.png)
+![](./images/Mecanum_wheel_car_kit_case_03_04.png)
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_01_03.png)
+![](./images/Mecanum_wheel_car_kit_case_01_03.png)
 
 
 ### 步骤 3
@@ -53,14 +53,14 @@
 
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_06_05.png)
+![](./images/Mecanum_wheel_car_kit_case_06_05.png)
 
 
 ### 步骤 4
 
 如图所示，设置小车向前移动，并判断前方障碍物与超声波传感器的距离，如果距离小于25cm，则小车后退500ms，然后左转500ms。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_case_06_06.png)
+![](./images/Mecanum_wheel_car_kit_case_06_06.png)
 
 
 ### 程序

@@ -1,6 +1,6 @@
 # 麦克纳姆轮小车套件介绍
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_01.jpg)
+![](./images/Mecanum_wheel car_kit_01.jpg)
 
 ## 简介
 ---
@@ -17,7 +17,7 @@
 - N x 搭建积木
 
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Mecanum_wheel_car_kit/images/Mecanum%20wheel%20car%20kit_02.jpg)
+![](./images/Mecanum_wheel_car_kit_02.jpg)
 
 
 ## 常见问题
