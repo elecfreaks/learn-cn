@@ -1,6 +1,6 @@
 # 麦克纳姆轮小车套件介绍
 
-![](./images/Mecanum_wheel car_kit_01.jpg)
+![](./images/Mecanum_wheel_car_kit_01.jpg)
 
 ## 简介
 ---
