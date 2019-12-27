@@ -62,7 +62,8 @@
 
 
 通过下面链接下载PDF文档即可获得详细的搭建步骤图
-[Github下载 ](https://github.com/elecfreaks/learn-cn/raw/master/microbitKit/Mecanum_wheel_car_kit/files/wukong_assembly_step_chinese_v1.1.pdf)
+
+[Github下载 ](https://github.com/elecfreaks/learn-cn/raw/master/microbitKit/ring_bit_bricks_pack/files/jimuxiaoche.pdf)
 
 ## 软件
 ---
