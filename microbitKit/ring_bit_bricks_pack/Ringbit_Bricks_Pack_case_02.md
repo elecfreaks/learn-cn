@@ -63,7 +63,10 @@
 
 通过下面链接下载PDF文档即可获得详细的搭建步骤图
 
-[Github下载 ](https://github.com/elecfreaks/learn-cn/raw/master/microbitKit/ring_bit_bricks_pack/files/jimuxiaoche.pdf)
+
+
+[下载:Github ](https://github.com/elecfreaks/learn-cn/raw/master/microbitKit/ring_bit_bricks_pack/files/jimuxiaoche.pdf)
+
 
 ## 软件
 ---
