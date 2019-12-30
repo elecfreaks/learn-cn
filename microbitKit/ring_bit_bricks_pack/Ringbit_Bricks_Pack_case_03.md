@@ -1,11 +1,9 @@
-# Ringbit_Bricks_Pack套件案例03：温控风扇
+# Ring:bit 六合一搭建套件案例03：温控风扇
 
 ## 目的
 ---
 
 - 使用Ringbit_Bricks_Pack套件制作一台温控风扇
-
-
 
 
 ![](./images/Ringbit_Bricks_Pack_case_03_01.png)

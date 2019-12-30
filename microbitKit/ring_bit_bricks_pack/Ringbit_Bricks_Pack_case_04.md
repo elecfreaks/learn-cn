@@ -1,4 +1,4 @@
-# Ringbit_Bricks_Pack套件案例04：智能台灯
+# Ring:bit 六合一搭建套件案例04：智能台灯
 ## 目的
 ---
 

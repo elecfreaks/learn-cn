@@ -1,4 +1,4 @@
-# Ringbit_Bricks_Pack套件案例02：积木小车
+# Ring:bit 六合一搭建套件案例02：积木小车
 
 ## 目的
 ---

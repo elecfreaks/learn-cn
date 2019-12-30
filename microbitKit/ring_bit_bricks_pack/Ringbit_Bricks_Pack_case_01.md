@@ -1,4 +1,4 @@
-# Ringbit_Bricks_Pack套件案例01：交通灯
+# Ring:bit 六合一搭建套件案例01：交通灯
 
 ## 目的
 ---

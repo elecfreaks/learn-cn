@@ -1,4 +1,4 @@
-# Ringbit_Bricks_Pack套件案例05：雨刷器
+# Ring:bit 六合一搭建套件案例05：雨刷器
 
 ## 目的
 ---

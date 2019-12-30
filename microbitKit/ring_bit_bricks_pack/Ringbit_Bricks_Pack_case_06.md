@@ -1,4 +1,4 @@
-# Ringbit_Bricks_Pack套件案例06：投石机
+# Ring:bit 六合一搭建套件案例06：投石机
 
 ## 目的
 ---
