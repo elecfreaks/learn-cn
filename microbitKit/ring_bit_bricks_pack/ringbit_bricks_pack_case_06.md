@@ -27,7 +27,7 @@
 ---
 
 
-![](./images/Ringbit_Bricks_Pack_step_06_47.png)
+
 
 ![](./images/Ringbit_Bricks_Pack_step_06_00.png)
 
@@ -123,7 +123,7 @@
 
 ![](./images/Ringbit_Bricks_Pack_step_06_46.png)
 
-
+![](./images/Ringbit_Bricks_Pack_step_06_47.png)
 
 
 通过下面链接下载PDF文档即可获得详细的搭建步骤图
