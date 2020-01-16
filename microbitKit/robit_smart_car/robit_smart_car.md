@@ -40,34 +40,34 @@ robit smart car是基于micro:bit的一个智能小车,它的核心扩展板是r
 ## 底盘安装图纸
 ---
 ### 第一步：使用4颗M3*25沉头螺丝安装TT马达
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_02.JPG)
+![](./images/robit_smart_car_02.JPG)
 ### 第二步：将魔术贴的勾面粘在车架上
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_03.JPG)
+![](./images/robit_smart_car_03.JPG)
 ### 第三步：将4颗M4*6单通铜柱安装在Robit正面
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_04.JPG)
+![](./images/robit_smart_car_04.JPG)
 ### 第四步：在底盘上紧固四个M3×30单通铜管
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_05.JPG)
+![](./images/robit_smart_car_05.JPG)
 ### 第五步：用四个M3*5螺钉将Robit板固定到底盘上
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_06.JPG)
+![](./images/robit_smart_car_06.JPG)
 ### 第六步：用M4*5螺钉安装亚克力外板
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_07.JPG)
+![](./images/robit_smart_car_07.JPG)
 ### 第七步：使用2颗M4*10沉头螺丝安装万向轮和巡线模块 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_08.JPG)
+![](./images/robit_smart_car_08.JPG)
 ### 第八步：安装轮胎
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_09.JPG)
+![](./images/robit_smart_car_09.JPG)
 ### 第九步：在车头位置装上2颗M4*6+6单通铜柱
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_10.jpg)
+![](./images/robit_smart_car_10.jpg)
 ### 第十步：使用2颗M4*5螺丝安装超声波模块
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_11.JPG)
+![](./images/robit_smart_car_11.JPG)
 ### 第十一步：将魔术贴的毛面贴在电池上
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_12.JPG)
+![](./images/robit_smart_car_12.JPG)
 ### 第十二步：将电池粘在转接板上，插在主板上
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_01.JPG)
+![](./images/robit_smart_car_01.JPG)
 
 
 ### 成品示意图
 ---
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/robit_smart_car/images/robit_smart_car_01.JPG)
+![](./images/robit_smart_car_01.JPG)
 
 ## 示例代码
 点击  **“Add Package”**，输入 **“robit”** 点击搜索，添加robit的软件包
