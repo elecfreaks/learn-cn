@@ -1,13 +1,13 @@
-# 案例07：石头剪刀布
+# 案例07：无线通信
 
 ## 目的
 ---
-- 使用smart coding kit手表套件完成石头剪刀布。
+- 使用smart coding kit手表套件实现发送信号功能。
 
 ## 使用材料
 ---
 
-- 1 x smart coding kit 手表套件
+- 2 x smart coding kit 手表套件
 
 ![](./images/smart_coding_kit_case_07_01.png)
 
@@ -19,35 +19,43 @@
 ## 编程
 ---
 ### 步骤 1
-- 当开机时将变量‘i’和变量‘k’设置为0，显示开机图案
+- 发送端
+- 当开机时显示开机图案
 - 设置无线设置组
-- 当按键‘A’、‘B’或者‘A+B’被按下时，将变量‘k’设置为相应数字，无线发送变量‘k’的值，并显示相应图案
-- 当无线接收到数据时，将数据存入变量`i`
+- 当按钮`A`被按下时无线发送数字1
+- 当按钮`B`被按下时无线发送数字2
 ![](./images/smart_coding_kit_case_07_02.png)
 
 ### 步骤 2
-- 在无限循环中，判断‘i’和‘k’的值，如果都不等于0，则两名玩家都已经出拳
-- 通过对比变量‘i’和变量‘k’的值来判断胜负
-- 将变量‘i’和变量‘k’的值设为0，为下次游戏做好准备
-
+- 接收端
+- 当开机时显示开机图案
+- 设置无线设置组
+- 将接收到的数字存入变量`i`
+- 判断变量`i`的值，并显示相应图标
 ![](./images/smart_coding_kit_case_07_03.png)
 
 
 
 
 ### 程序
-- 请参考程序连接：[https://makecode.microbit.org/_0HpEjy3Dj8vY](https://makecode.microbit.org/_0HpEjy3Dj8vY)
-
+- 发送端
+- 请参考程序连接：[https://makecode.microbit.org/_ix81uXcAULqW](https://makecode.microbit.org/_ix81uXcAULqW)
 - 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_0HpEjy3Dj8vY" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ix81uXcAULqW" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
+- 接收端
+- 请参考程序连接：[https://makecode.microbit.org/_WpqdARYUXWMj](https://makecode.microbit.org/_WpqdARYUXWMj)
+- 你也可以通过以下网页直接下载程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_WpqdARYUXWMj" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 
 ## 结论
 ---
 
-通过按钮`A`和`B`选择出拳，在双方出拳后，自动显示两边胜负，赢家显示笑脸，输家显示哭脸。
+- 当发送端按下按钮`A`或者`B`时，接收端显示`√`或者`×`的图案。
 
 
 
