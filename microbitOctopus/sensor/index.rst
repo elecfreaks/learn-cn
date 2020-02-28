@@ -36,6 +36,7 @@
     octopus_ef04083.md
     octopus_ef04093.md
     octopus_ef04094.md
+    octopus_ef04092.md
     octopus_ef04095.md
     octopus_ef04097.md
     octopus_ef04100.md
