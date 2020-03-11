@@ -72,11 +72,11 @@ micro:bit屏幕是由一个5x5的LED点阵构成。它作为一个3x9的矩阵�
 ![](./images/XoTAOIf.png)
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_Cxo28oDKjLyY](https://makecode.microbit.org/_Cxo28oDKjLyY)
+请参考程序连接：[https://makecode.microbit.org/_70bWD0iuK6AT](https://makecode.microbit.org/_70bWD0iuK6AT)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Cxo28oDKjLyY" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_70bWD0iuK6AT" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ## 实验结果
