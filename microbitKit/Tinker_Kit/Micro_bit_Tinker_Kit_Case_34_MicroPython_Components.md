@@ -8,7 +8,7 @@
 - 掌握Micro：bit Tinker Kit
 - 下载Mu编辑器
 [https://codewith.mu/](https://codewith.mu/)
-- 在每个项目之前，写上“来自microbit import *”
+- 在每个项目之前，写上“from microbit import *”
 
 ## LED
 让LED连接到引脚0
