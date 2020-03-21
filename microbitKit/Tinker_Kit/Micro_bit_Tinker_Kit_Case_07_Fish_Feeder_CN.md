@@ -57,15 +57,15 @@
 
 ### 步骤 3 – 编程  
 
-![](./images/qLksxfG.jpg)
+![](./images/Tinker_Kit_case_07_01.png)
 
 点击代码抽屉中的Tinkercademy， 找到与我们套件对应的积木块。
 
-![](./images/6CUN5SW.jpg)
+![](./images/Tinker_Kit_case_07_02.png)
 
 你需要在开始的时候初始化OLED。64和128分别代表了OLED的长度和宽度。
 
-![](./images/gRJsbmX.jpg)
+![](./images/Tinker_Kit_case_07_03.png)
 
 因为这里只有2个条件，所以我们只需要一个“else-if”语句。
 如果ADKeypad上的按钮A被按下，舵机将会旋转至70度，OLED上将会显示“Loading food”（加载食物）。 
@@ -74,11 +74,11 @@
 
 如果你不想自己亲手编写代码，你可以通过下面这个链接下载程序的完整代码：
 
-[https://makecode.microbit.org/_3HJDazbma3H4](https://makecode.microbit.org/_3HJDazbma3H4)
+[https://makecode.microbit.org/_C2pEYUUbqEv9](https://makecode.microbit.org/_C2pEYUUbqEv9)
 
 或者，你可以从下面这个页面下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_3HJDazbma3H4" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_C2pEYUUbqEv9" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 ### 步骤 4 – 成功!  
