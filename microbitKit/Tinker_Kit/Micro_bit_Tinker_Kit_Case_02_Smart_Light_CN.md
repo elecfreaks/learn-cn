@@ -51,17 +51,17 @@
 
 ### 步骤 3: 编程
 
-![](./images/LXlAX9g.jpg)
+![](./images/Tinker_Kit_case_02_01.png)
 
 在MakeCode的代码抽屉中点击Tinkercademy，找到与我们套件元器件相关的积木块。
 
-![](./images/LzcSQ8M.jpg)
+![](./images/Tinker_Kit_case_02_02.png)
 
 在这个项目中，我们不需要初始化程序，而且这个程序的代码并不多。
 
 如果你不想自己动手编写这些代码的话，你可以从下面这个链接下载程序的完整代码：
 
-[https://makecode.microbit.org/_AiaJ4ogeHi5x](https://makecode.microbit.org/_AiaJ4ogeHi5x)
+[https://makecode.microbit.org/_aVz7L53wXiAm](https://makecode.microbit.org/_aVz7L53wXiAm)
 
 
 如果人体红外传感器检测到运动，LED灯就会亮起。如果没有任何物体运动，LED灯就会关闭。它的工作原理非常简单。
