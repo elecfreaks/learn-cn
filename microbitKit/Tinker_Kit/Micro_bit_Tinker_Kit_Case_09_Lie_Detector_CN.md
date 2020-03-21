@@ -61,27 +61,27 @@
 
 首先，用图片中所示的OLED选项初始化OLED模块。
 
-![](./images/bbcFqUI.jpg)
+![](./images/Tinker_Kit_case_09_01.png)
 
 这部分的代码可以测量并记录下一分钟内2个手指每秒钟的导电性。然后，它会计算出平均数。当测试者没有说谎时，这个被称为Calm（平静）数值。
 
-![](./images/6OclgGp.jpg)
+![](./images/Tinker_Kit_case_09_02.png)
 
 这部分的代码可以计算第一分钟获取的读数的标准偏差。标准偏差说明了这些读数是多么地不同。一个大的标准偏差意味着读数方面更多的不同。积木块“Math.sqrt”主要用于计算所给出的数值的平方根，它被添加到了Javascript里面。
 
-![](./images/ZyYmcUF.jpg)
+![](./images/Tinker_Kit_case_09_03.png)
 
 在最初的读数生成并记录之后，湿度传感器每5秒测量一次平均导电性。如果测量数据高于标准偏差的平均值，我们可以得出结论：测试者的皮肤导电性明显增强，因此他是在说谎。这时，LED屏幕上会显示一个“X”的形状。
 
-![](./images/PqIokgl.jpg)
+![](./images/Tinker_Kit_case_09_04.png)
 
 如果你不想自己编写代码，你也可以通过下面的页面下载完整的代码：
 
-[https://makecode.microbit.org/_fadAyyh27Eo3](https://makecode.microbit.org/_fadAyyh27Eo3)
+[https://makecode.microbit.org/_cqEU4EDfx4t5](https://makecode.microbit.org/_cqEU4EDfx4t5)
 
 或者，你也可以通过下面这个页面下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fadAyyh27Eo3" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_cqEU4EDfx4t5" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 ## 步骤4 - 使用
