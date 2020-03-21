@@ -59,15 +59,15 @@
 
 接下来，让我们一起来创建图中所示的一个条件语句。这个“if-then”积木块位于MakeCode代码抽屉中“logic”的项下。下面所示的代码的意思是：在ADKeypad被插入扩展板上的引脚P2的情况下，当我们按下ADKeypad上的A按钮，蜂鸣器将会发出175赫兹的声音。
 
-![](./images/flXdhMM.png)
+![](./images/Tinker_Kit_case_01_01.png)
  
 因为ADKeypad上有5个按钮，所以我们需要编辑5个类似的条件语句。每个按钮控制一种指定的音调。因此按下不同的按钮，我们就能得到不同音调的音乐。
 
-![](./images/vHKhOqU.png)
+![](./images/Tinker_Kit_case_01_02.png)
 
 如果你不想自己动手编写这些代码的话，你可以从下面这个链接下载程序的完整代码：
 
-[https://makecode.microbit.org/_Howa1ie6KLyM](https://makecode.microbit.org/_Howa1ie6KLyM)
+[https://makecode.microbit.org/_6X9eUi2pPLRc](https://makecode.microbit.org/_6X9eUi2pPLRc)
 
 终于完成啦!现在你已经拥有了一个属于你的micro:bit音乐播放器了哦！
 
