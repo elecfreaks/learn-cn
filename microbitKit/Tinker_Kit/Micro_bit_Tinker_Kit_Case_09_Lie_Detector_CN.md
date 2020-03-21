@@ -77,11 +77,11 @@
 
 如果你不想自己编写代码，你也可以通过下面的页面下载完整的代码：
 
-[https://makecode.microbit.org/_cqEU4EDfx4t5](https://makecode.microbit.org/_cqEU4EDfx4t5)
+[https://makecode.microbit.org/_bqqVugfTfdz0](https://makecode.microbit.org/_bqqVugfTfdz0)
 
 或者，你也可以通过下面这个页面下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_cqEU4EDfx4t5" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_bqqVugfTfdz0" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 ## 步骤4 - 使用
