@@ -66,26 +66,26 @@
 
 ### 步骤 3 – 编程  
 
-![](./images/yVtxeb2.jpg)
+![](./images/Tinker_Kit_case_04_01.png)
 
 接下来，使用Tinkercademy项下的积木块来初始化OLED和碰撞传感器。如上图所示。
 
-![](./images/z6Gzehg.jpg)
+![](./images/Tinker_Kit_case_04_02.png)
 
 这个部分的代码可以使红色的LED灯持续闪烁。你可以通过改变暂停的间隔时间来调整LED灯闪烁的速度。
 
-![](./images/6avB2r8.jpg)
+![](./images/Tinker_Kit_case_04_01.png)
 
 因为这里只有2个条件，所以我们只需要一个“else-if”语句。当碰撞传感器上被按下，绿色的LED将被点亮。否则，红色的LED灯将会持续闪烁。
 
 
 如果你不想自己动手编写这些代码的话，你可以从下面这个链接下载程序的完整代码：
 
-[https://makecode.microbit.org/_D0fdJYc3dFmi](https://makecode.microbit.org/_D0fdJYc3dFmi)
+[https://makecode.microbit.org/_RxH3Ex9j8UJE](https://makecode.microbit.org/_RxH3Ex9j8UJE)
 
 或者，你也可以从下面这个页面下载代码：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_D0fdJYc3dFmi" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_RxH3Ex9j8UJE" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 ### 步骤 4 – 成功!  
