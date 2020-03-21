@@ -62,26 +62,26 @@
 
 ### 步骤 3 – 编程  
 
-![](./images/OKjXb0c.jpg)
+![](./images/Tinker_Kit_case_06_01.png)
 
 点击代码抽屉中的Tinkercademy, 找到与我们元器件相应的积木块。
 
-![](./images/UwHfSVv.jpg)
+![](./images/Tinker_Kit_case_06_02.png)
 
-你应该在开始的时候初始化OLED。64和128分别代表了OLED的高度和宽度。
+你应该在开始的时候初始化OLED。64和128分别代表了OLED的高度和宽度。并初始化碰撞传感器。
 
-![](./images/GIhLCLU.jpg)
+![](./images/Tinker_Kit_case_06_03.png)
 
 因为这里只有两个条件，所以我们只需要一个“else-if”语句。
 当碰撞传感器被触发，蜂鸣器响起，OLED屏幕上将会显示“Intruder Detected”（检测到入侵）。否则，蜂鸣器不会响起，OLED屏幕上显示“The house is safe”（房屋处于安全状态）。
 
 如果你不想自己亲手编写代码，你可以从下面这个链接直接下载程序的完整代码：
 
-[https://makecode.microbit.org/_A0zFxqMPMXbo](https://makecode.microbit.org/_A0zFxqMPMXbo)
+[https://makecode.microbit.org/_ai5LH0M6AioX](https://makecode.microbit.org/_ai5LH0M6AioX)
 
 或者，你也可以从下面这个页面下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_A0zFxqMPMXbo" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ai5LH0M6AioX" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 ### 步骤 4 – 成功!  
