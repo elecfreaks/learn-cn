@@ -60,7 +60,7 @@
 
 点击代码抽屉中的Tinkercademy，找到与我们套件元件相对应的积木块。
 
-![](./images/WC0lzLU.png)
+![](./images/Tinker_Kit_case_08_01.png)
 
 在这个项目中，我们将用blocks（积木块）读取湿度传感器和运动传感器的数值。 
 
@@ -68,29 +68,29 @@
 ### 步骤 4  
 在这一步，我们将使用Block（积木块）编辑器给micro:bit编程。首先，我们需要设置开机显示。如下图所示，将**Show Icon**（显示图标）的积木块放在**On Start**（启动）积木块下方。每次micro:bit开机启动，这个图标就会显示在micro:bit屏幕上。
 
-![](./images/NFbqCkL.png)
+![](./images/Tinker_Kit_case_08_02.png)
 
 
 ### 步骤 5  
 接下来，让我们用湿度传感器的值来创建一些音乐。选择Music代码区域下方的**Play Tone**（播放音调）这个积木块，并将积木块**value of Moisture Sensor**（湿度传感器的数值）放入其中。如下图所示，我们将传感器的数值乘以不同的数字来调节音高。
 
-![](./images/DfFWFin.png)
+![](./images/Tinker_Kit_case_08_03.png)
 
 
 ### 步骤 6
 最后，当运动传感器检测到运动时，蜂鸣器就会响起。如果没有物体运动，micro:bit屏幕上就只会显示一个图标。
 这可以通过一个if-then-else的条件语句来实现。如下图所示，在合适的地方插入相应的代码块。
 
-![](./images/fbTZLgN.png)
+![](./images/Tinker_Kit_case_08_04.png)
 
 
 如果你不想自己亲手编写代码，你可以通过下面这个链接下载程序的完整代码：
 
-[https://makecode.microbit.org/_8xYPibiLdeYR](https://makecode.microbit.org/_8xYPibiLdeYR)
+[https://makecode.microbit.org/_fuPDcb1VhJCW](https://makecode.microbit.org/_fuPDcb1VhJCW)
 
 或者，你可以从下面这个页面下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_8xYPibiLdeYR" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fuPDcb1VhJCW" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 现在将这些代码下载到你的micro:bit来试一试吧！
 成功！现在你已经有了一个属于你的micro:bit运动检测装置了哦！
