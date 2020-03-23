@@ -31,7 +31,7 @@
 - 在input中拖出一个on shake积木块，在其中插入随机选取0-5之间的数赋值给`num`变量，用于随机投掷骰子。
 - 之后插入判断积木块`if`和`else if`当随机数为`0`时，显示一个点，以此类推。
 
-![](./images/o0VecJj.png)
+![](./images/watch_kit_case_02_01.png)
 
 
 
