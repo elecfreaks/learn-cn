@@ -34,7 +34,7 @@
 
 - 当开机时需要将P1口设置一个上拉，以初始化按键模块。
 
-![](./images/pixzSbA.png)
+![](./images/basic_kit_case_01_01.png)
 
 ### 步骤 2
 
@@ -42,14 +42,14 @@
 - 判断如果`button`变量等于 1 ，意为按键按下，延时消抖。
 - 判断`light`灯开关变量，如果`light`变量为 0 ，意为灯灭，则把`light`变量设为 1 ，如果不是，设置为0。
 
-![](./images/TbOZTKM.png)
+![](./images/basic_kit_case_01_02.png)
 
 ### 步骤 3
 
 - 判断`light`灯开关变量，如果为 1，开灯，则以模拟数字方式读取P0口，即电位器的返回值，同时以模拟写入方式直接写入到P2口，即作为LED模块的参数。
 - 如果`light`等开关变量不为 1 ，则意为关灯，向P2口模拟写入 0 ，关闭LED。
 
-![](./images/0ivAACf.png)
+![](./images/basic_kit_case_01_03.png)
 
 ### 程序
 
