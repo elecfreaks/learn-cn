@@ -44,13 +44,13 @@
 - 当开机时显示一个图标，设置变量`item`作为要发送的数据变量，变量`flag`作为字符串长度控制变量。
 - 并且设置无线发送组为50。
 
-![](./images/9bHMIMQ.png)
+![](./images/basic_kit_case_02_01.png)
 
 ### 步骤 2
 
 - 判断flag变量(字符串长度)是否等于4，(本案例只取莫斯密码的英文，故长度最多4位)，如果等于4，显示字符A，提示用户。
 
-![](./images/Erks47F.png)
+![](./images/basic_kit_case_02_02.png)
 
 ### 步骤 3
 
@@ -58,13 +58,13 @@
 
 - 当按钮D按下时，与C按钮同理，区别是显示一个横，代表莫尔斯电码中的横，向字符串末尾写入“1”
 
-![](./images/yjuFlPG.png)
+![](./images/basic_kit_case_02_03.png)
 
 ### 步骤 4
 
 - 当按下A按钮时，显示字符串，发送字符串，同时清空变量`item`和`flag`，初始化程序。
 
-![](./images/Y62aRmo.png)
+![](./images/basic_kit_case_02_04.png)
 
 ### 程序
 
