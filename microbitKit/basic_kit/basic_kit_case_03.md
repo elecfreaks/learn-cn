@@ -39,7 +39,7 @@
 - 当变量`itmmm`小于80，意为B按钮按下。当B按钮按下，调用函数`func_B`调用结束后将变量`flag`(函数内部循环判断变量)设置为0。
 - 当变量`itmmm`小于130，意为C按钮按下。当C按钮按下，调用函数`func_C`。
 
-![](./images/2lRCpIO.png)
+![](./images/basic_kit_case_03_01.png)
 
 ### 步骤 2
 
@@ -48,7 +48,7 @@
 - `func_C`函数，清空屏幕，调用结束。
 
 
-![](./images/HpH2rIY.png)
+![](./images/basic_kit_case_03_02.png)
 
 ### 程序
 
