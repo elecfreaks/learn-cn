@@ -56,14 +56,14 @@
 
 - 在Basic中拖出一个on start积木块，在其中插入calibrate compass积木块。用于初始化指南针模块。
 
-![](./images/3dkZNmi.png)
+![](./images/watch_kit_case_01_01.png)
 
 ### 步骤 3
 - 在forever 积木块中插入，将变量设置为指南针返回参数。
 - 因为返回值范围为0-360，在灯环上有8个灯，所以将360等分为8份，北方向的范围为337到22，逐级递增。
 - 当指向北方时，5号灯亮，主板同时发声提示。
 
-![](./images/p2jYTw8.png)
+![](./images/watch_kit_case_01_02.png)
 
 ### 程序
 - 请参考程序连接：[https://makecode.microbit.org/_cj1EUmFJH6At](https://makecode.microbit.org/_cj1EUmFJH6At)
