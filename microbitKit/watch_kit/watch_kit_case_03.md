@@ -30,14 +30,14 @@
 
 - 启动上电时将功能标签`flag`初始化为0，当按下按钮A时，功能标签设置为1，以进入功能。
 
-![](./images/HaGGibi.png)
+![](./images/watch_kit_case_03_01.png)
 
 ### 步骤 2
 
 - 设置一个永久循环，显示一个心，当功能标签为1时，进入功能，获取温度赋值给变量`Tem`。
 - 如果温度`Tem`变量大于30(度)，显示一个伤心脸，提示So Hot，显示温度。延时0.5s。
 
-![](./images/HzZW19S.png)
+![](./images/watch_kit_case_03_02.png)
 
 ### 步骤3
 
@@ -45,7 +45,7 @@
 - 如果温度在这两者之间，显示一个笑脸，显示温度，延时0.5s。
 - 将功能标签`flag`设置为 0 退出功能。
 
-![](./images/C3eAQ3I.png)
+![](./images/watch_kit_case_03_03.png)
 
 
 
