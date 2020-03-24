@@ -35,28 +35,35 @@
 ### 步骤 1
 
 - 设置一个永久循环，以模拟数字方式读取P0口，将返回值赋值给`itmmm`变量，用于判断哪个键按下。
-- 当变量`itmmm`小于10，意为A按钮按下。当A按钮按下，调用函数`func_A`调用结束后将变量`flag`(函数内部循环判断变量)设置为0。
-- 当变量`itmmm`小于80，意为B按钮按下。当B按钮按下，调用函数`func_B`调用结束后将变量`flag`(函数内部循环判断变量)设置为0。
-- 当变量`itmmm`小于130，意为C按钮按下。当C按钮按下，调用函数`func_C`。
-
+- 当变量`itmmm`小于10，意为A按钮按下。当A按钮按下，将`item`变量赋值为1。
+- 当变量`itmmm`小于80，意为B按钮按下。当B按钮按下，将`item`变量赋值为2。
+- 当变量`itmmm`小于130，意为C按钮按下。当C按钮按下，将`item`变量赋值为3。
+- 当变量`itmmm`小于160，意为D按钮按下。当D按钮按下，将`item`变量赋值为4。
 ![](./images/basic_kit_case_03_01.png)
 
 ### 步骤 2
 
-- `func_A`函数：当`flag`变量大于600，(也就是没有按下按钮)读取P1口并且描绘在点阵显示屏上。读取P0口按键状态，当按下E按钮，循环结束，函数调用结束。
-- `func_B`函数：当`flag`变量大于600，(也就是没有按下按钮)显示一颗闪烁的心，每闪烁一次后，读取P0口按键状态，当按下E按钮，循环结束，函数调用结束。
+- 当`item`变量的值等于1，则调用函数`func_A`。
+- 当`item`变量的值等于2，则调用函数`func_B`。
+- 当`item`变量的值等于3，则调用函数`func_C`。
+- 否则显示房子图标。
+![](./images/basic_kit_case_03_02.png)
+
+### 步骤 2
+
+- `func_A`函数：读取P1口并且描绘在点阵显示屏上，函数调用结束。
+- `func_B`函数：显示一颗闪烁的心，函数调用结束。
 - `func_C`函数，清空屏幕，调用结束。
 
-
-![](./images/basic_kit_case_03_02.png)
+![](./images/basic_kit_case_03_03.png)
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_cuufKuP6FARo](https://makecode.microbit.org/_cuufKuP6FARo)
+请参考程序连接：[https://makecode.microbit.org/_b9X2T9TpiWAD](https://makecode.microbit.org/_b9X2T9TpiWAD)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_cuufKuP6FARo" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_b9X2T9TpiWAD" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 
