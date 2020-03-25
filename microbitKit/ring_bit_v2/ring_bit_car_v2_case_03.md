@@ -38,21 +38,22 @@
 
 - 在On start积木块中插入设置左右轮舵机连接口积木块。
 - 端口号以实际舵机连接端口为准。
-![](./images/igG5TVD.png)
+
+![](./images/ring_bit_car_v2_case_03_01.png)
 
 ### 步骤 3
 
 - 在`on button A pressed`(当按钮A按下时)积木块中插入`set left wheel speed()right wheel speed()`(设置左右轮速度)积木块。
 - 将左轮速度设置为100，右轮速度设置为50。
 
-![](./images/Mnakk7a.png)
+![](./images/ring_bit_car_v2_case_03_02.png)
 
 
 ### 步骤 4
 
 - 在`on button B pressed`(当按钮B按下时)积木块中插入`brake`(停车)积木块。
 
-![](./images/4UStidJ.png)
+![](./images/ring_bit_car_v2_case_03_03.png)
 
 
 ### 程序
