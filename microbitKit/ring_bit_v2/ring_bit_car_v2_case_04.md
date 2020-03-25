@@ -41,7 +41,7 @@
 - 全速向前行驶。
 - 设置连接到`P0`口的`2`颗Rainbow LED为`RGB`色彩。
 
-![](./images/J7eFoDN.png)
+![](./images/ring_bit_car_v2_case_04_01.png)
 
 ### 步骤 3
 
@@ -51,7 +51,7 @@
 - `show color blue`(显示红色)积木块。
 - `pause(ms) 100`(暂停100ms)积木块
 
-![](./images/CqsUljq.png)
+![](./images/ring_bit_car_v2_case_04_02.png)
 
 
 ### 程序
