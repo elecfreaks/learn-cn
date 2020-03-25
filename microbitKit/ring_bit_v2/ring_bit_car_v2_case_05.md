@@ -34,21 +34,21 @@
 
 - 在`On start`积木块中插入设置左右轮舵机连接口积木块。
 - 端口号以实际舵机连接端口为准。
-![](./images/igG5TVD.png)
+![](./images/ring_bit_car_v2_case_05_01.png)
 
 ### 步骤 3
 - 在`forever`(永久循环)积木块中插入。
 - 设置一个`left`变量和一个`right`变量。
 - 随机生成一个数字赋值给`left`变量和`right`变量。
 
-![](./images/2PPYJ0T.png)
+![](./images/ring_bit_car_v2_case_05_02.png)
 
 ### 步骤 4
 
 - 再插入设置左右轮速度为左右变量的积木块。
 - 暂停1秒。
 
-![](./images/HSujBjF.png)
+![](./images/ring_bit_car_v2_case_05_03.png)
 
 
 ### 程序
