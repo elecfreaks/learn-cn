@@ -34,7 +34,7 @@
 
 - 在On start积木块中插入设置左右轮舵机连接口积木块。
 - 端口号以实际舵机连接端口为准。
-![](./images/igG5TVD.png)
+![](./images/ring_bit_car_v2_case_02_01.png)
 
 ### 步骤 3
 
@@ -44,7 +44,7 @@
 - `turn right at full speed`(全速向右转)积木块
 - `pause`(暂停)积木块
 
-![](./images/FRnGCpw.png)
+![](./images/ring_bit_car_v2_case_02_02.png)
 
 
 ### 程序
