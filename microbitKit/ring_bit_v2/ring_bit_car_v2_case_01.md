@@ -35,20 +35,20 @@
 
 - 在`On start`(开始)积木块中插入设置左右轮舵机连接口积木块。
 - 端口号以实际舵机连接端口为准。
-![](./images/igG5TVD.png)
+![](./images/ring_bit_car_v2_case_01_01.png)
 
 ### 步骤 3
 
 - 在`on button A pressed`(当按钮A按下时)积木块中插入`go straight at full speed`(全速前进)积木块。
 
-![](./images/Wyo2R9B.png)
+![](./images/ring_bit_car_v2_case_01_02.png)
 
 
 ### 步骤 4
 
 - 在`on button B pressed`(当按钮B按下时)积木块中插入`reverse at full speed`(全速倒退)积木块。
 
-![](./images/jHFkpm1.png)
+![](./images/ring_bit_car_v2_case_01_03.png)
 
 ### 程序
 
