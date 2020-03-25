@@ -40,12 +40,14 @@
 - 从Basic中拖出一个`on start`积木块，为了让小车更加炫酷，调用小车的ranbowled发出渐变的彩色光芒，从Neopixel函数库中加入控制彩虹灯的set函数，设置彩虹灯的变化值为1-360。
 然后初始化ring:bit扩展板的P1，P2口分别对应小车左右轮胎。
 
-!![](./images/ring_bit_car_v2_case_07_01.png)
+
+![](./images/ring_bit_car_v2_case_07_01.png)
 
 ### 步骤 3
 ---
 - 在variables函数库中设置一个名为state的变量，用来控制小车的运行状态。
 然后从input函数库中，拖入和micro:bit状态有关的6种触发状态，当logo up触发时设置state变量为真值，其他的5种状态触发时都设置为假值。
+
 ![](./images/ring_bit_car_v2_case_07_02.png)
 
 ### 步骤 4
@@ -53,6 +55,7 @@
 - 在`forever`循环中设置彩虹灯发出七彩灯光，设置灯光颜色渐变。
 根据state的值，控制小车的运行，当小车的车身状态为正常状态时，设置小车以随机方式运动。
 当车身状态为翻转状态时，停止小车运行。
+
 
 
 ![](./images/ring_bit_car_v2_case_07_03.png)
