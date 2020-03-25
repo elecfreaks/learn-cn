@@ -38,14 +38,14 @@
 ---
 - 从Basic中拖出一个`on start`积木块，初始化ring:bit扩展板的P1，P2口分别对应小车左右轮胎。
 
-![](./images/RFccHpJ.png)
+![](./images/ring_bit_car_v2_case_08_01.png)
 
 ### 步骤 3
 ---
 - 从input函数库中，拖入获取光线强度的函数`light level`，当强度大于设定的界定值，小车径直朝光源处行驶。
 - 当不强度值不足的时候，小车在原地旋转，寻找光源。
 
-![](./images/i1lAR3X.png)
+![](./images/ring_bit_car_v2_case_08_02.png)
 
 
 
