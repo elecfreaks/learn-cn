@@ -63,13 +63,13 @@
 - 右检测头同理。
 - 当两个检测头均检测到黑线，以100的速度向前行驶。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_line_08.png)
+![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_car_v2_line_flow_module.png)
 
- 程序代码链接：[https://makecode.microbit.org/_Tsp78xP5yPu2](https://makecode.microbit.org/_Tsp78xP5yPu2)
+ 程序代码链接：[https://makecode.microbit.org/_fX4X18EsYFte](https://makecode.microbit.org/_fX4X18EsYFte)
 
  你也能通过下列窗口直接下载代码：
 
- <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Tsp78xP5yPu2" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+ <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fX4X18EsYFte" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果
 ---
