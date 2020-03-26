@@ -148,10 +148,10 @@ i1 + i2 = a 。
 这个游戏的制作到此就结束了。你现在已经正式完成了这篇教学博客的学习了哦！
 
 你可以在此下载程序的完整代码：
-https://makecode.microbit.org/_ThdfipEwFbWs
+https://makecode.microbit.org/_WYi813PuKTAR
 
 或者通过下面这个页面来下载代码：
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ThdfipEwFbWs 
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_WYi813PuKTAR 
 
 " frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
