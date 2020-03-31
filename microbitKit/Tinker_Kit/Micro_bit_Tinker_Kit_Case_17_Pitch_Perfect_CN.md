@@ -51,7 +51,7 @@
 
 ### 步骤 3:
 
-![](./images/ZGzxDCO.png)
+![](./images/Tinker_Kit_case_17_01.png)
 
 首先，你需要初始化OLED屏幕，使它的高度为64，宽度为128.这样你就可以使屏幕以合适的尺寸显示。 
 
@@ -62,7 +62,7 @@
 
 ### 步骤 4：
 
-![](./images/WmBJnOV.png)
+![](./images/Tinker_Kit_case_17_02.png)
 
 因为在步骤3里面，我们写了“press A to start”（按下A键开始游戏）。我们需要给它写一个条件。条件基本上指的是程序的一个要求，用来要求程序开始加载它的指令。因此，一个按钮A被按下的if-else语句就足够了。此外，它将会嵌套在一个forever的积木块中。
 
@@ -77,7 +77,7 @@
 
 如果你想知道：为什么初始化OLED显示和显示字符串的积木块会重复显示？ 这是因为它可能是在网页浏览器中模拟了一次刷新。如果你不初始化显示，文字可能会被带到下方，而不是生成新的文字。
 
-![](./images/8abBXgw.png)
+![](./images/Tinker_Kit_case_17_03.png)
 
 
 ### 步骤 6：
@@ -92,8 +92,7 @@
 
 重复这个步骤，你就可以玩很多测试题哦！
 
-![](./images/CqWtEwD.png)
-![](./images/jl3ogKg.png)
+![](./images/Tinker_Kit_case_17_04.png)
 
 
 ### 步骤 7:
@@ -102,15 +101,15 @@
 
 现在你的游戏已经做好了哦！尽情地享受这个游戏带来的乐趣吧！
 
-![](./images/a4LAQac.png)
+![](./images/Tinker_Kit_case_17_05.png)
 
 你可以点击下面的链接来查看完整的程序代码：
 
-[https://makecode.microbit.org/_A26fCxRz1P1g](https://makecode.microbit.org/_A26fCxRz1P1g)
+[https://makecode.microbit.org/_T8rMWcdT3gP8](https://makecode.microbit.org/_T8rMWcdT3gP8)
 
 或者你也可以通过下面这个页面下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_A26fCxRz1P1g" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_T8rMWcdT3gP8" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 ## 常见问题
