@@ -151,7 +151,7 @@ i1 + i2 = a 。
 [https://makecode.microbit.org/_J4mgYDXATAxY](https://makecode.microbit.org/_J4mgYDXATAxY)
 
 或者通过下面这个页面来下载代码：
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_WYi813PuKTAR " frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub_J4mgYDXATAxY" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 
 ## 常见问题
