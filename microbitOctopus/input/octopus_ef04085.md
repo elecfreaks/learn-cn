@@ -38,7 +38,7 @@ SKU|EF04085
 ![](./images/04085.png)
 
 ### 软件编程
-打卡[Makecode在线编辑器](https://makecode.microbit.org/)，编写代码，使电位器控制micro:bit主板LED点阵灯的变化。
+打开[Makecode在线编辑器](https://makecode.microbit.org/)，编写代码，使电位器控制micro:bit主板LED点阵灯的变化。
 
 程序代码链接：[https://makecode.microbit.org/_8FFaqMHP34Vj](https://makecode.microbit.org/_8FFaqMHP34Vj)
 
