@@ -40,15 +40,14 @@
 
 ![](./images/jgTG7i6.jpg)
 
-打开Microsoft MakeCode的编程界面，找到代码抽屉中的Advanced（高级选项）。
-点击Advanced（高级选项）来查看更多代码选项。我们需要添加一个代码库来方便我们使用我们的套件。
-在代码抽屉底部找到“Add Package”（添加代码库），并点击它。
+我们需要添加代码库来方便我们使用准备好的元器件。点击代码抽屉中的"高级"，查看更多的代码选项，并在下拉菜单底部点击"扩展"。
 
-![](./images/FOHSrAx.png)
+![](./images/R5lx5Np.jpg)
 
-这时会弹出一个对话框。在对话框中搜索“tinker kit”，然后点击下方出现的“tinkercademy-tinker-kit”来下载这个代码库。
+此时，将弹出一个对话框。在对话框中搜索“tinker kit”， 然后点击下载这个代码库。
 
-![](./images/G2nV10d.png)
+![](./images/pduH11r.png)
+
 
 点击代码抽屉中的Tinkercademy类目，找到适合我们套件的积木块。
 
