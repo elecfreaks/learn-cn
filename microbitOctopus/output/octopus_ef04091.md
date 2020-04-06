@@ -40,13 +40,13 @@ SKU|EF04091
 ![](./images/AGdJhsV.png)
 
 ### 软件编程  
-打开microcode,在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+打开microcode,在MakeCode的代码抽屉中点击“高级"，查看更多代码选项。
 
-![](./images/LjMR5IU.png)
+![](./images/04098_01.png)
 
-为了给该模块编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“neopixel"，然后点击下载这个代码库,下图红色箭头所指为代码库。
+为了给该模块编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“neopixel"，然后点击下载这个代码库,下图红色箭头所指为代码库。
 
-![](./images/meteyoR.png)
+![](./images/04098_02.png)
 
 
 ### 参考程序
