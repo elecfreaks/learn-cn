@@ -30,7 +30,7 @@ SKU|EF04063
 ***以octupus：bit为例***
 
 ![](./images/iXIOMNJ.jpg)
-### 添加Package
+
 
 ### 如图所示编写程序
 向P0引脚中每隔一秒钟写入1或0
