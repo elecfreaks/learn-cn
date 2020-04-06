@@ -39,30 +39,26 @@
 
 - [点击打开微软makecode在线积木块编程https://makecode.microbit.org/#](https://makecode.microbit.org/#)
 
-- 点击New Project按钮，新建一个项目。
+- 点击"高级"查看更多代码选项，并在底部找到"扩展"。
 
-![](./images/t34k5Zb.png)
-
-- 点击Advanced(高级)查看更多代码选项，并在底部找到Extensions(扩展代码库)。
-
-![](./images/Zg0fO6x.png)
+![](./images/04098_01.png)
 
 - 搜索neopixel，添加neopixel代码库。
 
-![](./images/pqB776X.png)
+![](./images/04098_02.png)
 
 #### 步骤 2
 
-- 从neopixel函数库中拖出 set strip to neopixel at pin with leds as 积木块加入start中，设置引脚为P0，灯珠数为6，使用rgb模式。
+- 从neopixel函数库中拖出 set strip to neopixel at pin with leds as 积木块加入'当开机时'中，设置引脚为P0，灯珠数为6，使用rgb模式。
 
-![](./images/qCgKGXD.png)
+![](./images/03420_01.png)
 
 #### 步骤 3
 
-- 从neopixel函数库中拖出strip rotate 积木块加入到forever循环中，将参数设置为1，设置为灯珠一个一个改变颜色。
+- 从neopixel函数库中拖出strip rotate 积木块加入到'无限循环'中，将参数设置为1，设置为灯珠一个一个改变颜色。
 - 再拖出一个strip show积木块，用于使圣诞树发出七彩光芒。
 
-![](./images/LMHM9JS.png)
+![](./images/03420_02.png)
 
 ### 程序
 
