@@ -43,7 +43,7 @@ SKU|EF04030
 ### 添加Package
 
 ### 如图所示编写程序
-![](./images/AAzv9pn.png)
+![](./images/04030_01.png)
 
 ### 参考程序
 
