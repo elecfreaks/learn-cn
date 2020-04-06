@@ -40,7 +40,7 @@ SKU|EF04091
 ![](./images/AGdJhsV.png)
 
 ### 软件编程  
-打开microcode,在MakeCode的代码抽屉中点击“高级"，查看更多代码选项。
+打开makecode,在MakeCode的代码抽屉中点击“高级"，查看更多代码选项。
 
 ![](./images/04098_01.png)
 
