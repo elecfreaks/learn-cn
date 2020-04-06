@@ -58,11 +58,11 @@ SKU|EF03418
 ![](./images/yWAKyvO.jpg)
 
 ### 添加Package
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
- ![](./images/smtcNoB.png)
+ ![](./images/04098_01.png)
 
-- 点击“Extensions”，在弹出的对话框中搜索"https://github.com/elecfreaks/pxt-Matrix-8x16
+- 点击“扩展”，在弹出的对话框中搜索"https://github.com/elecfreaks/pxt-Matrix-8x16
 "，下载8*16点阵代码库。
  
 ![](./images/03418.png)
