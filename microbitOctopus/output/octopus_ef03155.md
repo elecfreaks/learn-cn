@@ -48,19 +48,19 @@ OLED自发光|无背光
 ### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
- ![](./images/smtcNoB.png)
+ ![](./images/03155_01.png)
 
 - 点击“Extensions”，在弹出的对话框中搜索“oled"，下载oled-ssd1306代码库。
  
- ![](./images/25Cwyvf.png)
+ ![](./images/03155_02.png)
 
- ![](./images/XWFXKaU.png)
+ ![](./images/03155_03.png)
 
 ### 如图所示编写程序
 - 初始化OLED屏幕为64*128像素。
 - 显示一行字符:“elecfreaks”
 
- ![](./images/IK3ue9u.png)
+ ![](./images/03155_04.png)
 
 ### 参考程序
 ---
