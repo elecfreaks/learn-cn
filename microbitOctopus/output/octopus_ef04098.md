@@ -45,10 +45,11 @@
 ---
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
- ![](./images/smtcNoB.png)
+ ![](./images/04098_01.png)
 
 点击“Extensions”，在弹出的对话框中搜索“`neopixel`"，下载灯珠代码库。
 
+![](./images/04098_02.png)
 
 ### 如图所示编写程序
 ---
