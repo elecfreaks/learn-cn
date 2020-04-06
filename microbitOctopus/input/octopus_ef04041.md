@@ -39,7 +39,6 @@ SKU|04041
 
  ![](./images/04041-3.png)
 
-### 添加Package
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_2hr1UMdcp0uj](https://makecode.microbit.org/_2hr1UMdcp0uj)
