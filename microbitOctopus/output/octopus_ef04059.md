@@ -15,6 +15,7 @@ OCTOPUS Motor Brick是一种简单的电子积木式风扇电机驱动模块
 
 项目 | 参数 
 :-: | :-: 
+SKU|EF04059
 电源|3.3V-5V
 N-MOS| IRLML2502TRPBF具有高电流驱动能力
 低功率风扇电机|工作电流120mA
@@ -30,17 +31,18 @@ N-MOS| IRLML2502TRPBF具有高电流驱动能力
 ---
 ### 所需器材及连接示意图
 
+- 使用130带扇叶电机电子积木时，需要使用电池盒进行供电
 - 如图连接扩展板的P16口
 
 ***以octupus：bit为例***
 
  ![](./images/ZBTdQp1.png)
 
-### 添加Package
+
 ### 如图所示编写程序
 按A键向P16口写入1，按B键向P16口写入0
 
- ![](./images/3se7TBq.png)
+ ![](./images/04059_01.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_fUURco9Rj8mH](https://makecode.microbit.org/_fUURco9Rj8mH)
