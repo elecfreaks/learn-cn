@@ -35,11 +35,11 @@ SKU|EF04074
 
 ***以sensor:bit为例***
 ![](./images/opsGYQb.png)
-### 添加Package
+
 
 ### 如图所示编写程序
 
-![](./images/Ga95B0U.png)
+![](./images/04074_01.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_K3ydU0V389k2](https://makecode.microbit.org/_K3ydU0V389k2)
