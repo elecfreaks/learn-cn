@@ -40,7 +40,6 @@ SKU|EF04030
 
 ![](./images/r3NAMg8.png)
 
-### 添加Package
 
 ### 如图所示编写程序
 ![](./images/04030_01.png)
