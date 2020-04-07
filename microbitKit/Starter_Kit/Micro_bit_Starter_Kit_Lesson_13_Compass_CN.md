@@ -45,33 +45,32 @@
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
 
 ### 添加Package
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击`高级`，查看更多代码选项。
 
-![](./images/smtcNoB.png)
+![](./images/case_13_01.png)
 
-点击“Extensions”，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
+点击`扩展`，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
 
-![](./images/umQwUC2.png)
+![](./images/case_13_02.png)
 
 ### 如图所示编写程序
 
-![](./images/cO2ePSl.png)
+![](./images/case_13_03.png)
 
 ### 代码详解
 - 1.将P0口设置为灯环控制引脚，将它的色彩模式设置为RGB模式
 
-![](./images/ZOQqYle.png)
+![](./images/case_13_04.png)
 
 - 2.设置函数将第1颗灯珠与第5颗灯珠设置为红、蓝两种颜色
 
-![](./images/ZIFsp5w.png)
+![](./images/case_13_05.png)
 
 - 3.读取对应的指南针返回值，对应不同的数值，将点亮的灯珠进行改变
 
-![](./images/ZnswFuv.png)
+![](./images/case_13_06.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_7cmF18FJccok](https://makecode.microbit.org/_7cmF18FJccok)
