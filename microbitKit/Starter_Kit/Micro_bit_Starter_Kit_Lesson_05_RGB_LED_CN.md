@@ -50,19 +50,19 @@
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 添加Package
 - 无需添加
 
 ### 如图所示编写程序
 
-![](./images/iPoWv7j.png)
+![](./images/case_05_01.png)
 
 ### 代码详解
 - 1.当A按下时，设置R为1，G、B的值为0，同理，编写当B按下时，当A+B按下时的代码块。
 
-![](./images/mjt36BA.png)
+![](./images/case_05_02.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_Th3Vum76F4Tr](https://makecode.microbit.org/_Th3Vum76F4Tr)
