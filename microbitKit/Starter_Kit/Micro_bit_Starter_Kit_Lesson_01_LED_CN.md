@@ -69,7 +69,7 @@ LED是Light Emitting Diode（发光二极管）的缩写。这是一种半导体
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Starter_Kit/images/case_01_10.png)
+/*![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Starter_Kit/images/case_01_10.png)*/
 
 ### 如图所示编写程序
 
