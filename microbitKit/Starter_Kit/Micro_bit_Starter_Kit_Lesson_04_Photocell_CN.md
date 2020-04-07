@@ -47,20 +47,20 @@
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 如图所示编写程序
 
-![](./images/Hdxt7qd.png)
+![](./images/case_04_01.png)
 
 ### 代码详解
 - 1.在开机时，读取模拟电压作为亮度的参考值。
 
-![](./images/Oj48CCS.png)
+![](./images/case_04_02.png)
 
 - 2.在forever程序块中，循环扫描P0口的模拟电压。一旦当前电压值低于基准值减去2（表示光照强度变低，光敏电阻阻值下降），就说明已经关灯，此时显示一个爱心图标，calibrationVal-2用于调节感应灵敏度，数值越小灵敏度越高。
 
-![](./images/bd9M5tC.png)
+![](./images/case_04_03.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_3tFFoPhLF7hX](https://makecode.microbit.org/_3tFFoPhLF7hX)
