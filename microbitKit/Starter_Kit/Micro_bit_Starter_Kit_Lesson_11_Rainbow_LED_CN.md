@@ -53,30 +53,29 @@ LED具有低电压驱动，环保节能，亮度高，散射角度大，一致�
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
 
 ### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](./images/smtcNoB.png)
+![](./images/case_11_01.png)
 
 点击“Extensions”，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
 
-![](./images/umQwUC2.png)
+![](./images/case_11_02.png)
 
 
 ### 如图所示编写程序
 
-![](./images/z1YyT5w.png)
+![](./images/case_11_03.png)
 
 ### 代码详解
 - 1.将8颗led设置成RGB模式，将引脚设置为P0口。
 
-![](./images/fn6ojMc.png) 
+![](./images/case_11_04.png) 
 
 - 2.显示RGB颜色，设置颜色渐变。
 
-![](./images/3mxhY9h.png)
+![](./images/case_11_05.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_XdsavUFzaCyq](https://makecode.microbit.org/_XdsavUFzaCyq)
