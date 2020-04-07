@@ -52,11 +52,11 @@ micro:bit上集成了丰富的传感器，其中就包含了加速度计。在�
 
 
 ### 添加Package
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击`高级`，查看更多代码选项。
 
 ![](./images/case_12_01.png)
 
-点击“Extensions”，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
+点击`扩展`，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
 
 ![](./images/case_12_02.png)
 
