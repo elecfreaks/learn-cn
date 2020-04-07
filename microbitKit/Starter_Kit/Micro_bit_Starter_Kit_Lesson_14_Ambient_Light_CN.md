@@ -47,29 +47,29 @@ micro:bit屏幕是由一个5x5的LED点阵构成。它作为一个3x9的矩阵�
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 添加Package
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击`高级`，查看更多代码选项。
 
-![](./images/smtcNoB.png)
+![](./images/case_14_01.png)
 
-点击“Extensions”，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
+点击`扩展`，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
 
-![](./images/umQwUC2.png)
+![](./images/case_14_02.png)
 
 ### 如图所示编写程序
 
-![](./images/AZCjDfR.png)
+![](./images/case_14_03.png)
 
 ### 代码详解
 - 1.将扩展板P0口设置为灯环信号输出口，将色彩模式设置为RGB模式。
 
-![](./images/ZlZCHyZ.png)
+![](./images/case_14_04.png)
 
 - 2.当micro:bit接收到的光照强度低于10，控制灯环发出七彩的光芒。
 
-![](./images/XoTAOIf.png)
+![](./images/case_14_05.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_70bWD0iuK6AT](https://makecode.microbit.org/_70bWD0iuK6AT)
