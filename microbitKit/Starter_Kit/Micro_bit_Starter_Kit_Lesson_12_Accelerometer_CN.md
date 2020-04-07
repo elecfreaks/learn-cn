@@ -49,29 +49,29 @@ micro:bit上集成了丰富的传感器，其中就包含了加速度计。在�
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 添加Package
 - 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](./images/smtcNoB.png)
+![](./images/case_12_01.png)
 
 点击“Extensions”，在弹出的对话框中搜索“neopixel"，下载neopixel代码库。
 
-![](./images/umQwUC2.png)
+![](./images/case_12_02.png)
 
 ### 如图所示编写程序
 
-![](./images/bGPUFxy.png)
+![](./images/case_12_03.png)
 
 ### 代码详解
 - 将P0口设置为灯珠对应引脚，设置为RGB模式，将8颗灯珠全部点亮
 
-![](./images/NcVWUhr.png)
+![](./images/case_12_04.png)
 
 - 将灯珠点亮的颜色，设置为随加速度变化而变化的不同颜色
 
-![](./images/GBBTLVt.png)
+![](./images/case_12_05.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_0Y07f36Y77sa](https://makecode.microbit.org/_0Y07f36Y77sa)
