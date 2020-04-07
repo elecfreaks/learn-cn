@@ -73,20 +73,20 @@ micro:bit的IO口的驱动电流非常微弱的，不足以直接驱动电机。
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 如图所示编写程序
 
-![](./images/imGjxBm.png)
+![](./images/case_10_01.png)
 
 ### 代码详解
 - 1.将P0口写入数字信号1，将P1端口上拉至高电平，这样才能正常识别按钮信号
 
-![](./images/Qqjk2WB.png)
+![](./images/case_10_02.png)
 
 - 2.当按钮被按下，设置P0为1，放开时，设置为数字信号量0
 
-![](./images/lFdOZxr.png)
+![](./images/case_10_03.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_CAUDezEJrVtc](https://makecode.microbit.org/_CAUDezEJrVtc)
