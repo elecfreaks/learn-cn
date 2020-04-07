@@ -57,20 +57,20 @@
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 如图所示编写程序
 
-![](./images/SHgMhjZ.png)
+![](./images/case_02_01.png)
 
 ### 代码详解
-- 1.在on start 积木块中将P2口电位拉高。
+- 1.在 当开机时 积木块中将P2口电位拉高。
 
-![](./images/pS67VCj.png)
+![](./images/case_02_02.png)
 
 - 2.读取P2口的状态，判断按钮是否按下，当按钮被按下，将P0口写入数字信号0，关闭led，将P1口写入数字信号1，打开led，延迟500ms，将P0口写入数字信号1，打开led，将P1口写入数字信号0，关闭led，延迟500ms。
 
-![](./images/mpKfkU4.png)
+![](./images/case_02_03.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_T585WeYwVWtv](https://makecode.microbit.org/_T585WeYwVWtv)
