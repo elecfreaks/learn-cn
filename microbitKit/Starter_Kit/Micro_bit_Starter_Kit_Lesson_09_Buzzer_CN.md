@@ -69,16 +69,16 @@
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 如图所示编写程序
 
-![](./images/6bZq6wz.png)
+![](./images/case_09_01.png)
 
 ### 代码详解
 - 1.发出一个C音，持续100ms，同理，编写EGE的音符代码
 
-![](./images/PyomwJL.png)
+![](./images/case_09_02.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_DdPPjDCdmM1a](https://makecode.microbit.org/_DdPPjDCdmM1a)
