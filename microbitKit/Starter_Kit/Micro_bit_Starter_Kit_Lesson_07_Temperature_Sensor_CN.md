@@ -60,17 +60,16 @@ TMP36输出电压随温度变化的曲线是这样的：
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
 
 ### 如图所示编写程序
 
-![](./images/8kZxYpc.png)
+![](./images/case_07_01.png)
 
 ### 代码详解
 - 1.将P0通过传感器获取的数值，使用map函数，映射成0~1023之间的一个值，保存在voltage中
 - 2.将voltage中的值进行处理，转换成温度值，在点阵屏上面显示
 
-![](./images/8kZxYpc.png)
+![](./images/case_07_01.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_AKuYFoDsLJ7D](https://makecode.microbit.org/_AKuYFoDsLJ7D)
