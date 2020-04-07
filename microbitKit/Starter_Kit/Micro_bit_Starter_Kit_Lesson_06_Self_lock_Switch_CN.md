@@ -50,20 +50,20 @@
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 如图所示编写程序
 
-![](./images/bCNErri.png)
+![](./images/case_06_01.png)
 
 ### 代码详解
 - 1.对扩展板P0口设置事件监听，并将其设置为高电平
 
-![](./images/2jq655A.png)
+![](./images/case_06_02.png)
 
 - 2.设置事件触发入口，当自锁开关被按下，电位改变，点亮led，再按一次，电位再次改变，熄灭led。
 
-![](./images/TZcB7Jz.png)
+![](./images/case_06_03.png)
 
 ### 参考程序
 请参考程序连接：[https://makecode.microbit.org/_Dhy5i9KVeLAK](https://makecode.microbit.org/_Dhy5i9KVeLAK)
