@@ -50,18 +50,18 @@
 
 [微软Makecode在线编辑器:makecode.microbit.org](https://makecode.microbit.org/)
 
-![](./images/JHZUvh2.png)
+
 
 ### 如图所示编写程序
 
-![](./images/n3a7WcM.png)
+![](./images/case_08_01.png)
 
 ### 代码详解
 - 1.将P1口，以PWM输出方式，输出数字量0，延迟2s。
 - 2.将P1口，以PWM输出方式，输出数字量1，延迟2s。
 - 3.循环输出上述PWM信号。
 
-![](./images/n3a7WcM.png)
+![](./images/case_08_01.png)
 
 
 
