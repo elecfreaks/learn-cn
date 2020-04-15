@@ -39,7 +39,7 @@
 
 ![](./images/KLAlzb1.png)
 
-![](./images/9RqTylo.jpg)
+![](./images/Tinker_Kit_case_37_02.png)
 
 ### 步骤3 - 开始编码！
 写入Micro：bit代码 - 编码隐形的机器人
