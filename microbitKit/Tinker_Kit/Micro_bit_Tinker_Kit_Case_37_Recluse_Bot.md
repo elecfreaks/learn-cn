@@ -30,9 +30,9 @@
 ![](./images/SFxLcdg.jpg)
 
 ### 第2步 - 添加Tinker Kit包
-我们需要在代码编辑器中添加一个包，以便能够使用套件组件。单击micro:bit文本编辑器中的高级，您将看到一个显示添加包的部分。
+我们需要在代码编辑器中添加扩展库，以便能够使用套件组件。单击micro:bit文本编辑器中的高级，然后点击扩展。
 
-这将打开一个对话框。搜索Tinkercademy套件。单击搜索图标或按Enter键，然后选择tinkercademy-tinker-kit。
+这将打开一个对话框。搜索Tinker kit套件。单击搜索图标或按Enter键，然后选择tinkercademy-tinker-kit。
 
 这将增加两个库：  Tinkercademy，用于我们套件中的通用传感器，  OLED用于OLED模块（我们的高度为64，宽度为128）。
 我们在本教程中没有使用OLED模块，但您可以！
