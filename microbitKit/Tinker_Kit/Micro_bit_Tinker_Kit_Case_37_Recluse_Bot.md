@@ -37,7 +37,7 @@
 这将增加两个库：  Tinkercademy，用于我们套件中的通用传感器，  OLED用于OLED模块（我们的高度为64，宽度为128）。
 我们在本教程中没有使用OLED模块，但您可以！
 
-![](./images/KLAlzb1.png)
+![](./images/S54AWdC.png)
 
 ![](./images/Tinker_Kit_case_37_02.png)
 
