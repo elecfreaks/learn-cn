@@ -68,49 +68,52 @@ micro:bit连接上电池盒
 ## 编程
 ---
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](./images/2qCyzQ7.png)
+在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-- 为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Extensions”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
+![](./images/smart_home_kit_case_01_01.png)
 
-![](./images/OY706rv.png)
+为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
+
+![](./images/smart_home_kit_case_01_02.png)
+
+注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 
 ### 步骤 2
 
-从Basic中拖出一个start积木块，然后拖入led enable积木块，设置为“false” 即关闭micro:bit的led显示；
-点击Advanced，选择Pins，点击more，拖出set pull pin block，将P2口的电压设置为高电平，用于提供一个稳定的电压；
+从“基本”中拖出一个“当开机时”积木块，然后拖入“LED 启用”积木块，设置为“false” 即关闭micro:bit的led显示；
+点击“高级”，选择“引脚”，点击“更多”，拖出“设置拉”积木块，将P2口的电压设置为高电平，用于提供一个稳定的电压；
 初始化OLED ，拖入initialize OLED积木块。
-拖入servo write 积木块，将P8口设置为180，即将舵机的初始状态设置为关门状态。
+拖入“向伺服机构引脚” 积木块，将P8口设置为180，即将舵机的初始状态设置为关门状态。
 最后将开门的变量设置为open，将开门这个变量的初始化值设置为不开门，即false。
 
 
-![](./images/mOFgABB.png)
+![](./images/smart_home_kit_case_06_03.png)
 
 ### 步骤 3
 初始化变量noise，用来保存接收到的噪声的数值；
-在forever循环中，将P1口接收到的噪声的值，传输到noise变量中保存；
+在“无限循环”中，将P1口接收到的噪声的值，传输到noise变量中保存；
 判断噪声值是否大于70分贝，当大于70分贝，说明有人来敲门了，在OLED显示器上显示“somebody out”；
 拖入clear OLED display和show string 模块用来显示提示信息。
 
-![](./images/OPIJLUx.png)
+![](./images/smart_home_kit_case_06_04.png)
 
 ### 步骤 4
-判断从碰撞传感器模块传来的值的变化，使用积木块digital read 积木块读取碰撞传感器的值，即P2口的值的变化情况；
-设置P2引脚的值为0，设置open变量的值为开门，即代码set open to not false；
-判断门是否应该被打开，open变量的值为true，使用servo write pin，将P8口的舵机的值设置为0；
+判断从碰撞传感器模块传来的值的变化，使用积木块“数字读取引脚”积木块读取碰撞传感器的值，即P2口的值的变化情况；
+设置P2引脚的值为0，设置open变量的值为开门，即代码“将‘open’设为‘非false’”；
+判断门是否应该被打开，open变量的值为true，使用“向伺服机构引脚”，将P8口的舵机的值设置为0；
 然后设置暂停时间三秒钟，即开门时间为三秒钟。
 
-![](./images/tvZETjX.png)
+![](./images/smart_home_kit_case_06_05.png)
 
 ### 步骤 5
 
 当前面两个的判断不成立时，设置舵机状态为舵机为180度状态，然后OLED显示屏显示nobody，即无需开门。
 
-![](./images/bXXcwA7.png)
+![](./images/smart_home_kit_case_06_06.png)
 
 ### 程序
 
