@@ -64,40 +64,41 @@
 ---
 ### 步骤 1
 
-在MakeCode的代码抽屉中点击Smartthome，查看更多代码选项。
+在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-![](./images/2qCyzQ7.png)
+![](./images/smart_home_kit_case_01_01.png)
 
-为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
+为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
 
-![](./images/QR2s7LD.png)
+![](./images/smart_home_kit_case_01_02.png)
+
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 
 ### 步骤 2
 
-在Basic中拖出一个on start积木块，在其中插入servo write积木块将p1设置为低电平。
+在“基本”中拖出一个“当开机时”积木块，在其中插入“向伺服机构引脚”积木块将p1设置为低电平。
 
 
-![](./images/cAwF1Yb.png)
+![](./images/smart_home_kit_case_04_03.png)
 
 ### 步骤 3
 
-在forever积木块中，拖入set to 模块将分贝检测模块中的分贝数值赋值给noise变量。
+在“无限循环”积木块中，拖入“将变量设为”模块将分贝检测模块中的分贝数值赋值给noise变量。
 
-![](./images/V2ptpb6.png)
+![](./images/smart_home_kit_case_04_04.png)
 
 ### 步骤 4
 
-判断返回的变量值是否大于70分贝，如果大于70分贝成立，拖入servo积木块将p1口设置为0度，关闭门窗。
+判断返回的变量值是否大于70分贝，如果大于70分贝成立，拖入“向伺服机构引脚”积木块将p1口设置为0度，关闭门窗。
 
-![](./images/RGf9xF5.png)
+![](./images/smart_home_kit_case_04_05.png)
 
 ### 步骤 5
 如果返回的变量值小于70分贝，将保持舵机初始状态。设置p1口为100度，打开门窗。
 
-![](./images/5VmbsGn.png)
+![](./images/smart_home_kit_case_04_06.png)
 
 ### 程序
 
