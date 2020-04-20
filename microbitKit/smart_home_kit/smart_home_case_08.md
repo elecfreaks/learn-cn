@@ -63,34 +63,34 @@
 ## 编程
 ---
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-![](./images/2qCyzQ7.png)
+![](./images/smart_home_kit_case_01_01.png)
 
-- 为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Extensions”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
+为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
 
-![](./images/OY706rv.png)
+![](./images/smart_home_kit_case_01_02.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 
 ### 步骤 2
 
-从Basic中拖出一个start积木块，从OLED函数中拖入initialize OLED with 模块，初始化OLED显示屏。
+从“基本”中拖出一个“当开机时”积木块，从OLED函数中拖入initialize OLED with 模块，初始化OLED显示屏。
 然后设置一个笑脸显示在micro:bit上作为micro:bit专属开机动画。
 在OLED显示屏上显示welcome to the game 表示肺活量测试小游戏正常开始。
 
-![](./images/LSqXvcg.png)
+![](./images/smart_home_kit_case_08_03.png)
 
 ### 步骤 3
 
-在forever循环中，拖入一个判断语句，读取P1口噪声传感器模块的值，判断值属于第几等级。
+在“无限循环”中，拖入一个判断语句，读取P1口噪声传感器模块的值，判断值属于第几等级。
 对应不同的等级，micro:bit的led灯显示不同的柱状图，最高级时为满屏。
 对应不同的等级，OLED显示器显示不同数字，最高级显示5。
 复制前面代码，将5个等级的情况都一一判断，并做出不同显示。
 
 
-![](./images/QI33sHM.png)
+![](./images/smart_home_kit_case_08_04.png)
 
 
 
