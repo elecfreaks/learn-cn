@@ -58,31 +58,31 @@ IO口使用注意事项
 ## 编程
 ---
 ### 步骤 1
-在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
 
-![](./images/2qCyzQ7.png)
+![](./images/smart_home_kit_case_01_01.png)
 
-为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
+为了给智慧家居套件编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“smarthome"，然后点击下载这个代码库。
 
-![](./images/QR2s7LD.png)
+![](./images/smart_home_kit_case_01_02.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
 
-在Basic中拖出一个forever积木块，在其中插入show number积木块。
+在“基本”中拖出一个“无限循环”积木块，在其中插入显示数字积木块。
 
-从LED more中拖出一led enable积木块，选择false，以禁用板载LED点阵显示屏功能。
+从“LED”中拖出一“LED启用'false'”积木块，选择false，以禁用板载LED点阵显示屏功能。
 
-![](./images/eU2HDxn.png)
+![](./images/smart_home_kit_case_01_03.png)
 
 ### 步骤 3
 
-在forever积木块中，首先插入读取光线值模块，赋值给light变量。
+在“无限循环”积木块中，首先插入读取光线值模块，赋值给light变量。
 
 然后判断光线值是否大于50，大于则为白天，小于则为黑夜。
 
-![](./images/LNSfyGV.png)
+![](./images/smart_home_kit_case_01_04.png)
 
 ### 步骤 4
 
@@ -90,13 +90,13 @@ IO口使用注意事项
 
 然后判断音量是否大于70，以检测是否有人发声。
 
-![](./images/gWFFMiV.png)
+![](./images/smart_home_kit_case_01_05.png)
 
 ### 步骤 5
 
 当判断有超过70dB的声音时，彩虹led亮起白色光，延迟10秒钟，长亮10秒，然后关闭。
 
-![](./images/McicDIj.png)
+![](./images/smart_home_kit_case_01_06.png)
 
 ### 程序
 
