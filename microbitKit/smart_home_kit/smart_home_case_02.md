@@ -67,13 +67,13 @@ IO口使用注意事项
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
-在Basic中拖出一个on start积木块，在OLED代码库中拖出 initialize OLED 积木块并设置为64 和128。
+在“基本”中拖出一个“当开机时”积木块，在OLED代码库中拖出 initialize OLED 积木块并设置为64 和128。
 
-![](./images/NSOCUxe.png)
+![](./images/smart_home_kit_case_02_03.png)
 
-然后在Basic中拖出一个forever积木块，在其中拖入变量积木块，在Variable函数库中添加一个代表温度的变量temp以及Smarthome代码库中的value of temperature积木块，将显示单位设置为温度而不是华氏温度，将绑定引脚设置为p1口。
+然后在“基本”中拖出一个“无限循环”积木块，在其中拖入变量积木块，添加一个代表温度的变量temp以及Smarthome代码库中的TMP36温度传感器积木块，将显示单位设置为温度而不是华氏温度，将绑定引脚设置为p1口。
 
-![](./images/wPfZA5F.png)
+![](./images/smart_home_kit_case_02_04.png)
 
 ### 步骤 3
 
@@ -83,20 +83,20 @@ IO口使用注意事项
 
 紧接着拖入show（without newline）string以及show （without newline）number分别用来显示“temperature”字符串以及temp这个变量的数值，这里使用without newline是为了在OLED显示器上能够换行显示这个字符串以及温度数值。
 
-![](./images/gZwzVGd.png)
+![](./images/smart_home_kit_case_02_05.png)
 
 ### 步骤 4
 
 写入逻辑积木块，当温度大于30°时调用microbit来控制风扇的运转，那么temp也就是温度的值大于30°将会是一个判断条件，因此我们首先从logic函数库中拖入if else积木块，在判定条件中设置temp>30为判断成立的条件。
 
-![](./images/Ys6Hcm3.png)
+![](./images/smart_home_kit_case_02_06.png)
 
 ### 步骤 5
 
-当温度大于30°后，所以我们添加Music函数库中的start melody repeating积木块，将提示音设置为ba ding，提示次数为一次，然后使用microbit发送指令给p2引脚连接风扇模块，设置风扇工作5秒钟后，停止工作5秒钟，然后继续由温度感应模块获取温度值后判定是否进入循环。
+当温度大于30°后，所以我们添加“音乐”函数库中的“播放旋律”积木块，将提示音设置为ba ding，提示次数为一次，然后使用microbit发送指令给p2引脚连接风扇模块，设置风扇工作5秒钟后，停止工作5秒钟，然后继续由温度感应模块获取温度值后判定是否进入循环。
 当条件判定不成立的时候一直保持风扇为静止状态。
 
-![](./images/FHAWwTm.png)
+![](./images/smart_home_kit_case_02_07.png)
 
 ### 程序
 
