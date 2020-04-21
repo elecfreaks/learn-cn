@@ -15,11 +15,11 @@
 ## 编程
 ---
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
 ![](./images/cutebot-pk-1.png)
 
-- 为了给Cutebot套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索`Cutebot`，然后点击下载这个代码库。
+- 为了给Cutebot套件编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索`Cutebot`，然后点击下载这个代码库。
 
 ![](./images/cutebot-pk-11.png)
 
@@ -27,24 +27,24 @@
 
 ### 步骤 2
 
-- 在`On start`(开始)积木块中全速前进；
+- 在`当开机时`积木块中全速前进；
 ![](./images/case_05_01.png)
 
 ### 步骤 3
 
-- 在`forever`(永久循环)积木块中插入判断积木块，判断光线值是否小于`10`，当小于`10`的时候，左右车灯RGB值全设为`255`，(组合光为白光)。
+- 在`无限循环`积木块中插入判断积木块，判断光线值是否小于`10`，当小于`10`的时候，左右车灯RGB值全设为`255`，(组合光为白光)。
 - 当大于`10`的时候，设置左右车灯RGB值为`0`，关闭车灯。
 ![](./images/case_05_02.png)
 
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_EYaDJkH4WCff](https://makecode.microbit.org/_EYaDJkH4WCff)
+请参考程序连接：[https://makecode.microbit.org/_DuA0wcVT3ELP](https://makecode.microbit.org/_DuA0wcVT3ELP)
 
 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_EYaDJkH4WCff" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_DuA0wcVT3ELP" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
 </iframe>
 </div>  
 ---
