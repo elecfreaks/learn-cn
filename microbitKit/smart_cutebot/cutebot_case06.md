@@ -15,11 +15,11 @@
 ## 编程
 ---
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
 ![](./images/cutebot-pk-1.png)
 
-- 为了给Cutebot套件编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索`Cutebot`，然后点击下载这个代码库。
+- 为了给Cutebot套件编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索`Cutebot`，然后点击下载这个代码库。
 
 ![](./images/cutebot-pk-11.png)
 
@@ -27,7 +27,7 @@
 
 ### 步骤 2
 
-- 在`On start`(开始)积木块中设置Rainbow LED灯连接口为`P15`，一共有`2`颗LED灯；
+- 在`当开机时`积木块中设置Rainbow LED灯连接口为`P15`，一共有`2`颗LED灯；
 - `right`右侧灯为从第`0`颗灯开始往后`1`颗灯。
 - `left`左侧灯为从第`1`颗灯开始往后`1`颗灯。
 
@@ -35,25 +35,25 @@
 
 ### 步骤 3
 
-- 在`on button A pressed`(当按钮A按下时)积木块中插入`repeat`(循环)积木块，右侧示廓灯显示黄色，左侧LED大灯显示黄色(RGB控制)，延迟500ms后，关闭左侧示廓灯和LED大灯，完成一次闪烁。
+- 在`当按钮A按下时`积木块中插入`循环`积木块，右侧示廓灯显示黄色，左侧LED大灯显示黄色(RGB控制)，延迟500ms后，关闭左侧示廓灯和LED大灯，完成一次闪烁。
 
 ![](./images/case_06_02.png)
 
 
 ### 步骤 4
 
-- 在`on button B pressed`(当按钮B按下时)积木块中与右侧同理，只不过将右侧改为左侧。
+- 在`当按钮B按下时`积木块中与右侧同理，只不过将右侧改为左侧。
 
 ![](./images/case_06_03.png)
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_FzDFDbCcHfvP](https://makecode.microbit.org/_FzDFDbCcHfvP)
+请参考程序连接：[https://makecode.microbit.org/_aqW6aW5855gR](https://makecode.microbit.org/_aqW6aW5855gR)
 
 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_4uqbF8U6XhWz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_aqW6aW5855gR" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
 </iframe>
 </div>  
 ---
