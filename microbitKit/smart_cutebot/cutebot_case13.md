@@ -59,7 +59,7 @@
 - 然后在`当接收到数据`积木块中插入两次判断语句，分别判断无线电接收值`name`是否为`x`或者`y`；
 - 当无线电收到的`name`值为`x`时，为加速度计`X`轴数据，将`value`值保存到`xValue`变量；
 - 当无线电收到的`name`值为`y`时，为加速度计`Y`轴数据，将`value`值保存到`yValue`变量；
-- 在`forever`(无限循环)积木块中，设置左轮速度为`yValue`+`xValue`，右轮速度为`yValue`-`xValue`。
+- 在`无限循环`积木块中，设置左轮速度为`yValue`+`xValue`，右轮速度为`yValue`-`xValue`。
 
 
 ![](./images/case_12_02.png)
