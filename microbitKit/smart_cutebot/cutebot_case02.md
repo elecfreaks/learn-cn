@@ -7,7 +7,7 @@
 
 ## 使用材料
 ---
-- 1 x [Cutebot套件](https://www.elecfreaks.com/store/cute-bot.html)
+- 1 x [Cutebot套件](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18602834180.23.78b86655ZP5Yg8&id=598365555295)
 
 ## 软件平台
 ---
