@@ -6,8 +6,8 @@
 
 ## 使用材料
 ---
-- 1 x Cutebot套件
-- 1 x 红外遥控器
+- 1 x [Cutebot套件](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-18602834185.14.63585ccfBF5HDq&id=598365555295)
+- 1 x [红外遥控器](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-18602834185.14.63585ccfBF5HDq&id=598365555295)
 ## 软件平台
 ---
 [微软 makecode](https://makecode.microbit.org/#)
