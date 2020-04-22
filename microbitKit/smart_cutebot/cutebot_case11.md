@@ -7,8 +7,8 @@
 
 ## 使用材料
 ---
-- 1 x [Cutebot套件](https://www.elecfreaks.com/store/cute-bot.html)
-- 1 x [micro:bit主板](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w5003-18615042388.1.410d58b3rNtft8&id=562621059348&scene=taobao_shop)
+- 1 x [Cutebot套件](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18602834180.23.78b86655ZP5Yg8&id=598365555295)
+- 1 x [micro:bit主板](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18602834180.30.5da66655OasAaH&id=562621059348)
 
 ## 软件平台
 ---
