@@ -6,8 +6,8 @@
 
 ## 使用材料
 ---
-- 1 x [Cutebot套件](https://www.elecfreaks.com/store/cute-bot.html)
-- 1 x [红外遥控器](https://www.elecfreaks.com/store/cute-bot.html)
+- 1 x Cutebot套件
+- 1 x 红外遥控器
 ## 软件平台
 ---
 [微软 makecode](https://makecode.microbit.org/#)
