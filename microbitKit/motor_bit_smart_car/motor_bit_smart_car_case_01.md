@@ -36,40 +36,40 @@
 ## 编程
 ---
 ### 步骤 1
-在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
-![](./images/LjMR5IU.png)
+![](./images/motor_bit_case_01.png)
 
-为了给motorbit主板编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“motorbit"，然后点击下载这个代码库。
+为了给motorbit主板编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“motorbit"，然后点击下载这个代码库。
 
-![](./images/XDlSfIS.png)
+![](./images/motor_bit_case_02.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
 
-- 在on start 积木块中插入 move forward with speed 积木块，设置参数为80，表示上电时以80的速度前进。
+- 在当开机时积木块中插入 以...的速度前进 积木块，设置参数为80，表示上电时以80的速度前进。
 - 设置两个变量分别为`left`和`right`，用来分别巡线模块左右传感器的返回参数，并且将他们初始化为1。
 
-![](./images/tYJS1aY.png)
+![](./images/motor_bit_case_03.png)
 
 
 ### 步骤 3
 
-- 在forever积木块中，插入数字读取引脚 P3和P4，分别对应巡线模块的左右两个传感器。
+- 在无限循环积木块中，插入数字读取引脚 P3和P4，分别对应巡线模块的左右两个传感器。
 - 并且分别赋值给`left`he`right`变量。
 - 然后判断`left`变量和`right`变量是否有一个为0，也就是左右传感器其中一个检测到黑线。
 - 如果有一个为0，设置左右电机速度为0，停车。
 
-![](./images/p2WuniN.png)
+![](./images/motor_bit_case_04.png)
 
 
 ### 程序
-请参考程序连接：[https://makecode.microbit.org/_FyMAHeMuoeTJ](https://makecode.microbit.org/_FyMAHeMuoeTJ)
+请参考程序连接：[https://makecode.microbit.org/_1gXfr9fdA6LH](https://makecode.microbit.org/_1gXfr9fdA6LH)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_FyMAHeMuoeTJ" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_1gXfr9fdA6LHJ" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 **注意：** 由于惯性作用，车辆会检测到黑线后冲出一段距离停下。
 
