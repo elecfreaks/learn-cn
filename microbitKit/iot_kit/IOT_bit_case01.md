@@ -36,18 +36,18 @@ OLED屏幕连接`IIC`接口。
 ---
 
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
-![](./images/iot_bit_11.jpg)
+![](./images/iot_bit_11.png)
 
-- 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
+- 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
 
-![](./images/iot_bit_12.jpg)
+![](./images/iot_bit_12.png)
 
 ***注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 ### 步骤 2
 
-在`on start`中插入`initialize OLED`积木块，参数填入`64*128`。
+在`当开机时`中插入`initialize OLED`积木块，参数填入`64*128`。
 
 初始化OLED屏幕为`64`像素*`128`像素。
 
@@ -55,7 +55,7 @@ OLED屏幕连接`IIC`接口。
 
 ### 步骤 2
 
-在`forever`中依次插入`clear OLED display`积木块，`show string`积木块，`show number`积木块。
+在`无限循环`中依次插入`clear OLED display`积木块，`show string`积木块，`show number`积木块。
 
 显示字符`Dust(ug/m3):`，显示dust灰尘模块返回值。
 
