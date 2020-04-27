@@ -174,7 +174,7 @@
 
  ![](./images/iot_bit_21.png)
 
-- 程序代码链接：[https://makecode.microbit.org/_JAXAmmHq4FhW](https://makecode.microbit.org/_JAXAmmHq4FhW)
+- 程序代码链接：[https://makecode.microbit.org/_TatW91FEb2Hv](https://makecode.microbit.org/_TatW91FEb2Hv)
 
 #### 其他传感器支持库
 ---
