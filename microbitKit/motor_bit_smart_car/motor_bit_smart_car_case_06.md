@@ -61,14 +61,15 @@
 
 ### 步骤3：添加Package
 
-在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
-![](./images/LjMR5IU.png)
+![](./images/motor_bit_case_01.png)
 
-为了给蓝牙和Robit编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“bluetooth"和“motorbit”，然后点击下载这两个代码库。
+为了给蓝牙和Robit编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“bluetooth"和“motorbit”，然后点击下载这两个代码库。
 
-![](./images/4eJ7Jgx.png)
-![](./images/LTJUxsR.png)
+![](./images/motor_bit_case_02.png)
+
+![](./images/motor_bit_case_06_03.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -78,7 +79,7 @@
 
 同时为了防止误操作导致不良后果，在蓝牙连接和断开的时候设置电机转速为0。
 
-![](./images/LdDCffz.png)
+![](./images/motor_bit_case_06_04.png)
 
 设置事件发生积木块，事件发生来源为`MES_DPAD_CONTROLLER_ID`，也就是手机APP的手柄控制板。
 
@@ -88,7 +89,7 @@
 
 如果信息事件为`MES_DPAD_BUTTON_A_UP`，查询蓝牙事件信息表，得知信息为左方向键上箭头抬起，故设置运行状态为0(停止状态)，同时设置左右轮电机全部停止。
 
-![](./images/a1tboRB.png)
+![](./images/motor_bit_case_06_05.png)
 
 在flag为1前进状态下的时候，如果事件信息为`MES_DPAD_BUTTON_3_DOWN`，查询蓝牙事件信息表，得知信息为右方向键右按钮按下，故右转
 
@@ -96,7 +97,7 @@
 
 如果在flag为1前进状态下的时候，收到的事件信息不为以上两种，则设置速度为100全速前进。
 
-![](./images/cvXAfCv.png)
+![](./images/motor_bit_case_06_06.png)
 
 ### 步骤5：蓝牙连接
 
@@ -114,11 +115,11 @@
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_2baXF8MeMKmf](https://makecode.microbit.org/_2baXF8MeMKmf)
+请参考程序连接：[https://makecode.microbit.org/_7iy1xf0jj83a](https://makecode.microbit.org/_7iy1xf0jj83a)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_2baXF8MeMKmf" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_7iy1xf0jj83a" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 **注意：** 速度设计过低时可能影响电机转动。
 
