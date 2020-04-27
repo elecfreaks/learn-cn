@@ -157,7 +157,7 @@
 
  ![](./images/iot_bit_18.png)
 
-- 程序代码链接：[https://makecode.microbit.org/_e9d3vW96bPe2](https://makecode.microbit.org/_e9d3vW96bPe2)
+- 程序代码链接：[https://makecode.microbit.org/_9ac4WXVCkbz0](https://makecode.microbit.org/_9ac4WXVCkbz0)
 
 #### 如何使用物联网功能功能
 ---
