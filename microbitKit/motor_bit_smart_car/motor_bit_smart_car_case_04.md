@@ -34,13 +34,13 @@
 ## 编程
 ---
 ### 步骤 1
-在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
-![](./images/LjMR5IU.png)
+![](./images/motor_bit_case_01.png)
 
-为了给motorbit主板编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“motorbit"，然后点击下载这个代码库。
+为了给motorbit主板编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“motorbit"，然后点击下载这个代码库。
 
-![](./images/XDlSfIS.png)
+![](./images/motor_bit_case_02.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -49,19 +49,19 @@
 
 设置左轮右轮速度均为100。
 
-![](./images/DaYNrl0.png)
+![](./images/motor_bit_case_04_03.png)
 
 ### 步骤3
 
-创建一个forever循环，实时的读取超声波模块返回的数据，并且赋值给away。
+创建一个无限循环循环，实时的读取超声波模块返回的数据，并且赋值给away。
 
-![](./images/Gfg2LZo.png)
+![](./images/motor_bit_case_04_04.png)
 
 #### 防撞停车
 
 当检测距离(away)距离小于8cm时，停车，暂停300ms后，设置左右轮速度为负数实现倒车，延时600ms。
 
-![](./images/QbwndAz.png)
+![](./images/motor_bit_case_04_05.png)
 
 #### 转向避障
 
@@ -71,18 +71,18 @@
 
 当随机数大于50的时候左轮赋负值，左轮倒转完成左转。
 
-![](./images/F5WjT9e.png)
+![](./images/motor_bit_case_04_06.png)
 
 如果检测距离(away)大于15cm，设置左右轮速度为100前进。
 
-![](./images/WRmK7A5.png)
+![](./images/motor_bit_case_04_07.png)
 
 ### 程序
-请参考程序连接：[https://makecode.microbit.org/_J6h7CtDfj6mo](https://makecode.microbit.org/_J6h7CtDfj6mo)
+请参考程序连接：[https://makecode.microbit.org/_hkKRJFFa6WLu](https://makecode.microbit.org/_hkKRJFFa6WLu)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_J6h7CtDfj6mo" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_hkKRJFFa6WLu" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 
