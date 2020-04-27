@@ -134,6 +134,7 @@
 - IoT:bit板载一颗蜂鸣器，位置如图上所示，连接到micro:bit主板的P0口，可以直接用makecode积木块中`music`编程播放音乐。
 
 ![](./images/iot_bit_13.png)
+
 ![](./images/iot_bit_14.png)
 
 - 在input函数库中选择当按钮A按下时。编写一小段音乐。
@@ -148,6 +149,7 @@
 - IoT:bit板载DS1307RTC时钟模块，位置如上图所示，RTC时钟需要一颗CR1220纽扣电池持续供电，这样当IOT:bit断电时，RTC时钟模块也持续工作保证时间正确。
 
 ![](./images/iot_bit_16.png)
+
 ![](./images/iot_bit_17.png)
 
 ---
@@ -166,6 +168,7 @@
 - 使用thingspeak平台作为物联网云端，可以编写代码一键上传数据。thingspeak平台使用指南
 
 ![](./images/iot_bit_19.jpg)
+
 ![](./images/iot_bit_20.png)
 
 - 当开机时初始化ESP8266默认连接到P8和P12端口。
