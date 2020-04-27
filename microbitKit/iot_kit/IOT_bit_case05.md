@@ -38,19 +38,19 @@
 ---
 
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
-![](./images/iot_bit_11.jpg)
+![](./images/iot_bit_11.png)
 
-- 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
+- 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
 
-![](./images/iot_bit_12.jpg)
+![](./images/iot_bit_12.png)
 
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
 
-在`forever`中插入读取`P1`口数值赋值给`IR`积木块，判断`IR`是否为`1`。
+在`无限循环`中插入读取`P1`口数值赋值给`IR`积木块，判断`IR`是否为`1`。
 
 当`IR`参数为`1`的时候，再读取超声波返回值赋值给`ultrasonic`变量。
 
@@ -62,11 +62,11 @@
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_isffzR8cCKK4](https://makecode.microbit.org/_isffzR8cCKK4)
+请参考程序连接：[https://makecode.microbit.org/_VXacj8Cc9VKE](https://makecode.microbit.org/_VXacj8Cc9VKE)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_isffzR8cCKK4" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_VXacj8Cc9VKE" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 ---
