@@ -45,7 +45,7 @@ SKU|EF04088
 ![](./images/Y7tolMD.jpg)
 
 ### Micro:bit 示例代码
-程序链接：https://makecode.microbit.org/_Ep84RMKkhcHs
+程序链接：[https://makecode.microbit.org/_eVYFqH6pb9fm](https://makecode.microbit.org/_eVYFqH6pb9fm)
 你也能通过以下页面直接下载该程序。
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Ep84RMKkhcHs" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
