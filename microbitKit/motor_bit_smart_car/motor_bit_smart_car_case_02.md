@@ -38,11 +38,11 @@
 ### 步骤 1
 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
 
-![](./images/LjMR5IU.png)
+![](./images/motor_bit_case_01.png)
 
 为了给motorbit主板编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“motorbit"，然后点击下载这个代码库。
 
-![](./images/XDlSfIS.png)
+![](./images/motor_bit_case_02.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
@@ -54,15 +54,15 @@
 - 如果返回的参数小于5，设置电机以80的速度倒车。
 - 如果返回的参数都不符合，设置电机以80的速度前进。
 
-![](./images/gcR99Lj.png)
+![](./images/motor_bit_case_02_03.png)
 
 
 ### 程序
-请参考程序连接：[https://makecode.microbit.org/_bW1ThbRWsdMP](https://makecode.microbit.org/_bW1ThbRWsdMP)
+请参考程序连接：[https://makecode.microbit.org/_LhcdHiAjDKKs](https://makecode.microbit.org/_LhcdHiAjDKKs)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_bW1ThbRWsdMP" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_LhcdHiAjDKKs" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 
