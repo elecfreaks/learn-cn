@@ -55,7 +55,7 @@
 - 如果为 2 以 80 的速度右转，延时0.5s。
 - 如果都不是，以 80 的速度前进。
  
-![](./images/TN6GnPt.png)
+![](./images/motor_bit_case_05_04.png)
 
 
 ### 程序
@@ -67,10 +67,10 @@
 
 #### 智能小车端程序
 
-请参考程序连接：[https://makecode.microbit.org/_8Dp0WMEDwMad](https://makecode.microbit.org/_8Dp0WMEDwMad)
+请参考程序连接：[https://makecode.microbit.org/_Ls6ecibsiMVs](https://makecode.microbit.org/_Ls6ecibsiMVs)
 
 你也可以通过以下网页直接下载程序：
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_8Dp0WMEDwMad" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Ls6ecibsiMVs" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 
