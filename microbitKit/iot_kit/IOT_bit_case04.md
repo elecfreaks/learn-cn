@@ -40,25 +40,25 @@
 ---
 
 ### 步骤 1
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
-![](./images/iot_bit_11.jpg)
+![](./images/iot_bit_11.png)
 
-- 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“Extension”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
+- 为了给IoT物联网环境科学套件编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“IOT"，然后点击下载这个代码库。
 
-![](./images/iot_bit_12.jpg)
+![](./images/iot_bit_12.png)
 
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
 
-在`on start`中插入`servo write`积木块，参数填入`0`复位舵机到0度关闭水阀。
+在`当开机时`中插入`servo write`积木块，参数填入`0`复位舵机到0度关闭水阀。
 
 ![](./images/case_04_02.png)
 
 ### 步骤 3
 
-在`forever`中插入`set to`积木块。
+在`无限循环`中插入`将...设为...`积木块。
 读取水位值赋值给`water level`变量，读取土壤湿度值赋值给`soil humidity`变量。
 
 ![](./images/case_04_03.png)
@@ -79,11 +79,11 @@
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_dxTF0K1be0w0](https://makecode.microbit.org/_dxTF0K1be0w0)
+请参考程序连接：[https://makecode.microbit.org/_3sM4op3w8Jgh](https://makecode.microbit.org/_3sM4op3w8Jgh)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_dxTF0K1be0w0" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_3sM4op3w8Jgh" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 ---
