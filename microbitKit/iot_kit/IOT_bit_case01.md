@@ -65,7 +65,7 @@ OLED屏幕连接`IIC`接口。
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_bg6cv5Vsshmy](https://makecode.microbit.org/_bg6cv5Vsshmy)
+请参考程序连接：[https://makecode.microbit.org/_WuvPwdejbLVV](https://makecode.microbit.org/_WuvPwdejbLVV)
 
 你也可以通过以下网页直接下载程序。
 
