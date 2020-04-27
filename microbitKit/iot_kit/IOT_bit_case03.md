@@ -47,7 +47,7 @@ OLED屏幕连接`IIC`接口。
 
 ### 步骤 2
 
-在`on start`中插入`initialize OLED`积木块，参数填入`64*128`。
+在`当开机时`中插入`initialize OLED`积木块，参数填入`64*128`。
 
 初始化OLED屏幕为`64`像素*`128`像素。
 
@@ -55,7 +55,7 @@ OLED屏幕连接`IIC`接口。
 
 ### 步骤 2
 
-在`forever`中依次插入`show string`积木块，`show number`积木块。
+在`无限循环`中依次插入`show string`积木块，`show number`积木块。
 
 显示当前光线值，温度以及湿度值。
 
