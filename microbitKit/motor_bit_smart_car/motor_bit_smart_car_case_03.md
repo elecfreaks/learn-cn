@@ -39,39 +39,39 @@
 ## 编程
 ---
 ### 步骤 1
-在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击高级，查看更多代码选项。
 
-![](./images/LjMR5IU.png)
+![](./images/motor_bit_case_01.png)
 
-为了给motorbit主板编程，我们需要添加一个代码库。在代码抽屉底部找到“Add Package”，并点击它。这时会弹出一个对话框。搜索“motorbit"，然后点击下载这个代码库。
+为了给motorbit主板编程，我们需要添加一个代码库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框。搜索“motorbit"，然后点击下载这个代码库。
 
-![](./images/XDlSfIS.png)
+![](./images/motor_bit_case_02.png)
 
 注意：如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
 ### 步骤 2
 在开机启动时设置左右轮电机速度为60，同时将P3和P4设置一个上拉。
 
-![](./images/Gsd06ub.png)
+![](./images/motor_bit_case_03_03.png)
 
 设置左右两个红外线传感器的返回值变量Left和right，以数字方式读取左右红外线传感器的返回参数，也就是P3，P4接口。
 
-![](./images/sFbfJsT.png)
+![](./images/motor_bit_case_03_04.png)
 
 如果右侧红外线传感器检测到脱离黑线，设置左轮速度为30右轮速度为80，向左转。之后设置一个循环，检测小车是否回归到黑线，如果没有就继续向左转直到回到黑线。
 
-![](./images/bWmuV0v.png)
+![](./images/motor_bit_case_03_05.png)
 
 如果左侧红外线传感器检测到脱离黑线，同理向右转回归黑线。如果均为检测到以60速度继续前进。
 
-![](./images/X10NnQL.png)
+![](./images/motor_bit_case_03_06.png)
 
 ### 程序
-请参考程序连接：[https://makecode.microbit.org/_XVADegLHX9dY](https://makecode.microbit.org/_XVADegLHX9dY)
+请参考程序连接：[https://makecode.microbit.org/_ibXcm1M5UY3A](https://makecode.microbit.org/_ibXcm1M5UY3A)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_9WECsHJmpDxM" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ibXcm1M5UY3A" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 **注意：** 可吸收红外光物体均视为黑线。
 
