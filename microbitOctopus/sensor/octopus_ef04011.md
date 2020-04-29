@@ -50,7 +50,7 @@ SKU|EF04011
  ![](./images/qChMeYd.png)
 
 ### 如图所示编写程序
- ![](./images/vsoyhgH.png)
+ ![](./images/04011_03.png)
 
 ### 参考程序
 请参考程序连接：
