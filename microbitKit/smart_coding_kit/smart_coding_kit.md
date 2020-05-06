@@ -39,9 +39,8 @@ micro:bit手表套件Pro基于一代手表套件进行了升级，
 - 1 x micro usb数据线
 - 5 x M3x5内十字螺丝
 - 1 x MINI螺丝刀
-- 1 x micro:bit
 - 1 x micro:bit说明书
-- 1 x micro:bit
+
 
 ![](./images/smart_coding_kit_05.png)
 
