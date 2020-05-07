@@ -48,7 +48,7 @@
 
 - 然后为micro:bit单独供电，micro:bit上会显示一串字符，为蓝牙识别码。
 
-![](./images/case_01_02.jpg)
+![](./images/case_01_02.gif)
 
 
 ### 步骤 2
