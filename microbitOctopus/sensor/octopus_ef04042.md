@@ -35,11 +35,11 @@ SKU|EF04042
 
 ### 添加Package
 ---
-在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+在MakeCode的代码抽屉中点击“高级"，查看更多代码选项。
 
  ![](./images/smtcNoB.png)
 
-点击“Extensions”，在弹出的对话框中搜索“iot"，下载iot代码库。
+点击“扩展”，在弹出的对话框中搜索“iot"，下载iot代码库。
 
  ![](./images/qChMeYd.png)
  
@@ -49,11 +49,11 @@ SKU|EF04042
  
 ### 参考程序
 
-请参考程序连接：[https://makecode.microbit.org/_FEiCtaV235Xw](https://makecode.microbit.org/_FEiCtaV235Xw)
+请参考程序连接：[https://makecode.microbit.org/_85pYi9bx5PUY](https://makecode.microbit.org/_85pYi9bx5PUY)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_FEiCtaV235Xw" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_85pYi9bx5PUY" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
