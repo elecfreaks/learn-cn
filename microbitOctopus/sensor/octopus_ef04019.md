@@ -42,11 +42,11 @@ SKU|EF04019
  ![](./images/jxvVgcK.png)
 
 ### 添加Package
-- 在MakeCode的代码抽屉中点击Advanced，查看更多代码选项。
+- 在MakeCode的代码抽屉中点击"高级"，查看更多代码选项。
 
  ![](./images/smtcNoB.png)
 
-- 点击“Extensions”，在弹出的对话框中搜索“iot"，下载iot-environment-kit代码库。
+- 点击“扩展”，在弹出的对话框中搜索“iot"，下载iot-environment-kit代码库。
 
  ![](./images/IAZrNAy.png)
 
