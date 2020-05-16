@@ -3,7 +3,7 @@
 ## 简介
 Octopus 5mmLED灯模块，能和micro:bit/Arduino扩展板搭配,实现调整环境光的功能。
 
- ![](./images/FJgPKrD.jpg)
+ ![](./images/DSC04855.jpg)
 
 ## 特性
 ---
