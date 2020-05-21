@@ -53,8 +53,8 @@
 ### 软件编程  
 ---
 
-- 首先在makecode中扩展`sonar:bit`积木块。
-- 在搜索框中搜索`https://github.com/elecfreaks/pxt-sonarbit`，点击图标下载该库。
+- 首先在makecode中扩展`ringbitcar`积木块。
+- 在搜索框中搜索`ringbitcar`，点击图标下载该库。
 - 在[makecode](https://makecode.microbit.org/)在线编辑器中编写一段超声波测距代码。
 
 
