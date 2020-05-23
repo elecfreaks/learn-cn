@@ -47,9 +47,9 @@ SKU|EF04088
 ![](./images/Y7tolMD.jpg)
 
 ### Micro:bit 示例代码
-程序链接：[https://makecode.microbit.org/_eVYFqH6pb9fm](https://makecode.microbit.org/_eVYFqH6pb9fm)
+程序链接：[https://makecode.microbit.org/_A5zAEjRw3Ez2](https://makecode.microbit.org/_A5zAEjRw3Ez2)
 你也能通过以下页面直接下载该程序。
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_eVYFqH6pb9fm" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_A5zAEjRw3Ez2" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 ### 结果
 将小车放在黑线轨迹上，打开开关，小车便沿着黑线轨迹行驶。
