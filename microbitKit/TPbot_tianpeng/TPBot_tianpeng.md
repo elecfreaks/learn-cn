@@ -1,80 +1,63 @@
-# 钮扣电池扩展板（power:bit）
+# 1.天蓬智能车简介
 
-## 简介
+## 1.1 简介
+---
+ 
+- 天蓬智能车是一款micro:bit可编程智能车。它可以是玩具，在不插入micro:bit主板的时候能实现巡线与避障等娱乐功能；它也可以是教具，通过它可以学习编程技术。它还可以扩展电子模块和乐高积木，充分激发孩子的想象力与创造力。
+
+
+
+## 1.2 产品图片
+---
+![](./images/TPBot_tianpeng_case_01_01.png)
+
+
+## 1.3 技术参数
 ---
 
-power:bit纽扣电池板是一种最小尺寸的微型扩展板。它能够给micro:bit主板供电，并且板载蜂鸣器，通过排针引出了P1、P2、GND、3V接口。可以与我们的亚克力表带和主板搭配使用。
+![](./images/TPBot_tianpeng_02.png)
 
-## 特性 
+## 1.4 购买链接
 ---
 
-- 由两个3V的CR2025锂电池供电。
-- 板载蜂鸣器，蜂鸣器由P0口控制。
-- 通过排针引出P1、P2、3V、GND引脚。 
-- 可以搭配亚克力表带和micro:bit主板使用。
+- 1 x [天蓬智能车](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-18602834185.41.68d15ccfBFHNPy&id=618758535761)
 
-## 参数
+## 接口说明
 ---
-项目 | 参数 
-:-: | :-: 
-品名|power:bit
-版本号|V1.6
-SKU| EF03409
-工作电压|2.7~3.3V
-蜂鸣器|支持
-尺寸|42x52mm
-净重|10.7g
 
-### 外型与定位尺寸
-![](./images/BQCpLVu.png)
-## 引脚接口框图
-![](./images/ONnPnR7.png)
+![](./images/TPBot_tianpeng_03.png)
 
-## 主要功能模块介绍  
----  
+![](./images/TPBot_tianpeng_04.png)
 
-### 电源开关  
+![](./images/TPBot_tianpeng_05.png)
 
-I档打开电源，O档关闭电源。
+注意：舵机接口位置，舵机接线应竖着插入接口，最下方的线为接地线
 
-### 1x4排针接口
+## 使用说明
+---
+- 天蓬智能车可以在不安装micro:bit主板的时候使用，以下是相关的使用说明。
+- 按下电源开关，让天蓬智能车处于待机状态，此时电源指示灯点亮，并且车头LED灯显示绿色呼吸灯。
 
-![](./images/9uskWP9.png)
+![](./images/TPBot_tianpeng_06.png)
 
-从排针引出P1、P2、3V、GND引脚，可以扩展使用。
+![](./images/TPBot_tianpeng_07.png)
 
-### 两个CR2025电池座
+- 当天蓬智能车处于待机状态时，按下电源开关，让天蓬智能车进入巡线避障模式，此时车头LED灯显示彩虹灯效，并进入巡线模式。
 
-![](./images/RkOmiZc.png)
+![](./images/TPBot_tianpeng_08.gif)
 
-可以便捷插入2025电池（3V锂锰扣式电池）供电
+- 当天蓬智能车处于巡线模式时，如果遇到障碍物，则显示红色灯光，并停止行驶。
 
-### 蜂鸣器  
+![](./images/TPBot_tianpeng_09.png)
 
-![](./images/eNtjso8.png)
+- 当天蓬智能车处于巡线避障模式时，按下电源开关，则退出巡线避障模式，回到待机状态。
 
-蜂鸣器由P0口控制，能够播放音乐。
-
-## 快速上手  
----  
-
-### 硬件连接  
-
-
-通过五个螺丝丁将micro:bit主板和power:bit固定连接起来，并将两个3V的2025电池装入power:bit扩展板上电池座中。当开关拨动到I档时，2025电池给micro：bit主板和power:bit主板供电，拨动到O档时2025电池不供电。
-
-
-### 软件编程  
-
-打开makecode，编写程序micro：bit主板点阵屏显示爱心闪烁图案。
-程序代码链接：[https://makecode.microbit.org/_MP28fbDmUMfz](https://makecode.microbit.org/_MP28fbDmUMfz)
-
-你也能通过下列窗口直接下载代码
-
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_MP28fbDmUMfz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
-
-### 结果  
-
-micro：bit主板点阵显示爱心闪烁图案。
+- 无论天蓬智能车处于巡线避障模式还是待机状态，连续按下两次电源开关，都可以关闭电源。
 
 ## 常见问题
+---
+
+
+## 相关阅读  
+---
+
