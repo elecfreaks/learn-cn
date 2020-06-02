@@ -29,4 +29,5 @@
    microbitOctopus/input/index
    microbitOctopus/output/index
    microbitOctopus/sensor/index
+   microbitplanetX/index
    microbitExtensionModule/index
