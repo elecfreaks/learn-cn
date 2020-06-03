@@ -20,6 +20,7 @@ SKU|EF05001
 产品尺寸|55.8 x 23.8 mm
 
 
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -39,7 +40,7 @@ SKU|EF05001
 
 ![](./images/05001_03.png)
 
-## 编程
+## makecode编程
 ---
 
 
@@ -69,6 +70,41 @@ SKU|EF05001
 
 ### 结果
 - 通过OLED显示屏可以看到当前光照度（lux）值。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给光线传感器编程，我们需要添加enum.py和light.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和light.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05001_10.png)
+
+### 步骤 2
+### 参考程序
+```
+
+from microbit import *
+from enum import *
+from light import *
+
+while True:
+    light = LIGHT(J1)
+    light_value = int(light.get_lightlevel())
+    display.scroll(str(light_value))
+    sleep(2000)
+```
+
+
+### 结果
+- 通过micro:bit上的LED矩阵可以看到当前光照度（lux）值。
 ## 相关案例
 ---
 
