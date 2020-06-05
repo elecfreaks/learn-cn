@@ -25,3 +25,4 @@ Cutebot智能赛车套件
     cutebot_case12.md
     cutebot_case13.md
     cutebot_case14.md
+    cutebot_case15.md
