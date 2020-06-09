@@ -14,19 +14,19 @@
 ![](./images/03444_02.png)
 
 
-## 14.4.外形与定位尺寸
+## 14.5.外形与定位尺寸
 ---
 
 
 ![](./images/03444_03.png)
 
 
-## 14.5. 主要模块介绍
+## 14.6. 主要模块介绍
 ---
 
 ![](./images/03444_04.png)
 
-## 14.6.添加专属扩展库
+## 14.7.添加专属扩展库
 ---
 
 在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
@@ -39,7 +39,7 @@
 
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 
-## 14.7. 使用方法
+## 14.8. 使用方法
 
 ### TT马达使用案例
 
@@ -82,3 +82,45 @@
 ### 结果
 按键A按下时180°舵机转动到角度0°，按键B按下时360°舵机以100％转动。
 
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给哪吒扩展板编程，我们需要添加nezha.py文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择nezha.py文件添加进来。
+
+![](./images/03444_11.png)
+![](./images/03444_12.png)
+![](./images/03444_13.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from nezha import *
+
+nezha = NEZHA()
+nezha.set_motors(1, 100)
+while True:
+    nezha.set_servo(1, 90)
+    sleep(1000)
+    nezha.set_servo(1, 0)
+    sleep(1000)
+
+
+```
+
+
+### 结果
+- 连接在哪吒扩展板的M1的电机以100%的速度转动，连接在哪吒扩展板的S1的舵机循环转动到90度，延时一秒，转到0度，再延时一秒。
+
+
+## 相关案例
+---    ```
+## 技术文档
+---
