@@ -21,7 +21,7 @@ SKU|EF05013
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -41,7 +41,7 @@ SKU|EF05013
 
 ![](./images/05013_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -70,6 +70,40 @@ SKU|EF05013
 
 ### 结果
 - 当碰撞传感器被按下时，则打开激光模块，否则关闭激光模块。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给激光模块编程，我们需要添加enum.py和laser.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和laser.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05013_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from laser import *
+laser = LASER(J1)
+while True:
+    laser.set_laser(1)
+    sleep(500)
+    laser.set_laser(0)
+    sleep(500)
+```
+
+
+### 结果
+- 接通电源后，激光模块点亮500毫秒后熄灭500毫秒。
 ## 相关案例
 ---
 

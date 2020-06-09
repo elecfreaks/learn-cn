@@ -21,7 +21,7 @@ SKU|EF05014
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -42,7 +42,7 @@ SKU|EF05014
 
 ![](./images/05014_04.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -71,6 +71,42 @@ SKU|EF05014
 
 ### 结果
 - 通过电位器可以控制风扇转速。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给风扇模块编程，我们需要添加enum.py和fans.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和fans.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05014_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from fans import *
+fans = FANS(J1)
+while True:
+    fans.set_fans(1,100)
+    sleep(3000)
+    fans.set_fans(1,50)
+    sleep(3000)
+    fans.set_fans(0)
+    sleep(3000)
+```
+
+
+### 结果
+- 接通电源后，风扇模块循环以100%的速度转动三秒，然后以50%的速度转动三秒，最后停止转动三秒。
 ## 相关案例
 ---
 

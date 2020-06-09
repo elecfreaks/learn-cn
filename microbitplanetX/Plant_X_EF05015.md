@@ -22,7 +22,7 @@ SKU|EF05015
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -42,7 +42,7 @@ SKU|EF05015
 
 ![](./images/05015_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -71,6 +71,38 @@ SKU|EF05015
 
 ### 结果
 - 彩虹灯环循环显示彩虹特效。
+
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+import neopixel
+from enum import *
+from random import randint
+np = neopixel.NeoPixel(J1, 8)
+while True:
+    for pixel_id in range(0, len(np)):
+        red = randint(0, 60)
+        green = randint(0, 60)
+        blue = randint(0, 60)
+        np[pixel_id] = (red, green, blue)
+        np.show()
+        sleep(100)
+```
+
+
+### 结果
+- 接通电源后，彩虹灯环循环显示彩虹特效。
 ## 相关案例
 ---
 

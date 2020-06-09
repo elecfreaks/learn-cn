@@ -21,7 +21,7 @@ SKU|EF05016
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -41,7 +41,7 @@ SKU|EF05016
 
 ![](./images/05016_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -70,6 +70,36 @@ SKU|EF05016
 
 ### 结果
 - 通过OLED显示屏设定的字符串和数字。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给OLED显示屏编程，我们需要添加oled.py文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择oled.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05016_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from oled import *
+
+display = OLED1306()
+display.set_text(0, 0, "hello")
+```
+
+
+### 结果
+- 接通电源后，OLED显示屏显示hello。
 ## 相关案例
 ---
 

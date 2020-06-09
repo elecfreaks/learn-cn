@@ -20,7 +20,7 @@ SKU|EF05026
 核心IC|TM1637
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -40,7 +40,7 @@ SKU|EF05026
 
 ![](./images/05026_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -69,6 +69,40 @@ SKU|EF05026
 
 ### 结果
 - 通过七段四位数码管显示设定12.34。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给七段四位数码管编程，我们需要添加enum.py和nixietube.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和nixietube.py两个文件添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05026_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from nixietube import *
+
+tm = NIXIETUBE(J1)
+n = 0
+while n < 10000:
+    tm.set_show_num(n)
+    n += 1
+```
+
+
+### 结果
+- 七段四位数码管显示从0计数到9999的数值。
 ## 相关案例
 ---
 

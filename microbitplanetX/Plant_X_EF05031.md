@@ -21,7 +21,7 @@ SKU|EF05031
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -43,7 +43,7 @@ SKU|EF05031
 
 *注意：*上电后需要预热三分钟才能正常使用。
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -72,6 +72,37 @@ SKU|EF05031
 
 ### 结果
 - 通过OLED显示屏显示MQ2气体传感器的返回值。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给MQ2气体传感器编程，我们需要添加enum.py和smoke.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和smoke.py两个文件添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05031_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from smoke import *
+smoke = SMOKE(J1)
+while True:
+    display.scroll(smoke.get_smoke())
+```
+
+
+### 结果
+- micro:bit的LED矩阵显示MQ2气体传感器的返回值
 ## 相关案例
 ---
 

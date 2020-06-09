@@ -21,7 +21,7 @@ SKU|EF05029
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -41,7 +41,7 @@ SKU|EF05029
 
 ![](./images/05029_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -70,6 +70,40 @@ SKU|EF05029
 
 ### 结果
 - 通过8x16点阵屏显示表情。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给8x16点阵屏编程，我们需要添加matrix.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择matrix.py文件添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05029_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from matrix import *
+matrix = MATRIX()
+x, y = 0, 0
+while True:
+    for y in range(8):
+        for x in range(16):
+            matrix.set_matrix_draw(x, y)
+    matrix.set_matrix_clear()
+```
+
+
+### 结果
+- 8*16点阵屏循环显示，从左到右，从上到下，依次点亮LED灯，当所有LED灯点亮后再全部熄灭。
 ## 相关案例
 ---
 

@@ -23,7 +23,7 @@ SKU|EF05019
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -43,7 +43,7 @@ SKU|EF05019
 
 ![](./images/05019_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -69,6 +69,45 @@ SKU|EF05019
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_hy3VDtA3xAqE" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
+
+### 结果
+- 根据双路巡线模块检测到的不同状态，micro:bit上的LED矩阵会显示不同的图标。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给双路巡线模块编程，我们需要添加enum.py和tracking.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和tracking.py两个文件添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05019_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from tracking import *
+
+tracking = TRACKING(J1)
+while True:
+    if tracking.get_state() == 11:
+        display.show(Image.YES)
+    elif tracking.get_state() == 10:
+        display.show(Image.SAD)
+    elif tracking.get_state() == 00:
+        display.show(Image.NO)
+    elif tracking.get_state() == 01:
+        display.show(Image.HAPPY)
+```
+
 
 ### 结果
 - 根据双路巡线模块检测到的不同状态，micro:bit上的LED矩阵会显示不同的图标。

@@ -23,7 +23,7 @@ SKU|EF05017
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -43,7 +43,7 @@ SKU|EF05017
 
 ![](./images/05017_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -72,6 +72,44 @@ SKU|EF05017
 
 ### 结果
 - 按下按钮模块的A键、B键或者A键和B键同时按下，micro:bit的LED矩阵显示对应的图标。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给按钮模块编程，我们需要添加enum.py和button.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和button.py两个文件添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05017_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from button import *
+
+button = BUTTON(J1)
+while True:
+    if button.A_is_pressed():
+        display.show(Image.HAPPY)
+    elif button.B_is_pressed():
+        display.show(Image.SAD)
+    elif button.AB_is_pressed():
+        display.show(Image.COW)
+        sleep(500)
+```
+
+
+### 结果
+- 接通电源后，按下按钮‘A’、‘B’、‘A+B’，micro:bit的LED矩阵显示不同的图标。
 ## 相关案例
 ---
 

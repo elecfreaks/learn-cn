@@ -77,7 +77,6 @@ SKU|EF05001
 
 ### 步骤 1
 下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
-
 打开[Python editor](https://python.microbit.org/v/2.0)
 
 ![](./images/05001_07.png)

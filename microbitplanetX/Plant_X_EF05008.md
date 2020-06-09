@@ -1,7 +1,7 @@
 # 碰撞传感器
 
 ## 简介
-碰撞传感器器是一种基于碰撞元件的传感器模块。
+碰撞传感器是一种基于碰撞元件的传感器模块。
 
 ![](./images/05008_01.png)
 
@@ -21,7 +21,7 @@ SKU|EF05008
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -41,7 +41,7 @@ SKU|EF05008
 
 ![](./images/05008_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -70,6 +70,42 @@ SKU|EF05008
 
 ### 结果
 - 当碰撞传感器被按下时，则点亮LED灯，否则熄灭LED灯。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给碰撞传感器编程，我们需要添加enum.py和crash.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和crash.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05008_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from crash import *
+crash = CRASH(J1)
+
+while True:
+    button = crash.crash_is_pressed()
+    if(button == True):
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+
+
+### 结果
+- 当碰撞传感器被按下时，micro:bit上的LED矩阵显示笑脸图案，否则显示哭脸图案。
 ## 相关案例
 ---
 

@@ -21,7 +21,7 @@ SKU|EF05002
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -41,7 +41,7 @@ SKU|EF05002
 
 ![](./images/05002_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -70,6 +70,43 @@ SKU|EF05002
 
 ### 结果
 - 如果人体红外传感器检测到运动，则点亮LED灯，否则熄灭LED灯。
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给人体红外传感器编程，我们需要添加enum.py和pir.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和pir.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05002_10.png)
+
+### 步骤 2
+### 参考程序
+```
+
+from microbit import *
+from enum import *
+from pir import *
+
+while True:
+    pir = PIR(J1)
+    pir_value = pir.PIR_is_decection()
+    if(pir_value == True):
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+        
+```
+
+
+### 结果
+- 当人体红外传感器检测到运动时，micro:bit上的LED矩阵显示笑脸图案，否则显示哭脸图案。
 ## 相关案例
 ---
 

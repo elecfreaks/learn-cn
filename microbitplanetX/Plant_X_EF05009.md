@@ -21,7 +21,7 @@ SKU|EF05009
 
 
 
-
+尺寸：
 
 ## 外形与定位尺寸
 ---
@@ -41,7 +41,7 @@ SKU|EF05009
 
 ![](./images/05009_03.png)
 
-## 编程
+## makecode编程
 ---
 
 ### 步骤 1
@@ -70,6 +70,43 @@ SKU|EF05009
 
 ### 结果
 - 通过电位器控制LED灯的亮度。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给LED灯编程，我们需要添加enum.py和led.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择enum.py和led.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/05009_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from enum import *
+from led import *
+led = LED(J1)
+
+while True:
+    led.set_led(1,100)
+    sleep(1000)
+    led.set_led(1,50)
+    sleep(1000)
+    led.set_led(0,50)
+    sleep(1000)
+```
+
+
+### 结果
+- 接通电源后，LED灯循环以100%的亮度亮一秒，再以50%的亮度亮一秒，最后熄灭一秒。
 ## 相关案例
 ---
 
