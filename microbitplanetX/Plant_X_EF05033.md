@@ -21,7 +21,7 @@ SKU|EF05033
 
 
 
-尺寸：
+
 
 ## 外形与定位尺寸
 ---
@@ -51,7 +51,7 @@ SKU|EF05033
 
 ![](./images/05001_04.png)
 
-为了给MQ5气体传感器编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”https://github.com/elecfreaks/pxt-PlanetX“，然后点击下载这个代码库。
+为了给MQ5气体传感器编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”PlanetX“，然后点击下载这个代码库。
 
 ![](./images/05001_05.png)
 
@@ -63,11 +63,11 @@ SKU|EF05033
 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_Uu0bjdULzWk7](https://makecode.microbit.org/_Uu0bjdULzWk7)
+请参考程序连接：[https://makecode.microbit.org/_6H75oo6ojfjT](https://makecode.microbit.org/_6H75oo6ojfjT)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_HjLaHzYqTR5o" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_6H75oo6ojfjT" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
