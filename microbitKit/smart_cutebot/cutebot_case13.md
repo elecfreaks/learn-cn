@@ -35,21 +35,21 @@
 
 - 在`当开机时`积木块中设置无线电组别为`1`；
 - `X`轴和`Y`轴的数值范围为`0~1023`，当摇杆位置在中心的时候，它的理论值为`512`，故需要将0~1023`map`映射到`-100~100`这个范围之内。
-- 在`无限循环`积木块中设置变量`x`它的值为`x轴加速度值`整除`10`。
-- 在`无限循环`积木块中设置变量`y`它的值为`y轴加速度值`整除`10`。
-- 因为加速度值的范围是`0`~`1024`，整除`10`以后可以近似看为`0`~`100`的速度值。
+- 在`无限循环`积木块中设置变量`x`它的值为`X`轴的读值映射到`-100~100`这个范围的值。
+- 在`无限循环`积木块中设置变量`y`它的值为`y`轴的读值映射到`-100~100`这个范围的值。
+- 通过无线发送值将变量`x`和变量`y`发送出去。
 
 
 ![](./images/case_13_02.png)
 
 #### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_ag2g2sc22hUp](https://makecode.microbit.org/_ag2g2sc22hUp)
+请参考程序连接：[https://makecode.microbit.org/_cPUgXJRLuCmH](https://makecode.microbit.org/_cPUgXJRLuCmH)
 
 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_ag2g2sc22hUp" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_cPUgXJRLuCmH" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
 </iframe>
 </div>  
 
