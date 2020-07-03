@@ -49,6 +49,7 @@
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_YzzEesUvv9Lu" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
+---
 
 ### 接收端
 - `当开机时`设置micro:bit的LED矩阵显示设定图标，设置无线设置组为`1`。
