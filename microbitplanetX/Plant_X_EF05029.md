@@ -80,7 +80,7 @@ SKU|EF05029
 
 ![](./images/05001_07.png)
 
-为了给8x16点阵屏编程，我们需要添加matrix.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择matrix.py文件添加进来。
+为了给8x16点阵屏编程，我们需要添加matrix.py这个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择matrix.py文件添加进来。
 
 ![](./images/05001_08.png)
 ![](./images/05001_09.png)
