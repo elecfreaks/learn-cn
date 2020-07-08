@@ -63,15 +63,15 @@ SKU|EF05017
 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_7bYWKYccY73R](https://makecode.microbit.org/_7bYWKYccY73R)
+请参考程序连接：[https://makecode.microbit.org/_CwAHRjdWX9PL](https://makecode.microbit.org/_CwAHRjdWX9PL)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_7bYWKYccY73R" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_CwAHRjdWX9PL" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
-- 按下按钮模块的A键、B键或者A键和B键同时按下，micro:bit的LED矩阵显示对应的图标。
+- 按下按钮模块的C键、D键或者C键和D键同时按下，micro:bit的LED矩阵显示对应的图标。
 
 ## python编程
 ---
@@ -109,7 +109,7 @@ while True:
 
 
 ### 结果
-- 接通电源后，按下按钮‘A’、‘B’、‘A+B’，micro:bit的LED矩阵显示不同的图标。
+- 接通电源后，按下按钮‘C’、‘D’、‘C+D’，micro:bit的LED矩阵显示不同的图标。
 ## 相关案例
 ---
 
