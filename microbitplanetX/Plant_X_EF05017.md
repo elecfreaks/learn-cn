@@ -98,11 +98,11 @@ from button import *
 
 button = BUTTON(J1)
 while True:
-    if button.A_is_pressed():
+    if button.C_is_pressed():
         display.show(Image.HAPPY)
-    elif button.B_is_pressed():
+    elif button.D_is_pressed():
         display.show(Image.SAD)
-    elif button.AB_is_pressed():
+    elif button.CD_is_pressed():
         display.show(Image.COW)
         sleep(500)
 ```
