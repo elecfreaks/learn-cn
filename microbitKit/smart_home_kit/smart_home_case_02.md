@@ -47,6 +47,9 @@
 
 ![](./images/mMMXChQ.png)
 
+注意：这里需要使用USB接口进行供电。
+
+
 ## 软件
 ---
 [微软makecode](https://makecode.microbit.org/#)
