@@ -55,6 +55,10 @@
 
 ![](./images/Ringbit_Bricks_Pack_step_04_16.png)
 
+***注意：接线时黄色线需要连接在端口上方标有数字（0\1\2）的位置。
+
+
+
 ![](./images/Ringbit_Bricks_Pack_step_04_17.png)
 
 通过下面链接下载PDF文档即可获得详细的搭建步骤图
