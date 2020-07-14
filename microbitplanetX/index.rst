@@ -40,4 +40,6 @@
     Plant_X_EF05032.md
     Plant_X_EF05033.md
     Plant_X_EF05034.md
+    Plant_X_EF05037.md
+    Plant_X_EF05038.md
     Plant_X_EF05041.md
