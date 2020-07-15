@@ -53,6 +53,13 @@ sensor:bit是一款基于micro:bit的扩展板，它扩展了micro:bit上所有�
 
 这是一组I2C接口排针接口。
 
+### USB电源接口
+![](./images/sensor_bit_01.png)
+
+这是USB电源接口，可通过USB进行供电。
+
+
+
 ## 快速上手  
 ---  
 
