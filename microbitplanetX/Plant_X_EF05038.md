@@ -83,7 +83,7 @@ SKU|EF05038
 
 ![](./images/05001_07.png)
 
-为了给RTC时钟模块编程，我们需要添加ds1307.py这个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择ds1307.py文件添加进来。
+为了给MP3时钟模块编程，我们需要添加mp3.py和enum.py这两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择mp3.py和enum.py两个文件添加进来。
 
 ![](./images/05001_08.png)
 ![](./images/05001_09.png)
@@ -93,12 +93,14 @@ SKU|EF05038
 ### 参考程序
 ```
 from microbit import *
-from ds1307 import *
-
-ds1307 = DS1307()
-ds1307.Second(second=0)
+from enum import *
+from mp3 import *
+player = MP3(J1)
 while True:
-    display.scroll(ds1307.Second())
+    if button_a.is_pressed():
+        player.exeCute(Play)
+    elif button_b.is_pressed():
+        player.exeCute(Pause)
 ```
 
 
