@@ -96,7 +96,7 @@ from pm25 import *
 
 pm2_5 = PM25(J1)
 while True:
-    print(pm2_5.get_pm25())
+    display.scroll(pm2_5.get_pm25())
     sleep(1000)
 
 ```
