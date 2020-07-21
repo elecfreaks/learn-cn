@@ -72,33 +72,33 @@ Joystick:bit是一款基于micro:bit 的游戏手柄。它包含了一个操纵�
 
 ![](./images/joystick_v1_09.png)
 
-按下按钮“1”， OLED 显示“1”
+按下按钮“1”， LED 显示“1”
 
-按下按钮“2”， OLED 显示“2”
+按下按钮“2”， LED 显示“2”
 
-按下按钮“3”， OLED 显示“3”
+按下按钮“3”， LED 显示“3”
 
-按下按钮“4”， OLED 显示“4”
+按下按钮“4”， LED 显示“4”
 
-按下按钮“5”， OLED 显示“5”
+按下按钮“5”， LED 显示“5”
 
-按下按钮“6”， OLED 显示“6”
+按下按钮“6”， LED 显示“6”
 
-沿“Y”轴方向向上推动手柄，OLED 显示“+Y”
+沿“Y”轴方向向上推动手柄，LED 显示“+Y”
 
-沿“Y”轴方向向下推动手柄，OLED 显示“-Y”
+沿“Y”轴方向向下推动手柄，LED 显示“-Y”
 
-沿“X”轴方向向左推动手柄，OLED 显示“+X”
+沿“X”轴方向向左推动手柄，LED 显示“+X”
 
-沿“X”轴方向向右推动手柄，OLED 显示“-X”
+沿“X”轴方向向右推动手柄，LED 显示“-X”
 
 - - - -
 
-参考链接: [https://makecode.microbit.org/_atsVFWHcuXCU](https://makecode.microbit.org/_atsVFWHcuXCU) .
+参考链接: [https://makecode.microbit.org/_ibCFsHHWUFKh](https://makecode.microbit.org/_ibCFsHHWUFKh) .
 
 或通过以下界面直接下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_atsVFWHcuXCU" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_ibCFsHHWUFKh" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ## 更多信息  
 ---
