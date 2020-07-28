@@ -13,6 +13,7 @@
    micropythonTutorial/index
    microbitKit/Starter_Kit/index
    microbitKit/Tinker_Kit/index
+   microbitKit/Magic_wand_kit/index
    microbitKit/smart_home_kit/index
    microbitKit/experiment_box/index
    microbitKit/watch_kit/index
