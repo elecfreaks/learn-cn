@@ -53,11 +53,11 @@
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_E0Y7rg53hK46](https://makecode.microbit.org/_E0Y7rg53hK46)
+请参考程序连接：[https://makecode.microbit.org/_aouPzt1dfRDM](https://makecode.microbit.org/_aouPzt1dfRDM)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_E0Y7rg53hK46]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_aouPzt1dfRDM]" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 
