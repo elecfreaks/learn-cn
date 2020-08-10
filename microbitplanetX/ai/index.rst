@@ -5,5 +5,5 @@ AI摄像头
     :maxdepth: 1
     :glob:
 
-  Plant_X_EF05038.md
+  Plant_X_EF05035.md
   case/index
