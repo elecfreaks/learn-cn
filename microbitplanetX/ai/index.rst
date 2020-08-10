@@ -5,9 +5,5 @@ AI 摄像案例
     :maxdepth: 1
     :glob:
 
- Plant_X_EF05035 _01
- Plant_X_EF05035 _02
- Plant_X_EF05035 _03
- Plant_X_EF05035 _04
- Plant_X_EF05035 _05
- Plant_X_EF05035 _06
+  Plant_X_EF05038.md
+  case/index
