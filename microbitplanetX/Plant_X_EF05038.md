@@ -42,7 +42,6 @@ SKU|EF05038
 ![](./images/05038_03.png)
 
 
-
 ## makecode编程
 ---
 
@@ -89,7 +88,7 @@ SKU|EF05038
 
 ![](./images/05001_07.png)
 
-为了给MP3时钟模块编程，我们需要添加mp3.py和enum.py这两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择mp3.py和enum.py两个文件添加进来。
+为了给MP3模块编程，我们需要添加mp3.py和enum.py这两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择mp3.py和enum.py两个文件添加进来。
 
 ![](./images/05001_08.png)
 ![](./images/05001_09.png)
@@ -111,7 +110,7 @@ while True:
 
 
 ### 结果
-- micro:bit的LED矩阵显示RTC时钟模块返回的秒数。
+- 按下micro:bit的A键播放音乐，按下micro:bit的B键暂停音乐。
 ## 相关案例
 ---
 
