@@ -152,6 +152,8 @@ Joystick:bit V2是一款基于micro:bit 的游戏手柄。它包含可控制4个
 
 [遥控天蓬智能车](https://www.elecfreaks.com/learn-cn/microbitKit/TPbot_tianpeng/TPBot_tianpeng_case_14.html)
 
+[遥控麦克纳姆轮小车](https://www.elecfreaks.com/learn-cn/microbitKit/Mecanum_wheel_car_kit/Mecanum_wheel_car_kit_case_07.html)
+
 
 
 ## 更多信息
