@@ -61,8 +61,11 @@
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_8g40hhK9rLvW" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
 ---
+
 ### 结果
+
 按键A按下时两个电机一起转动，当按键B按下时接在M1接口的电机停止转动，当按键A和B同时按下时两个电机同时停止转动。
 
 
@@ -81,10 +84,12 @@
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_hFmaEV1sAay3" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_hFmaEV1sAay3" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div> 
+
 ---
+
 ### 结果
-按键A按下时180°舵机转动到角度0°，按键B按下时360°舵机以100％转动。
+按键A按下时180°舵机转动到角度0°，按键B按下时360°舵机转动到角度360°，当按键A和按键B同时按下时，连续转动舵机以100%的速度转动。
 
 ## python编程
 ---
