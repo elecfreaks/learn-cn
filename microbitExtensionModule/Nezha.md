@@ -124,10 +124,52 @@ while True:
 
 ```
 
-
 ### 结果
 - 连接在哪吒扩展板的M1的电机以100%的速度转动，连接在哪吒扩展板的S1的舵机循环转动到90度，延时一秒，转到0度，再延时一秒。
 
+### 音乐播放案例
+
+### 参考程序
+
+```
+
+from microbit import*
+import music 
+music.play(music.NYAN)
+
+
+```
+
+- 注释：import music是导入音乐库语句，调用music.play()函数，参数music.NYAN是内置的音乐。内置乐曲和旋律库如下表所示：
+
+
+![](./images/03444_14.png)
+
+
+
+### 结果
+- 播放micro:bit内置音乐。
+
+### 参考程序
+
+```
+
+from microbit import *
+import music
+a = ["C4:4","D4:4","E4:4","C4:4"]  #两只老虎
+b = ["E4:4","F4:4","G4:8"]         #跑得快
+c = ["G4:2","A4:2","G4:2","F4:2"]  #一只没有
+d = ["E4:4","C4:4"]                #眼睛/尾巴
+e = ["D4:4","G3:4","C4:8"]         #真奇怪
+two_tiger = 2*a+2*b+c+d+c+d+2*e
+music.play(two_tiger)
+
+
+```
+
+
+### 结果
+- 播放自定义音乐《两只老虎》。
 
 ## 相关案例
 
