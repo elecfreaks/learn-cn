@@ -23,7 +23,7 @@
 ## 硬件连接图
 ---
 
-如图所示，将超声波模块连接到P10引脚。
+如图所示，将超声波模块连接到P5引脚。
 
 ![](./images/t4vFZ0y.jpg)
 
@@ -49,26 +49,26 @@
 ### 步骤 2
 
 - 在`当开机时`积木块中插入`以...的速度前进`积木块，设置参数为80，表示上电时以80的速度前进。
-- 将超声波初始化为以厘米为单位，读取P10引脚，返回值赋值给`item`变量。
-- 如果返回的参数大于5并且小于10，设置左右电机速度为0，停车。
-- 如果返回的参数小于5，设置电机以80的速度倒车。
+- 将超声波初始化为以厘米为单位，读取P5引脚，返回值赋值给`item`变量。
+- 如果返回的参数大于10并且小于20，设置左右电机速度为0，停车。
+- 如果返回的参数小于10，设置电机以80的速度倒车。
 - 如果返回的参数都不符合，设置电机以80的速度前进。
 
 ![](./images/motor_bit_case_02_03.png)
 
 
 ### 程序
-请参考程序连接：[https://makecode.microbit.org/_LhcdHiAjDKKs](https://makecode.microbit.org/_LhcdHiAjDKKs)
+请参考程序连接：[https://makecode.microbit.org/_5uq9T8d0p6hP](https://makecode.microbit.org/_5uq9T8d0p6hP)
 
 你也可以通过以下网页直接下载程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_LhcdHiAjDKKs" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_5uq9T8d0p6hP" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 
 ## 结论
 ---
-- 车辆上电以80的速度向前直行，当用手挡住车辆前进方向10cm至5cm之间时，车辆停止运动，当手再次向车辆靠近且距离小于5cm时，车辆往后倒退到距离大于5cm后停止。
+- 车辆上电以80的速度向前直行，当用手挡住车辆前进方向20cm至10cm之间时，车辆停止运动，当手再次向车辆靠近且距离小于10cm时，车辆往后倒退到距离大于5cm后停止。
 
 ## 思考
 ---
