@@ -10,6 +10,18 @@ ELECFREAKS Ring:bit二代智能车是一款小型DIY智能车，由BBC micro:bit
 
 *[一代Ring:bit Car资料](http://www.elecfreaks.com/learn-cn/microbitKit/Ring_bit_Car_Kit/index.html)*
 
+
+## 产品参数
+---
+
+支持电压：3.5V~5V(3×7号电池）
+车底灯：2XRGB控制
+模式切换：RAINBOWLED模式和OTHERMODULES模式
+接口：PO、P1、P2(GVS端子）
+航机类型：360度数字航机
+尺寸：86x80x82mm
+
+
 ## 装箱清单 ##
 ---
 
