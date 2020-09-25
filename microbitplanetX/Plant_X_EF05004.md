@@ -61,11 +61,11 @@ SKU|EF05004
 
 *注意：*DHT11温湿度传感器，在需要检测温度和湿度的时候，需要在两次检测中间延时3秒。
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_00JcaH7D5066](https://makecode.microbit.org/_00JcaH7D5066)
+请参考程序连接：[https://makecode.microbit.org/_7rRCz0AyM9pd](https://makecode.microbit.org/_7rRCz0AyM9pd)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_00JcaH7D5066" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_7rRCz0AyM9pd" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
