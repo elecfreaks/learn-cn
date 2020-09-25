@@ -60,11 +60,11 @@ SKU|EF05026
 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_7tmRmJ2c4Khw](https://makecode.microbit.org/_7tmRmJ2c4Khw)
+请参考程序连接：[https://makecode.microbit.org/_MsL2d3PP1Pf4](https://makecode.microbit.org/_MsL2d3PP1Pf4)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_7tmRmJ2c4Khw" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_MsL2d3PP1Pf4" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
