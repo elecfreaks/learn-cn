@@ -60,11 +60,11 @@ SKU|EF05022
 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_PXW5kc68kUyq](https://makecode.microbit.org/_PXW5kc68kUyq)
+请参考程序连接：[https://makecode.microbit.org/_7z9hCwWb77zj](https://makecode.microbit.org/_7z9hCwWb77zj)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_PXW5kc68kUyq" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_7z9hCwWb77zj" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
