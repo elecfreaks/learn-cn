@@ -63,11 +63,11 @@ SKU|EF05033
 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_6H75oo6ojfjT](https://makecode.microbit.org/_6H75oo6ojfjT)
+请参考程序连接：[https://makecode.microbit.org/_LK2DWfT47XaY](https://makecode.microbit.org/_LK2DWfT47XaY)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_6H75oo6ojfjT" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_LK2DWfT47XaY" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
