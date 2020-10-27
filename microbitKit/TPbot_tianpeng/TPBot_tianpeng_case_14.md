@@ -52,9 +52,7 @@
 - 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_hYULxqbJVd9P" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
-
 ---
-
 ### 接收端
 - `当开机时`设置无线设置组为`1`。
 - 当无线接收到数据积木块中，将接收到的值保存到变量`v`中；
@@ -81,7 +79,8 @@
 
 ## 常见问题
 ---
-
+Q:使用案例中的代码发现小车不能正常运行？
+A:电池电量不足，增大程序中的小车速度参数的数值，并测试。
 
 ## 相关阅读  
 ---
