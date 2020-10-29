@@ -71,11 +71,11 @@
 
 如果你不想自己亲手编写代码，你可以通过下面这个链接下载程序的完整代码：
 
-[https://makecode.microbit.org/_C2pEYUUbqEv9](https://makecode.microbit.org/_C2pEYUUbqEv9)
+[https://makecode.microbit.org/_gquLdi2P4Lra](https://makecode.microbit.org/_gquLdi2P4Lra)
 
 或者，你可以从下面这个页面下载：
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_C2pEYUUbqEv9" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_gquLdi2P4Lra" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 
 ### 步骤 4 – 成功!  
