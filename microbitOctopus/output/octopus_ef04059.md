@@ -56,6 +56,39 @@ N-MOS| IRLML2502TRPBF具有高电流驱动能力
 
 - 当按下A键时电机旋转，当按下B键时电机停止旋转。
 
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给130带扇叶电机模块编程，我们需要添加fans.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择fans.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04059_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from fans import *
+
+f = FANS(pin1)
+while True:
+
+    f.set_fans(1, 100)
+    sleep(3000)
+    f.set_fans(0, 0)
+    sleep(2000)
+```
+
+
+### 结果
+- 风扇转动三秒，停止两秒。
+
 ## 相关案例
 ---
 

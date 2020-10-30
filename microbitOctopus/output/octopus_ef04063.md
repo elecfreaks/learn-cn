@@ -48,6 +48,40 @@ SKU|EF04063
 ### 结果
 - led灯一秒钟闪一次
 
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给LED灯编程，我们需要添加led.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择led.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04036_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from led import *
+
+l = LED(pin1)
+while True:
+    l.set_led(1,100)
+    sleep(500)
+    l.set_led(0,0)
+    sleep(500)
+```
+
+
+### 结果
+- LED灯每秒闪烁一次。
+
+
+
 ## 相关案例
 ---
 

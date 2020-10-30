@@ -68,4 +68,42 @@ SKU| EF04086
 
 常开触点吸合，常闭触点断开。
 
+
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给3V继电器编程，我们需要添加relay.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择relay.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04086_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from relay import *
+
+l = RELAY(pin1)
+while True:
+    l.set_relay(1)
+    sleep(1000)
+    l.set_relay(0)
+    sleep(1000)
+```
+
+
+### 结果
+- 继电器每一秒切换一次状态。
+
+
+
+
+
+
 ## 常见问题

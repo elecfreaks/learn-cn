@@ -58,4 +58,37 @@ Octopus 3V laser sensor是我们OCTOPUS系列的激光发射电子积木，它�
 
 激光头点亮1秒熄灭1秒。
 
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给激光模块编程，我们需要添加laser.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择laser.py添加进来。
+0
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04096_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from laser import *
+
+l = LASER(pin1)
+while True:
+    l.set_laser(1)
+    sleep(500)
+    l.set_laser(0)
+    sleep(500)
+```
+
+
+### 结果
+- 激光每秒闪烁一次。
+
+
 ## 常见问题

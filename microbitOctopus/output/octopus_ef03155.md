@@ -76,6 +76,39 @@ OLED自发光|无背光
 
  ![](./images/2ThINGK.jpg)
 
+
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给OLED编程，我们需要添加oled.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择oled.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/03155_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from oled import *
+
+display = OLED1306()
+display.set_text(0, 0, "hello")
+```
+
+
+### 结果
+- OLED显示屏显示hello。
+
+
+
+
+
 ## 相关案例
 ---
 
