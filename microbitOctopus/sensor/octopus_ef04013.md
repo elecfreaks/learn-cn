@@ -59,6 +59,40 @@ SKU|EF04013
 ---
 当传感器弹片被按下，micro:bit点阵屏上显示一个矩形，当传感器弹片被释放，显示一颗红心。
 
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给碰撞传感器编程，我们需要添加crash.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择crash.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04013_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from crash import *
+
+button = CRASH(pin1)
+while True:
+    if button.crash_is_pressed():
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+
+
+### 结果
+- 当碰撞传感器被按下时显示笑脸，否则显示哭脸。
+
 ## 相关案例
 ---
 

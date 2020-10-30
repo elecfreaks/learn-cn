@@ -82,6 +82,42 @@ SKU|EF04056
 ### 结果
 - 通过七段四位数码管显示设定数字
 
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给七段四位数码管编程，我们需要添加nixietube.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择nixietube.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04056_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from nixietube import *
+
+tm = NIXIETUBE(pin1, pin2)
+
+n = 0
+while 1:
+    tm.set_show_num(n)
+    n += 1
+```
+
+
+### 结果
+- 在七段四位数码管显示计数。
+
+
+
+
+
 ## 相关案例
 ---
 

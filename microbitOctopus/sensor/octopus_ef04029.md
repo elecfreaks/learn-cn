@@ -48,7 +48,7 @@ SKU|EF04029
 
 - 如下图所示，将MQ5气体传感器连接到扩展板的P1端口。
 
-***以sensor：bit为例***
+***以iot：bit为例***
 
 
 
@@ -77,6 +77,37 @@ SKU|EF04029
 ### 结果
 - 硬件连接后需要预热三分钟，等读数相对稳定后再将传感器探头靠近被测气体进行检测。
 - 随着环境一氧化碳气体浓度的改变，micro:bit的led显示器上显示的数值随之升高而变大。
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给MQ5气体传感器编程，我们需要添加co.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择co.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04029_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from co import *
+
+co = CO(pin1)
+while True:
+    display.scroll(co.get_co())
+    sleep(100)
+```
+
+
+### 结果
+- 在micro:bit的LED矩阵上显示当前MQ5传感器返回的读数。
 ## 相关案例
 ---
 

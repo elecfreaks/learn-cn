@@ -74,6 +74,42 @@ SKU|EF04027
 ### 结果
 - 将此传感器模块插入土壤中后，可以在micro:bit的点阵屏上显示出土壤含水量的值。
 
+
+
+
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给土壤湿度传感器编程，我们需要添加soilhumidity.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择soilhumidity.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04027_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from soilhumidity import *
+
+s = SOILHUMIDITY(pin1)
+while True:
+    display.scroll(s.get_soilhumidity())
+    sleep(100)
+```
+
+
+### 结果
+- 通过micro:bit的LED矩阵显示当前土壤湿度传感器的返回值。
+
+
+
+
 ## 相关案例
 ---
 

@@ -94,4 +94,35 @@ ZH03B传感器模块用于检测所处环境的PM2.5浓度。
 #### 结果
 5x5屏幕滚动显示PM2.5的数值，单位为μg/m3。
 
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给PM2.5传感器编程，我们需要添加pm25.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择pm25.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04090_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from pm25 import *
+
+pm2_5 = PM25(pin1)
+while True:
+    display.scroll(pm2_5.get_pm25())
+```
+
+
+### 结果
+- micro:bit显示pm2.5传感器的返回值。
+
+
+
 ## 常见问题

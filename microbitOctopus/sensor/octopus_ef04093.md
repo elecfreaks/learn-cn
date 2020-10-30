@@ -58,4 +58,35 @@ Octopus Analog UV sensor (GUVA-S12SD)是我们OCTOPUS系列的紫外线传感器
 
 点阵显示屏显示当前紫外线值。
 
+
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给紫外线传感器编程，我们需要添加uvlevel.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择uvlevel.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04093_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from uvlevel import *
+
+s = UVLEVEL(pin1)
+while True:
+    display.scroll(s.get_uvlevel())
+```
+
+
+### 结果
+- 通过LED矩阵显示紫外线传感器的返回值。
+
+
 ## 常见问题

@@ -67,6 +67,44 @@ SKU|EF04005
 ### 结果
 - micro:bit 点阵屏上显示当前秒钟数，每60秒循环一次。
 
+
+
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给RTC时钟模块编程，我们需要添加ds1307.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择ds1307.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04005_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from ds1307 import *
+
+RTC = DS1307()
+RTC.start()
+while 1:
+    if button_a.is_pressed():
+        RTC.Hour(12)
+        RTC.Minute(30)
+        RTC.Second(45)
+    elif button_b.is_pressed():
+        display.scroll(RTC.Second())
+```
+
+
+### 结果
+- 通过LED矩阵显示RTC时钟返回的秒数。
+
+
 ## 相关案例
 ---
 

@@ -54,5 +54,39 @@ SKU|EF04088
 ### 结果
 将小车放在黑线轨迹上，打开开关，小车便沿着黑线轨迹行驶。
 
+
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给双路巡线模块编程，我们需要添加tracking.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择tracking.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04088_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from tracking import *
+
+trc = TRACKING(pin1,pin2)
+while True:
+    if trc.get_state() == 11:
+        display.show(Image.HAPPY)
+    elif trc.get_state() == 00:
+        display.show(Image.SAD)
+```
+
+
+### 结果
+- 双路巡线传感器两个巡线头都检测到白色时显示哭脸，都检测到黑色时显示笑脸。
+
+
 ## 常见问题
 ---
