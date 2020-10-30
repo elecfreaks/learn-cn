@@ -55,6 +55,40 @@ SKU|EF04034
 ### 结果
 - 当按钮被按下显示心形图案，当按钮被放开显示矩形图案
 
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给按钮模块编程，我们需要添加button.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择button.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04034_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from button import *
+
+button = BUTTON(pin1)
+while True:
+    if button.Is_pressed():
+        display.show(Image.HAPPY)
+    else:
+        display.clear()
+```
+
+
+### 结果
+- 当按钮模块被按下时，micro:bit上的LED矩阵显示笑脸图案，否则不显示图案。
+
 ## 相关案例
 ---
 

@@ -51,6 +51,38 @@ SKU|04041
 ### 结果
 - 沿顺时针方向旋转模块上的按钮，然后逐渐打开micro:bit屏幕上的点阵屏。逆时针旋转按钮，led将逐一关闭。
 
+
+## Python 编程
+
+### 步骤 1
+下载压缩包并解压[Octopus_MicroPython-master](https://github.com/lionyhw/Octopus_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给电位器模块编程，我们需要添加trimpot.py。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的Octopus_MicroPython-master文件夹，从中选择trimpot.py添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/04041_10.png)
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from trimpot import *
+
+s = TRIMPOT(pin1)
+while True:
+    display.scroll(s.get_analog())
+```
+
+
+### 结果
+- 通过LED矩阵显示电位器的返回值。
+
+
+
 ## 相关案例
 ---
 
