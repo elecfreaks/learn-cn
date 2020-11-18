@@ -11,6 +11,7 @@ Cutebot智能赛车套件
 
     cutebot_car.md
     cutebot_extensions.md
+    cutebot-python.md
     cutebot_case01.md
     cutebot_case02.md
     cutebot_case03.md
