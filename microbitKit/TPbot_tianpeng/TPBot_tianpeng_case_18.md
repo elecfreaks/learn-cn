@@ -59,16 +59,16 @@
 
 - 当颜色识别传感器识别到绿色，则设置彩虹灯环显示绿色，并判断巡线传感器的状态，如果左侧检测到黑色，则设置左轮速度为0，右轮速度为40；如果右侧检测到黑色，则设置左轮速度为40，右轮速度为0，如果两侧都检测到黑色，则证明天蓬智能车没有偏离黑线，设置天蓬智能车以25%的速度前进。
 
-![](./images/TPBot_tianpeng_case_18_07.png)
+![](./images/TPBot_tianpeng_case_18_08.png)
 
 - 当颜色识别传感器识别到蓝色，则设置彩虹灯环显示蓝色，设置天篷智能车停止行驶。
 
-![](./images/TPBot_tianpeng_case_18_08.png)
 
+![](./images/TPBot_tianpeng_case_18_09.png)
 
 完整程序：
 
-![](./images/TPBot_tianpeng_case_18_09.png)
+![](./images/TPBot_tianpeng_case_18_10.png)
 
 
 ### 程序
