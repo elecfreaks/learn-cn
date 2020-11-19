@@ -23,3 +23,7 @@
     TPBot_tianpeng_case_12.md
     TPBot_tianpeng_case_13.md
     TPBot_tianpeng_case_14.md
+    TPBot_tianpeng_case_15.md
+    TPBot_tianpeng_case_16.md
+    TPBot_tianpeng_case_17.md
+    TPBot_tianpeng_case_18.md
