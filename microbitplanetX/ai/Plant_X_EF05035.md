@@ -41,6 +41,6 @@ SKU|EF05035
 
 ![](./images/05035_04.png)
 
-/*注意：当使用哪吒扩展板之外的micro:bit扩展板连接AI摄像头时，需要添加 https://github.com/elecfreaks/pxt-PlanetX-AI 扩展库。
+/*注意：当使用哪吒扩展板之外的micro:bit扩展板连接AI摄像头时，需要添加 https://github.com/elecfreaks/pxt-PlanetX-AI 扩展库。*/
 
 
