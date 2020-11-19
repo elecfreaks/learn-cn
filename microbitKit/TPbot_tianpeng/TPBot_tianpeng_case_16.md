@@ -17,6 +17,15 @@
 
 
 
+## 硬件连接
+
+将彩虹灯环连接到天蓬智能车的端口1。
+
+
+![](./images/TPBot_tianpeng_case_16_03.png)
+
+
+
 ## 软件
 ---
 [微软makecode](https://makecode.microbit.org/#)

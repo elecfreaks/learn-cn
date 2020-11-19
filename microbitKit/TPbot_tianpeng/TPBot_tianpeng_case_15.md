@@ -14,8 +14,12 @@
 ![](./images/TPBot_tianpeng_case_01_01.png)
 
 
+## 硬件连接
+
+将电位器连接到天蓬智能车的端口1。
 
 
+![](./images/TPBot_tianpeng_case_15_02.png)
 
 ## 软件
 ---
