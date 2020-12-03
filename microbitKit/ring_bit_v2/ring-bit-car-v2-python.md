@@ -13,7 +13,7 @@
 
 ![](./images/03444_12.png)
 
-![](./images/ Ring-bit-car-V2-01.png)
+![](./images/Ring-bit-car-V2-01.png)
 
 ### 步骤 2
 ### 参考程序
