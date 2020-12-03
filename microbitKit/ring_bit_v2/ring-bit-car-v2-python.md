@@ -10,7 +10,9 @@
 为了给Ring:bit car V2编程，我们需要添加Ringbit.py文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的EF_Produce_MicroPython-master文件夹，从中选择Ringbit.py文件添加进来。
 
 ![](./images/03444_11.png)
+
 ![](./images/03444_12.png)
+
 ![](./images/ Ring-bit-car-V2-01.png)
 
 ### 步骤 2
