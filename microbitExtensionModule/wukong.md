@@ -87,6 +87,7 @@
 ### 蜂鸣器(背面)及蜂鸣器功能开关
 
 ![](./images/wukong_09.jpg)
+
 ![](./images/wukong_10.jpg)
 
 ### 8颗氛围灯(背面)
@@ -112,9 +113,11 @@
 
 ![](./images/wukong_20.jpg)
 
-### 软件编程平台
+### 软件编程平台（makecode）
 
 - [微软makecode积木块式在线编程:makecode.microbit.org](makecode.microbit.org)
+
+
 
 ### 添加专属积木块库
 
@@ -147,7 +150,7 @@
 
 ### 驱动电机
 
-- 悟空扩展板有两路电机驱动分为M1和M2，可以连接市面上常用的电机。
+- 悟空扩展板有两路电机驱动端口分别为M1和M2，可以连接市面上常用的电机。
 
 ![](./images/wukong_03.jpg)
 
@@ -199,4 +202,82 @@
 - 在悟空扩展板的中间有一组3对5V的电源接口，可以驱动5V的传感器或者5V的舵机，只需要将5V模块的供电接口连接至5V电源接口，信号线连接至舵机信号线口或者传感器信号线口。
 
 ![](./images/wukong_16.png)
+
+### 软件编程平台（Python editor）
+
+- [Python editor:https://python.microbit.org/v/2.0](https://python.microbit.org/v/2.0)
+
+### 添加.py文件
+
+下载压缩包并解压[EF_Produce_MicroPython-master](https://github.com/lionyhw/EF_Produce_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给悟空扩展板编程，我们需要添加Wukong.py文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的EF_Produce_MicroPython-master文件夹，从中选择Wukong.py文件添加进来。
+
+![](./images/03444_11.png)
+![](./images/03444_12.png)
+![](./images/wukong_21.png)
+
+## 使用方法
+- - - - -
+
+### 驱动呼吸灯
+
+- 悟空扩展板底板有8颗蓝色LED呼吸灯，可以控制其开关或者亮度。
+
+- 切换呼吸灯模式（将set_light_breath(True)的true改为False，可关闭呼吸灯）
+
+```
+from microbit import *
+from Wukong import *
+wk = WUKONG()
+wk.set_light_breath(True)
+```
+
+- 调节呼吸灯亮度
+```
+from microbit import *
+from Wukong import *
+wk = WUKONG()
+wk.set_light(100)
+```
+
+### 驱动电机
+
+- 悟空扩展板有两路电机驱动端口分别为M1和M2，可以连接市面上常用的电机。
+
+- 电机正转两秒，然后反转两秒
+```
+from microbit import *
+from Wukong import *
+wk = WUKONG()
+while True:
+    wk.set_motors(1, 100)
+    wk.set_motors(2, 100)
+    sleep(2000)
+    wk.set_motors(1, -100)
+    wk.set_motors(2, -100)
+    sleep(2000)
+```
+
+
+
+### 驱动舵机
+
+- 将舵机连接至舵机驱动接口S0~S7，使用Wukong扩展库中的舵机积木块进行驱动。
+- 180度舵机可以设置舵机角度0~180度。
+- 360度舵机设置0度为反转最大速度，180度为正转最大速度，90度为停止，0~90度和90~180度为速度调制范围。
+
+```
+from microbit import *
+from Wukong import *
+
+wk = WUKONG()
+while True:
+    wk.set_servo(0, 0)
+    sleep(2000)
+    wk.set_servo(0, 180)
+    sleep(2000)
 
