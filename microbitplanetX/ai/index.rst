@@ -12,3 +12,6 @@ AI摄像头
   Plant_X_EF05035 _04.md
   Plant_X_EF05035 _05.md
   Plant_X_EF05035 _06.md
+  Plant_X_EF05035 _07.md
+  Plant_X_EF05035 _08.md
+  Plant_X_EF05035 _09.md
