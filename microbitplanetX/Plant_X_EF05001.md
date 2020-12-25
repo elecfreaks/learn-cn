@@ -76,8 +76,15 @@ SKU|EF05001
 
 
 ### 步骤 1
+
+
+为了方便的使用行星系列传感器，可以使用已经编写好的库[PlanetX_MicroPython]，我们只需要调用函数并修改参数即可实现对应的功能。
+
 下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
-打开[Python editor](https://python.microbit.org/v/2.0)
+
+推荐使用官方平台：[Python editor](https://python.microbit.org/v/2.0)进行编程
+
+
 
 ![](./images/05001_07.png)
 
