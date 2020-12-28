@@ -45,3 +45,136 @@ SKU|EF05044
  [https://github.com/elecfreaks/pxt-PlanetX-AI](https://github.com/elecfreaks/pxt-PlanetX-AI)
 
 
+### 添加python文件
+
+为了方便的使用python对AI摄像头进行编程，我们可以使用已经编写好的库[EF_Produce_MicroPython-master](https://github.com/lionyhw/EF_Produce_MicroPython/archive/master.zip)，只需要调用函数并修改参数即可实现对应的功能。
+
+下载压缩包并解压[EF_Produce_MicroPython-master](https://github.com/lionyhw/EF_Produce_MicroPython/archive/master.zip)
+
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/AI-py-01.png)
+
+为了给AI摄像头编程，我们需要添加AILens.py这个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的EF_Produce_MicroPython-master文件夹，从中选择AILens.py这个文件添加进来。
+
+
+![](./images/AI-py-02.png)
+
+![](./images/AI-py-03.png)
+
+![](./images/AI-py-04.png)
+
+### 示例代码
+### 示例一     特征学习
+```
+from microbit import *
+from AILens import *
+ai = AILENS()
+ai.switch_function(Learn)
+while True:
+    ai.get_image()
+    if button_a.is_pressed():
+        ai.learn_object(1)
+    buff = ai.get_learn_data()
+    if buff[0] == 1:
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+
+
+```
+### 结果
+- 按下A键学习物品，当识别到所学习的物品时，显示笑脸，否则显示哭脸。
+
+
+### 示例二    颜色识别
+```
+from microbit import *
+from AILens import *
+ai = AILENS()
+ai.switch_function(Color)
+while True:
+    ai.get_image()
+    if (ai.get_color_type() == "Green"):
+        display.show(Image.HAPPY)
+        sleep(2000)
+    else:
+        display.show(Image.SAD)
+```
+### 结果
+- 当识别到绿色卡片的时候，显示笑脸两秒，否则显示哭脸。
+
+### 示例三    小球识别
+```
+from microbit import *
+from AILens import *
+ai = AILENS()
+ai.switch_function(Ball )
+while True:
+    ai.get_image()
+    if (ai.get_ball_color() == "Red"):
+        display.show(Image.HAPPY)
+        sleep(2000)
+    else:
+        display.show(Image.SAD)
+```
+### 结果
+- 当识别到红色小球的时候，显示笑脸两秒，否则显示哭脸。
+
+### 示例四    识别黑线
+```
+from microbit import *
+from AILens import *
+ai = AILENS()
+ai.switch_function(Tracking)
+while True:
+    ai.get_image()
+    buff = ai.get_track_data()
+    
+    if buff[1] > 100:
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+### 结果
+- 当摄像头中的黑线偏向左边时，LED矩阵显示哭脸，当黑线偏向右边时，LED矩阵显示笑脸。
+
+### 示例五    识别人脸 
+```
+from microbit import *
+from AILens import *
+ai = AILENS()
+ai.switch_function(Face )
+while True:
+    ai.get_image()
+    
+    if ai.get_face():
+        display.show(Image.HAPPY)
+    else:
+        display.show(Image.SAD)
+```
+### 结果
+- 当识别到人脸时显示笑脸，否则显示哭脸。
+
+### 示例六   识别卡片
+```
+from microbit import *
+from AILens import *
+ai = AILENS()
+ai.switch_function(Card)
+while True:
+    ai.get_image()
+    
+    if (ai.get_card_content() == "Stop"):
+        display.show(Image.HAPPY)
+        sleep(2000)
+    else:
+        display.show(Image.SAD)
+```
+### 结果
+- 当识别到“停止”卡片时显示笑脸，否则显示哭脸。
+
+
+
+
+
