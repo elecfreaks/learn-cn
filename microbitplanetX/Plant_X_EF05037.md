@@ -56,6 +56,11 @@ SKU|EF05037
 ![](./images/05001_05.png)
 
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
+
+### 可选词条
+
+![](./images/05037_05.png)
+
 ### 步骤 2
 ### 如图所示编写程序
 
@@ -63,16 +68,115 @@ SKU|EF05037
 
 
 ### 参考程序
-请参考程序连接：[https://makecode.microbit.org/_YV1V3d6Ha8bo](https://makecode.microbit.org/_YV1V3d6Ha8bo)
+请参考程序连接：[https://makecode.microbit.org/_9j8UEEYi82tF](https://makecode.microbit.org/_9j8UEEYi82tF)
 
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_YV1V3d6Ha8bo" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_9j8UEEYi82tF" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 ---
 
 ### 结果
 - 通过语音识别模块控制风扇转动。
 
+## makecode编程
+---
+
+### 步骤 1
+在MakeCode的代码抽屉中点击“高级”，查看更多代码选项。
+
+![](./images/05001_04.png)
+
+为了给8x16点阵屏编程，我们需要添加一个扩展库。在代码抽屉底部找到“扩展”，并点击它。这时会弹出一个对话框，搜索”PlanetX“，然后点击下载这个代码库。
+
+![](./images/05001_05.png)
+
+*注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
+### 步骤 2
+### 如图所示编写程序
+
+![](./images/05029_06.png)
+
+
+### 参考程序
+请参考程序连接：[https://makecode.microbit.org/_H1Dec3A9iDDM](https://makecode.microbit.org/_H1Dec3A9iDDM)
+
+你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_H1Dec3A9iDDM" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+---
+
+### 结果
+- 通过8x16点阵屏显示表情。
+
+## python编程
+---
+
+
+### 步骤 1
+下载压缩包并解压[PlanetX_MicroPython](https://github.com/lionyhw/PlanetX_MicroPython/archive/master.zip)
+打开[Python editor](https://python.microbit.org/v/2.0)
+
+![](./images/05001_07.png)
+
+为了给8x16点阵屏编程，我们需要添加matrix.py两个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的PlanetX_MicroPython文件夹，从中选择matrix.py文件添加进来。
+
+![](./images/05001_08.png)
+![](./images/05001_09.png)
+![](./images/)
+
+
+
+#语音指令以及对应的返回值
+
+| 语音指令| 反馈音 | 返回值 | 
+| :------------: | :-----------: | :-----------: |
+| 你好小恩| 你好啊/我在呢 | 1 | 
+| 打开车灯| 车灯已打开 | 10 | 
+| 关闭车灯| 已关闭 | 11 | 
+| 向左转| 左转弯 | 12| 
+| 向右转| 右转弯 | 13 | 
+| 向前进| 全速前进 | 14 | 
+| 向后退| 倒车请注意 | 15 | 
+| 巡线模式| 进入巡线模式 | 16 | 
+| 避障模式| 进入避障模式 | 17 | 
+| 停车| 已停车 | 18 | 
+| 启动设备| 设备运行 | 20 | 
+| 停止设备| 设备关闭 | 21 | 
+| 暂停运行| 休息一下 | 22 | 
+| 继续运行| 开始工作啦 |23 | 
+| 增加一档| 已增加 | 24 | 
+| 降低一档| 已降低 | 25 | 
+| 播放音乐| 欣赏音乐吧 | 26 | 
+| 关闭音乐| 已关闭 | 27 | 
+| 切换音乐| 欣赏下一首音乐 | 28 | 
+| 执行功能一| 执行功能一 | 31 | 
+| 执行功能二| 执行功能二 | 32 | 
+
+
+
+
+
+
+
+
+
+
+### 步骤 2
+### 参考程序
+```
+from microbit import *
+from ASR import *
+
+asr = ASR()
+        
+
+while True:
+    display.scroll(asr.get_ASR())
+```
+
+
+### 结果
+- LED矩阵显示语音识别模块的返回值。
 
 ## 相关案例
 ---
