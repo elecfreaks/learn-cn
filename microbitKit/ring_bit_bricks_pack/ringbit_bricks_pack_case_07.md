@@ -5,7 +5,7 @@
 
 - 使用Ring:bit六合一搭建套件制作一辆积木小车，并通过手柄控制. 
 
-![](./images/Ringbit_Bricks_Pack_case_cn_02_01.png)
+![](./images/Ringbit_Bricks_Pack_case_02_01.png)
 
 
 
@@ -46,7 +46,7 @@ Ring:bit六合一搭建套件 × 1
 
 
 
-![](./images/Ringbit_Bricks_Pack_case_cn_02_03.png)
+![](./images/Ringbit_Bricks_Pack_case_02_03.png)
 
 
 
@@ -59,7 +59,7 @@ Ring:bit六合一搭建套件 × 1
 
 
 
-![](./images/Ringbit_Bricks_Pack_case_cn_02_04.png)
+![](./images/Ringbit_Bricks_Pack_case_02_04.png)
 
 
 
