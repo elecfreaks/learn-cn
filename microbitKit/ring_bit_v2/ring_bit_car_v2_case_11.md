@@ -75,7 +75,7 @@ Ring:bit套件 × 1
 
 
 
-![](./_image/Ringbit_Bricks_Pack_case_cn_07_05.png)
+![](./image/Ringbit_Bricks_Pack_case_cn_07_05.png)
 
 ### 程序
 
@@ -95,7 +95,7 @@ Ring:bit套件 × 1
 
 
 
-![](./_image/Ringbit_Bricks_Pack_case_cn_07_06.png)
+![](./image/Ringbit_Bricks_Pack_case_cn_07_06.png)
 
 
 
@@ -114,7 +114,7 @@ X轴和Y轴的数值范围为0~1023，当摇杆位置在中心的时候，它的
 
 
 
-![](./_image/Ringbit_Bricks_Pack_case_cn_07_07.png)
+![](./image/Ringbit_Bricks_Pack_case_cn_07_07.png)
 
 
 
