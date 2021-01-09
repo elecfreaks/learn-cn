@@ -41,11 +41,17 @@ SKU|EF05044
 
 ![](./images/05035_04.png)
 
-注意：当使用哪吒扩展板之外的micro:bit扩展板连接AI摄像头时，添加扩展库应搜索
+注意：
+
+1.当使用哪吒扩展板之外的micro:bit扩展板连接AI摄像头时，添加扩展库应搜索
  [https://github.com/elecfreaks/pxt-PlanetX-AI](https://github.com/elecfreaks/pxt-PlanetX-AI)
 
+2.当使用一键学习功能时，如果重启电源，则需要对物品重新进行学习。
 
-### 添加python文件
+3.下载程序后，如果发现AI摄像头处于启动页，无法正常运行，需要完全断电然后重启，保证AI摄像头初始化成功。
+
+
+## 添加python文件
 
 为了方便的使用python对AI摄像头进行编程，我们可以使用已经编写好的库[EF_Produce_MicroPython-master](https://github.com/lionyhw/EF_Produce_MicroPython/archive/master.zip)，只需要调用函数并修改参数即可实现对应的功能。
 
@@ -63,11 +69,7 @@ SKU|EF05044
 ![](./images/AI-py-03.png)
 
 ![](./images/AI-py-04.png)
-
-
 ### API
-
-
 | API | 描述 | 
 | :------------: | :-----------: |
 |`AILENS()`|初始化AI摄像头模块。|
@@ -84,10 +86,133 @@ SKU|EF05044
 |`learn_object(learn_id)`|以ID号来学习一个物品，ID号：1~5。|
 |`get_learn_data()`|用列表的方式返回画面中已学习物品的信息：（物品ID、置信度）。|
 
+`class AILENS(object)`
 
+初始化AI摄像头模块。
 
+`def switch_function(self, func)`
 
+选择摄像头功能，`func`选择功能：（`Learn`特征学习；`Card`卡片识别；`Face`人脸识别；`Tracking`巡线识别；`Color`颜色识别；`Ball`小球识别）。
 
+`def get_image(self)`
+
+获取一帧画面
+
+`def get_ball_color(self):`
+
+检测画面中的小球颜色，返回值（当检测到蓝色小球时，返回值为'Blue'，当检测到红色小球时，返回值为'Red'，否则返回‘No Ball’。）
+
+`def get_ball_data(self)`
+
+返回画面中小球的信息，BallData [x,y,w,h,confidence,total,order]。
+
+x：X轴坐标
+
+y：Y轴坐标
+
+w：宽度
+
+h：高度
+
+confidence：置信度
+
+total：图像中小球总数
+
+order：当前小球ID
+
+`def get_face(self)`
+
+判断画面中是否存在人脸
+
+`def get_face_data(self)`
+
+返回画面中人脸的信息，FaceData [x,y,w,h,confidence,total,order]。
+
+x：X轴坐标
+
+y：Y轴坐标
+
+w：宽度
+
+h：高度
+
+confidence：置信度
+
+total：图像中人脸总数
+
+order：当前人脸ID
+
+`def get_card_content(self)`
+
+返回卡片内容，可能的返回值：
+
+numberCards = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+
+letterCards = ["A", "B", "C", "D", "E"]
+
+otherCards = ["Mouse", "micro:bit", "Ruler", "Cat", "Peer", "Ship", "Apple", "Car", "Pan", "Dog", "Umbrella", "Airplane", "Clock", "Grape", "Cup", "Turn left", "Turn right", "Forward", "Stop", "Back"]
+
+当没有检测到卡片时，返回值为‘No Card’
+
+`def get_color_type(self)`
+
+返回卡片颜色，可能返回的颜色：
+
+绿色卡片："Green"
+
+蓝色卡片："Blue"
+
+黄色卡片："Yellow"
+
+黑色卡片： "Black"
+
+红色卡片： "Red"
+
+白色卡片： "White"
+
+当没有检测到颜色卡片的时候，显示‘No Color’
+
+`def get_color_data(self)`
+
+ 返回画面中颜色的信息，ColorData [x,y,w,h,confidence,total,order]
+
+x：X轴坐标
+
+y：Y轴坐标
+
+w：宽度
+
+h：高度
+
+confidence：置信度
+
+total：图像中颜色总数
+
+order：当前颜色ID
+
+`def get_track_data(self)`
+
+返回画面中线段的信息：LineData [angel,width,len]
+
+angel：返回图像中线段的偏移角度
+
+width：返回图像中线段的偏移距离
+
+len：返回图像中线段的线段长度
+
+`def learn_object(self, learn_id)`
+
+以ID号来学习一个物品,
+
+要学习的ID号:learn_id
+
+`def get_learn_data(self)`
+
+返回画面中已学习物品的信息,返回信息：LearnData [ID,confidence]
+
+物品ID：ID
+
+所学习物品的置信度：confidence
 
 
 ### 示例代码
@@ -199,6 +324,29 @@ while True:
 ```
 ### 结果
 - 当识别到“停止”卡片时显示笑脸，否则显示哭脸。
+
+
+## AI摄像头固件下载步骤
+
+为了给AI摄像头下载固件，我们需要安装固件下载软件kflash，下载[kflash_gui_v1.6.5_2_windows.7z](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_windows.7z)并解压。
+解压完成后打开文件夹kflash_gui，找到kflash_gui.exe程序。
+
+
+![](./images/AI-gj-01.png)
+
+双击打开kflash_gui.exe程序，点击打开文件，在文件夹中选择并打开固件v0.4.3.kfpkg，固件v0.4.3.kfpkg下载链接[v0.4.3.kfpkg](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v0.4.3.kfpkg)。
+
+![](./images/AI-gj-02.png)
+
+然后使用USB连接AI摄像头。
+
+![](./images/AI-gj-03.png)
+
+
+最后选择端口，并点击下载即可，然后等待下载完成即可
+
+![](./images/AI-gj-04.png)
+
 
 
 
