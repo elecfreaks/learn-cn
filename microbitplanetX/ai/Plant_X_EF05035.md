@@ -70,6 +70,8 @@ SKU|EF05044
 
 ![](./images/AI-py-04.png)
 ### API
+
+
 | API | 描述 | 
 | :------------: | :-----------: |
 |`AILENS()`|初始化AI摄像头模块。|
@@ -85,6 +87,8 @@ SKU|EF05044
 |`get_color_data()`|用列表的方式返回画面中的颜色信息：（X轴坐标、Y轴坐标、宽度、高度、置信度、图像中颜色总数、当前颜色ID）。|
 |`learn_object(learn_id)`|以ID号来学习一个物品，ID号：1~5。|
 |`get_learn_data()`|用列表的方式返回画面中已学习物品的信息：（物品ID、置信度）。|
+
+
 
 `class AILENS(object)`
 
