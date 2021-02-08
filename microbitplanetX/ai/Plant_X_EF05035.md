@@ -330,22 +330,35 @@ while True:
 - 当识别到“停止”卡片时显示笑脸，否则显示哭脸。
 
 
-## AI摄像头固件下载步骤
+## AI摄像头固件更新
 
-为了给AI摄像头下载固件，我们需要安装固件下载软件kflash，下载[kflash_gui_v1.6.5_2_windows.7z](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_windows.7z)并解压。
+AI摄像头会不定期更新一些新功能和性能优化，在发布新版本固件后，需要手动对AI摄像头进行固件更新。
+
+### 如何检查当前版本
+
+摄像头开机页面右下角会提示当前版本号，（如果没有提示，则是最旧的版本请及时更新）
+![](./images/AI-gj-05.png)
+
+
+### 最新版本固件
+
+固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
+
+### 如何更新固件
+
+首先安装固件下载软件kflash，下载[kflash_gui_v1.6.5_2_windows.7z](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_windows.7z)并解压。
+
 解压完成后打开文件夹kflash_gui，找到kflash_gui.exe程序。
-
 
 ![](./images/AI-gj-01.png)
 
-双击打开kflash_gui.exe程序，点击打开文件，在文件夹中选择并打开固件v0.4.3.kfpkg，固件v0.4.3.kfpkg下载链接[v0.4.3.kfpkg](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v0.4.3.kfpkg)。
+双击打开kflash_gui.exe程序，点击打开文件，在文件夹中选择并打开最新固件。
 
 ![](./images/AI-gj-02.png)
 
 然后使用USB连接AI摄像头。
 
 ![](./images/AI-gj-03.png)
-
 
 最后选择端口，并点击下载即可，然后等待下载完成即可
 
