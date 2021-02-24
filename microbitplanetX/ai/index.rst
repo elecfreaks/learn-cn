@@ -6,6 +6,7 @@ AI摄像头
     :glob:
 
   Plant_X_EF05035.md
+  Plant-X-EF05035-python.md
   Plant_X_EF05035 _01.md
   Plant_X_EF05035 _02.md
   Plant_X_EF05035 _03.md
