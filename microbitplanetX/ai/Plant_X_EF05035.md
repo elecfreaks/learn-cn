@@ -348,17 +348,15 @@ AI摄像头会不定期更新一些新功能和性能优化，在发布新版本
 
 首先安装固件下载软件kflash。
 
-windows下载[kflash_gui_v1.6.5_2_windows.7z](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_windows.7z)并解压。
+windows系统下载[kflash_gui_v1.6.5_2_windows.7z](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_windows.7z)并解压。
 
-macOS下载[kflash_gui_v1.6.5_2_macOS.dmg](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_macOS.dmg)。
+macOS系统下载[kflash_gui_v1.6.5_2_macOS.dmg](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_macOS.dmg)。
 
-解压完成后打开文件夹kflash_gui，找到kflash_gui.exe程序。
-
-windows打开下图图标。
+windows系统解压完成后打开文件夹kflash_gui，找到kflash_gui.exe程序。
 
 ![](./images/AI-gj-01.png)
 
-macOS打开下图图标。
+macOS系统下载完成后打开下图图标。
 
 ![](./images/AI-gj-06.png)
 
