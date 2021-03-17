@@ -6,7 +6,7 @@
 
 ## 使用材料
 ---
-- 1 × [Cutebot V3.0](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18602834180.23.78b86655ZP5Yg8&id=598365555295)
+- 1 × [Cutebot V3.0](https://www.elecfreaks.com/micro-bit-smart-cutebot.html)
 - 1 × [Cutebot套件锂电池扩展包](https://www.elecfreaks.com/cutebot-lithium-battery-pack.html)
 - 1 × [AI摄像头](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18602834180.55.375a6655f0WZo1&id=632538261754)
 
