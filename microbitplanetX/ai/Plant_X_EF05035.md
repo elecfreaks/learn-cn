@@ -78,7 +78,7 @@ windows系统下载[CH341SerSetup.exe](https://github.com/elecfreaks/learn-cn/ra
 macOS系统下载[CH34x_Install_V1.5.pkg](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/CH34x_Install_V1.5.pkg)。
 
 
-2.首先安装固件下载软件kflash。
+2.安装固件下载软件kflash。
 
 windows系统下载[kflash_gui_v1.6.5_2_windows.7z](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_windows.7z)。
 
