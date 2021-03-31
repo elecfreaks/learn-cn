@@ -67,11 +67,18 @@ AI摄像头会不定期更新一些新功能和性能优化，在发布新版本
 
 ### 最新版本固件
 
-固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
+最新版固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
 
 ### 如何更新固件
 
-首先安装固件下载软件kflash。
+1.首先安装摄像头串口驱动程序：
+
+windows系统下载[CH341SerSetup.exe](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/CH341SerSetup.exe)并解压。
+
+macOS系统下载[CH34x_Install_V1.5.pkg](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/CH34x_Install_V1.5.pkg)。
+
+
+2.首先安装固件下载软件kflash。
 
 windows系统下载[kflash_gui_v1.6.5_2_windows.7z](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/kflash_gui_v1.6.5_2_windows.7z)并解压。
 
@@ -85,7 +92,7 @@ macOS系统下载完成后打开下图图标。
 
 ![](./images/AI-gj-06.png)
 
-双击打开kflash_gui.exe程序，点击打开文件，在文件夹中选择并打开最新固件。
+3.双击打开kflash_gui.exe程序，点击打开文件，在文件夹中选择并打开 最新版固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
 
 ![](./images/AI-gj-02.png)
 
