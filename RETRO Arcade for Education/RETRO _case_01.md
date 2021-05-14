@@ -57,6 +57,7 @@
 ![](./images/retro-case-01-08.png)
 
 - 为了防止精灵移动时走出画面外，设置精灵处于屏幕。
+
 ![](./images/retro-case-01-09.png)
 
 ### 程序
@@ -72,14 +73,23 @@
 
 ## 程序下载
 - 编写或者打开游戏程序后，通过USB连接掌机。
+
 ![](./images/retro-case-01-10.png)
+
 - 选择硬件“F4”。
+
 ![](./images/retro-case-01-11.png)
+
 - 设备匹配“Arcade（app）”连接。
+
 ![](./images/retro-case-01-12.png)
+
 - 单击掌机上的复位键，进入下载界面。
+
 ![](./images/retro-case-01-13.png)
+
 - 点击下载，完成程序。
+
 ![](./images/retro-case-01-14.png)
 
 
