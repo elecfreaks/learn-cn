@@ -48,15 +48,25 @@
 
 ## 程序下载
 - 编写或者打开游戏程序后，通过USB连接掌机。
+
 ![](./images/retro-case-01-10.png)
+
 - 选择硬件“F4”。
+
 ![](./images/retro-case-01-11.png)
+
 - 设备匹配“Arcade（app）”连接。
+
 ![](./images/retro-case-01-12.png)
+
 - 单击掌机上的复位键，进入下载界面。
+
 ![](./images/retro-case-01-13.png)
+
 - 点击下载，完成程序。
+
 ![](./images/retro-case-01-14.png)
+
 
 
 ## 结论
