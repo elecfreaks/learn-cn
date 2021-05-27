@@ -5,8 +5,9 @@
 ## 使用材料
 ---
 
-- 1 x Micro:bit
-- 1 x Ring:bit Car二代
+- [Ring:bit 二代小车套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=608540718403)
+
+- [micro:bit（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=562621059348)
 
 ## 背景知识
 ---
