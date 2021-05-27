@@ -8,7 +8,7 @@ power:bit纽扣电池板是一种最小尺寸的微型扩展板。它能够给mi
 ## 购买链接
 ---
 
-[钮扣电池扩展板（power:bit）](https://item.taobao.com/item.htm?ft=t&id=564916883947)
+- [钮扣电池扩展板（power:bit）](https://item.taobao.com/item.htm?ft=t&id=564916883947)
 
 ## 特性 
 ---
