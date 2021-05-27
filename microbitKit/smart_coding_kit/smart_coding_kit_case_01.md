@@ -7,7 +7,7 @@
 ## 使用材料
 ---
 
-- 1 x smart coding kit 手表套件Pro
+- 1 x [手表套件Pro（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=582042009614)
 - 1 x 带有蓝牙的电脑
 > 系统版本（Windows 10 version 1709+）（macOS 10.13+）
 
