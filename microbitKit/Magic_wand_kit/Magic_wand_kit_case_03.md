@@ -8,7 +8,8 @@
 ![](./images/magicwand_case_01_01.png)
 
 
-## 使用材料
+## 使用材料（淘宝购买链接）
+[魔法棒套件](https://item.taobao.com/item.htm?ft=t&id=632389740329)
 ---
 
 
