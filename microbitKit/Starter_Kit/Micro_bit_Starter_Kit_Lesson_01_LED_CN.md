@@ -19,7 +19,7 @@ LED灯的应用非常广泛。在日常生活中，我们看到的大部分信�
 - 2 x 100欧姆电阻  
 - 若干跳线
 
-**温馨提示：如果你需要以上所有元件，你可以购买我们的[Elecfreaks小小科学家套件](https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w4024-17803785896.2.18dc3f94XOgpWg&id=562837851877&scene=taobao_shop)。**
+**温馨提示：如果你需要以上所有元件，你可以购买我们的[Elecfreaks小小科学家套件](https://item.taobao.com/item.htm?ft=t&id=597096675822)。**
 
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Starter_Kit/images/case_01_02.jpg)
 
