@@ -15,7 +15,7 @@ micro:bit手表套件Pro基于一代手表套件进行了升级，
 增加了蜂鸣器开关，功能再升级。
 
 ## 购买链接
-[手表套件Pro（power:bit）](https://item.taobao.com/item.htm?ft=t&id=582042009614)
+[手表套件Pro（wear:bit）](https://item.taobao.com/item.htm?ft=t&id=582042009614)
 
 
 ## 产品参数
