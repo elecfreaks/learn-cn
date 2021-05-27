@@ -11,6 +11,11 @@
 
 ![](./images/wukong_01.jpg)
 
+
+## 购买链接
+
+[悟空创意搭建套装](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-18602834185.12.6df353faemg4gV&id=598170780884)
+
 ## 特性 
 - - - - -
 
