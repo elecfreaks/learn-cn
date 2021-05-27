@@ -2,7 +2,7 @@
 
 ## 目的
 ---
-- 使用smart coding kit手表套件Pro完成Scratch的连接。
+- 使用smart coding kit手表套件Pro（含主板）完成Scratch的连接。
 
 ## 使用材料
 ---
