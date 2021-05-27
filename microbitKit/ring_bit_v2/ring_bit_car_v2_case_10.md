@@ -6,9 +6,10 @@
 
 ## 使用材料
 ---
-- 1 x Ring:bit Car 套件
-- 1 x micro:bit主板
-- 1 x Ringbit二代小车专用超声波模块Sonar:bit
+- [Ring:bit Car 套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=608540718403)
+- [micro:bit主板（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=562621059348)
+- [Ringbit二代小车专用超声波模块Sonar:bit（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=608540718403)
+
 
 
 ## 硬件连接图
