@@ -3,6 +3,11 @@
 ## 简介
 micro:bit手表套件是一套基于micro:bit纽扣电池扩展板的可穿戴装备，仅需简单的装配步骤，就可DIY一款micro:bit手表。它配备有蜂鸣器，不仅可以为电路板供电，还可以通过排针使用P1，P2，GND和3V端口，可以与我们的亚克力表带和主板一起使用。
 
+## 购买链接
+---
+
+- [钮扣电池扩展板（power:bit）](https://item.taobao.com/item.htm?ft=t&id=564916883947)
+
 ## 组装图示
 
 使用螺丝将你的micro:bit和power:bit固定在一起
