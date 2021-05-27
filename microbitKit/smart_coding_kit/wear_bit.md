@@ -12,7 +12,9 @@ wear:bit纽扣电池板Pro是一种小尺寸的微型扩展板。
 
 增加了蜂鸣器开关，功能再升级。
 
-##淘宝购买链接
+
+
+## 淘宝购买链接
 ---
 [手表套件Pro（wear:bit）](https://item.taobao.com/item.htm?ft=t&id=582042009614)
 
