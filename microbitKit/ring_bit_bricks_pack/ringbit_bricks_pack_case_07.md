@@ -14,12 +14,8 @@
 
 ## 使用材料
 ---
-
-Ring:bit六合一搭建套件 × 1
-
-游戏手柄 × 1
-
-
+[六合一积木搭建套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=619734013239)
+[游戏手柄（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=582662338443)
 
 
 
