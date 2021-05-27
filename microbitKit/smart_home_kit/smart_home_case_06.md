@@ -8,7 +8,7 @@
 ## 使用材料
 ---
 
-- 1 X 智能家居套件
+- 1 X [智能家居套件（含主板）](https://item.taobao.com/item.htm?ft=t&id=609328225464)
 - 剪刀，胶水，白纸和一些瓦楞纸板
 
 ![](./images/NKJyemH.jpg)
