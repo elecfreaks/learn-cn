@@ -5,6 +5,9 @@
 
 power:bit纽扣电池板是一种最小尺寸的微型扩展板。它能够给micro:bit主板供电，并且板载蜂鸣器，通过排针引出了P1、P2、GND、3V接口。可以与我们的亚克力表带和主板搭配使用。
 
+## 购买链接
+[钮扣电池扩展板（power:bit）](https://item.taobao.com/item.htm?ft=t&id=564916883947)
+
 ## 特性 
 ---
 
