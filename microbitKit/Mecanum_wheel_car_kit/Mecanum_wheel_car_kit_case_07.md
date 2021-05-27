@@ -8,7 +8,8 @@
 ## 使用材料
 ---
 
-- 麦克纳姆轮小车套件、joystick:bit
+- [麦克纳姆轮小车套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=604443327840)
+- [joystick:bit（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=642627759623)
 
 ## 背景知识
 ---
