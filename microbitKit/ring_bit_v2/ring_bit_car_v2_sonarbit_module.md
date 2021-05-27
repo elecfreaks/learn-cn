@@ -7,6 +7,12 @@
  
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_v2_sonar_01.jpg)
 
+
+## 淘宝购买链接
+---
+- [Ring:bit 二代小车套件](https://item.taobao.com/item.htm?ft=t&id=608540718403)
+
+
 ## 特性
 ---
 - 输入电压为3V~5V，micro:bit能直接驱动。
