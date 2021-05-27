@@ -6,7 +6,7 @@
 
 ## 使用材料
 ---
-- [Ring:bit Car 套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=564916883947)
+- [Ring:bit Car 套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=608540718403)
 
 
 ## 硬件连接图
