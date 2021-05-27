@@ -7,7 +7,7 @@
 ## 使用材料
 ---
 
-- 1 x smart coding kit 手表套件
+- 1 x [手表套件Pro（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=582042009614)
 
 ![](./images/smart_coding_kit_case_09_01.png)
 
