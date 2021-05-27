@@ -6,6 +6,9 @@ Motor:bit是一款基于Micro:bit的电机驱动板，它集成了TB6612电机�
 
 ![](./images/6zRKrvw1.jpg)
 
+## 购买链接
+[两路电机驱动板（motor:bit）](https://item.taobao.com/item.htm?ft=t&id=564916191336)
+
 
 ## 特性
 ---
