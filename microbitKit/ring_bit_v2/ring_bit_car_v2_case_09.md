@@ -6,8 +6,8 @@
 
 ## 使用材料
 ---
-- 1 x Ring:bit Car 套件
-- 2 x micro:bit主板
+- [Ring:bit Car 套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=608540718403)
+- [micro:bit主板（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=562621059348)
 
 ## 背景知识 ##
 ### 什么是无线电 ###
