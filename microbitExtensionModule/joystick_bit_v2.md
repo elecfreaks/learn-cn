@@ -16,6 +16,8 @@ Joystick:bit V2是一款基于micro:bit 的游戏手柄。它包含可控制4个
 
 ![](./images/joystick_v2_03.png)
 
+## 购买链接
+[Joystick:bit V2（游戏手柄）](https://item.taobao.com/item.htm?ft=t&id=582662338443)
 
 ## 特点
 ---
