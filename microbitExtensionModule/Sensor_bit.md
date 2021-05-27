@@ -5,6 +5,9 @@
 
 sensor:bit是一款基于micro:bit的扩展板，它扩展了micro:bit上所有可用的IO口，以GVS形式引出，通过它能扩展各种3V的电子积木模块，如LED灯、光敏、舵机等。并且板载了蜂鸣器和耳机接口，不仅能够播放外音还能够插上耳机听音乐。
 
+## 购买链接
+[3V传感器扩展板（sensor:bit）](https://item.taobao.com/item.htm?ft=t&id=572685991359)
+
 
 ## 特性 
 ---
