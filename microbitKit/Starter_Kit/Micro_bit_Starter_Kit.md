@@ -9,7 +9,7 @@ Micro：bit小小科学家套件可以帮助您进入一个美好的电子世界
 ![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/Starter_Kit/images/starter_kit_01.jpg)
 
 ## 购买链接
-[小小科学家套件](https://item.taobao.com/item.htm?ft=t&id=597096675822)
+[Micro:bit 小小科学家套件](https://item.taobao.com/item.htm?ft=t&id=597096675822)
 
 
 ## 套件包含
