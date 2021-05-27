@@ -9,7 +9,7 @@
 
 ## 使用材料
 ---
-- 1 x Smart home Kit
+- 1 x [智能家居套件（含主板）](https://item.taobao.com/item.htm?ft=t&id=609328225464)
 - 1 x 瓦楞纸板
 - 2 x 小木棍
 - 1 x 胶水
