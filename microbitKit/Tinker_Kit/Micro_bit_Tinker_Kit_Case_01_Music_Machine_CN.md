@@ -20,7 +20,7 @@
 
 ![](./images/5BURByd.jpg)
 
-**温馨提示: 如果你想要以上所有这些元器件，你可以购买我们的[micro:bit小小发明家套件](https://item.taobao.com/item.htm?spm=a230r.7195193.1997079397.9.z3IMPf&id=564707672256&abbucket=5)。**
+**温馨提示: 如果你想要以上所有这些元器件，你可以购买我们的[micro:bit小小发明家套件](https://item.taobao.com/item.htm?ft=t&id=564707672256)。**
 
 
 ## 制作过程
