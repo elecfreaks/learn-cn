@@ -8,7 +8,7 @@
 ## 使用材料
 ---
 
-- 1 x [天蓬智能车](https://item.taobao.com/item.htm?spm=a1z10.5-c-s.w4002-18602834185.41.68d15ccfBFHNPy&id=618758535761)
+- [天蓬智能车（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=627045784239)
 
 
 ![](./images/TPBot_tianpeng_case_01_01.png)
