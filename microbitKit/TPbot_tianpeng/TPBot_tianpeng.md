@@ -8,7 +8,7 @@
 ## 淘宝购买链接
 ---
 
--[天蓬智能车](https://item.taobao.com/item.htm?ft=t&id=627045784239)
+- [天蓬智能车](https://item.taobao.com/item.htm?ft=t&id=627045784239)
 
 ## 产品图片
 ---
