@@ -7,7 +7,7 @@ smart home套件精选TMP36温度传感器、声音传感器、碰撞传感器�
 
 ![](./images/uucCMNM.jpg)
 
-## 购买链接
+## 淘宝购买链接
 [智能家居套件](https://item.taobao.com/item.htm?ft=t&id=609328225464)
 
 
