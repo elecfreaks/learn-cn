@@ -7,7 +7,8 @@
 ## 使用材料
 ---
 
-- 1 x Watch kit 手表套件
+- 1 x [Watch kit 手表套件(淘宝购买链接)](https://item.taobao.com/item.htm?ft=t&id=564916883947)
+
 
 
 ## 背景知识
