@@ -11,7 +11,7 @@
 
 ## 使用材料
 ---
-
+[六合一积木搭建套件（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=619734013239)
 
 ![](./images/Ringbit_Bricks_Pack_case_04_02.png)
 
