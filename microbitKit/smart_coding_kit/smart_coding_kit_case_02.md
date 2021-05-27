@@ -2,12 +2,12 @@
 
 ## 目的
 ---
-- 使用smart coding kit手表套件完成可穿戴便携式骰子玩具。
+- 使用smart coding kit手表套件（含主板）完成可穿戴便携式骰子玩具。
 
 ## 使用材料
 ---
 
-- 1 x smart coding kit 手表套件
+- 1 x [手表套件Pro（淘宝购买链接）](https://item.taobao.com/item.htm?ft=t&id=582042009614)
 
 
 
