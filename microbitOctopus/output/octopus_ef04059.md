@@ -103,7 +103,8 @@ while True:
 - 如果使用扩展板，请勿同时使用扩展板的供电接口和micro:bit的供电接口。
 2.发现接入电机后，不进行编程电机也会转动。
 - 在接入电机时，需注意避开micro:bit的共用引脚
+
 micro:bit版本 |LED共用引脚 | 按键共用引脚
 :-: | :-: | :-: 
-micro:bit V2 | P3\P4\P6\P7\P10 | P5\P11
-micro:bit V1 | P3\P4\P6\P7\P9\P10 | P5\P11
+micro:bit V2|P3\P4\P6\P7\P10|P5\P11
+micro:bit V1|P3\P4\P6\P7\P9\P10|P5\P11
