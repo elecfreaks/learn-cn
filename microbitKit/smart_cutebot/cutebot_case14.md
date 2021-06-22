@@ -33,18 +33,18 @@
 
 ### 步骤 3
 
-- 设置`当红外遥控器Up键按下时`小车`全速前进`，`当红外遥控器Down键按下时`小车`全速倒退`，`当红外遥控器Left键按下时`小车`全速左转`，`当红外遥控器Right键按下时`小车`全速右转`，`当红外遥控器OK键按下时`小车`立刻停车`。
+- 当接收到红外信号时，判断被按下的按键，`当红外遥控器Up键按下时`小车`全速前进`，`当红外遥控器Down键按下时`小车`全速倒退`，`当红外遥控器Left键按下时`小车`全速左转`，`当红外遥控器Right键按下时`小车`全速右转`，`当红外遥控器OK键按下时`小车`立刻停车`。
 
 ![](./images/case_14_02.png)
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_1mvVwXChAa1k](https://makecode.microbit.org/_1mvVwXChAa1k)
+请参考程序连接：[https://makecode.microbit.org/_fRf5z8Hiub2y](https://makecode.microbit.org/_fRf5z8Hiub2y)
 
 你也可以通过以下网页直接下载程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:https://makecode.microbit.org/_1mvVwXChAa1k" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_fRf5z8Hiub2y" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin">
 </iframe>
 </div>  
 ---
