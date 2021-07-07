@@ -119,11 +119,11 @@
 
 ![](./images/kidsiot_22.jpg)
 
-请参考程序连接：[https://makecode.microbit.org/_d1fifJTomKq2](https://makecode.microbit.org/_d1fifJTomKq2)
+请参考程序连接：[https://makecode.microbit.org/_MH6aJC8jiXCU](https://makecode.microbit.org/_MH6aJC8jiXCU)
 
 你也可以通过以下网页修改程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_d1fifJTomKq2" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_MH6aJC8jiXCU" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 ---
