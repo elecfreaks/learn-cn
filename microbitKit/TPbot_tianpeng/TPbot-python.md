@@ -9,10 +9,12 @@
 下载压缩包并解压[EF_Produce_MicroPython-master](https://github.com/lionyhw/EF_Produce_MicroPython/archive/master.zip)
 打开[Python editor](https://python.microbit.org/v/2.0)
 
+为了给天蓬智能车编程，我们需要添加TPBot.py这个文件。
+点击Load/Save。
+
 ![](./images/TPbot-py-01.png)
 
-为了给天蓬智能车编程，我们需要添加TPBot.py这个文件。
-点击Load/Save，然后点击Show Files（1）下拉菜单。
+点击Show Files（1）下拉菜单。
 
 ![](./images/TPbot-py-02.png)
 
