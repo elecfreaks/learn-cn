@@ -18,7 +18,7 @@
 
 ![](./images/TPbot-py-02.png)
 
-点击Add file在本地找到下载并解压完成的EF_Produce_MicroPython-master文件夹。
+点击Add file在本地找到已经下载并解压完成的EF_Produce_MicroPython-master文件夹。
 
 ![](./images/TPbot-py-03.png)
 
