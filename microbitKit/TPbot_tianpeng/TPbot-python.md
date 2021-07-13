@@ -11,11 +11,16 @@
 
 ![](./images/TPbot-py-01.png)
 
-为了给天蓬智能车编程，我们需要添加TPBot.py这个文件。点击Load/Save，然后点击Show Files（1）下拉菜单，再点击Add file在本地找到下载并解压完成的EF_Produce_MicroPython-master文件夹，从中选择TPBot.py这个文件添加进来。
+为了给天蓬智能车编程，我们需要添加TPBot.py这个文件。
+点击Load/Save，然后点击Show Files（1）下拉菜单。
 
 ![](./images/TPbot-py-02.png)
 
+点击Add file在本地找到下载并解压完成的EF_Produce_MicroPython-master文件夹。
+
 ![](./images/TPbot-py-03.png)
+
+从中选择TPBot.py这个文件添加进来。
 
 ![](./images/TPbot-py-04.png)
 
