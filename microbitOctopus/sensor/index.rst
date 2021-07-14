@@ -8,7 +8,7 @@
     :numbered: 2
 
     octopus_ef04087.md
-    sonar_bit.md
+    octopus_ef04089.md
     octopus_ef03047.md
     octopus_ef04090.md
     octopus_ef04088.md
