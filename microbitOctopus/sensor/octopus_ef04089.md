@@ -119,6 +119,7 @@ G-V-S信号控制接口，用于外部设备控制超声波模块的工作。
 你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_eyU2yC79fXyc" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+
 ---
 
 ### 结果
