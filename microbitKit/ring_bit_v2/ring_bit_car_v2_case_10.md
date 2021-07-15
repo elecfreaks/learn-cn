@@ -16,7 +16,7 @@
 ---
 - Ring:bit扩展版的P1口连接左轮舵机，P2口连接右轮舵机，超声波模块连接到P0口。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/case_10_01.png)
+![](./images/case_10_01.png)
 
 ## 软件平台
 ---
@@ -41,7 +41,7 @@
 - 在`On start`积木块中插入设置左右轮舵机连接口积木块，端口号以实际舵机连接端口为准。
 - 全速向前行驶。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_car_v2_case_10_01.png)
+![](./images/ring_bit_car_v2_case_10_01.png)
 
 ### 步骤 3
 
@@ -50,7 +50,7 @@
 - 如果是，设置右轮速度为100，左轮速度为0，延时500ms，完成左转避障。
 - 如果不是，全速前进。
 
-![](https://raw.githubusercontent.com/elecfreaks/learn-cn/master/microbitKit/ring_bit_v2/images/ring_bit_car_v2_case_10_02.png)
+![](./images/ring_bit_car_v2_case_10_02.png)
 
 ### 参考代码
 
