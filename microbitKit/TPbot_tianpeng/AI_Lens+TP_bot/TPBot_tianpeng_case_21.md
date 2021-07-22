@@ -55,6 +55,7 @@
 ![](./images/TPBot_tianpeng_case_21_07.png)
 
 - 在`无限循环`中，从AI摄像头获取一帧图像，根据识别到的图像中的颜色来切换车头灯的颜色。
+
 ![](./images/TPBot_tianpeng_case_21_08.png)
 
 - 完整程序：
