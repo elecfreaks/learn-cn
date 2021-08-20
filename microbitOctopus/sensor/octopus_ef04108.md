@@ -37,7 +37,7 @@ SKU|EF04108
 
 ![](./images/EF04108-04.png)
 
-点击“扩展”，在弹出的对话框中搜索“https://github.com/elecfreaks/pxt-ASR"，下载语音识别电子积木的代码库。
+点击“扩展”，在弹出的对话框中搜索 “https://github.com/elecfreaks/pxt-ASR" ，下载语音识别电子积木的代码库。
 
 ![](./images/EF04108-05.png)
 
