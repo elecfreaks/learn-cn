@@ -47,7 +47,7 @@
 | 电机驱动 |2路 (M1，M2)|板载电机驱动电路驱动 |3.7V|
 | 舵机驱动 |8路舵机接口 (S0~S7)|板载舵机驱动电路驱动|-|
 | IO口引出 |P0、P1、P2、P8、P12、P13、P14、P15、IIC|支持拖动3V和5V器件|GVS端子|
-| Rainbow LED |LED0、LED1、LED2、LED3|扩展Neopixel库使用|连接到micro:bit引脚P16|
+| Rainbow LED |LED0、LED1、LED2、LED3|扩展Rainbow LED库使用|连接到micro:bit引脚P16|
 | 蜂鸣器 |无源蜂鸣器，板载功能开关|使用music库驱动|连接到micro:bit引脚P0|
 | 氛围灯 |反面边缘8颗LED灯，编程控制|常亮，闪亮，呼吸灯效果|开机时会闪亮一次，为正常现象
 | 乐高底座 |标准7 x 5 长方形底座|电池包镶嵌底座中央|-|
