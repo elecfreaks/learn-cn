@@ -43,8 +43,7 @@ SKU|EF05044
 
 注意：
 
-1.当使用哪吒扩展板之外的micro:bit扩展板连接AI摄像头时，添加扩展库应搜索
- [https://github.com/elecfreaks/pxt-PlanetX-AI](https://github.com/elecfreaks/pxt-PlanetX-AI)
+1.当使用哪吒扩展板之外的micro:bit扩展板连接AI摄像头时，添加扩展库应搜索PlanetX-AI
 
 2.当使用一键学习功能时，如果重启电源，则需要对物品重新进行学习。
 
