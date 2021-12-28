@@ -79,6 +79,23 @@ SKU|EF05037
 - 通过语音识别模块控制风扇转动。
 
 
+### 如图所示编写程序
+
+![](./images/05037_11.png)
+
+
+### 参考程序
+请参考程序连接：[https://makecode.microbit.org/_9j8UEEYi82tF](https://makecode.microbit.org/_9j8UEEYi82tF)
+
+你也可以通过以下网页直接下载程序，下载完成后即可开始运行程序。
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_9j8UEEYi82tF" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+---
+
+### 结果
+- 通过语音识别模块控制风扇转动。
+
+
 
 ## python编程
 ---
