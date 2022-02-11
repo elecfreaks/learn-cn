@@ -33,3 +33,4 @@
    microbitOctopus/sensor/index
    microbitplanetX/index
    microbitExtensionModule/index
+   Arduino-3-in-1-box/index
