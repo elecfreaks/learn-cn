@@ -11,8 +11,9 @@ classroom:bit 是一款基于 micro:bit 的扩展板，它扩展了 micro:bit �
 - 单独引出IIC接口，能直接插入OLED、BME280等IIC器件。
 - 支持乐高接口。
 
-## 参数  
-|**参数**|项目|
+## 参数 
+
+|参数|项目|
 |:--:|:--:|
 |品名|classroom:bit|
 |版本号|V1.0|
