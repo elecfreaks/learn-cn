@@ -88,7 +88,7 @@
 ***注意：8266模块暂时不支持5G路由器WIFI信号，请连接2.4G路由器WIKI信号***
 ### 步骤 3
 
-在`无限循环`中依次插入`连接thinkspeak`积木块，`设置发送到ThingSpeak平台的数据`积木块，`send data`积木块和`pause`积木块。
+在`无限循环`中依次插入`连接thinkspeak`积木块，`设置发送到ThingSpeak平台的数据`积木块，`上传数据到ThingSpeak平台`积木块。
 
 其中在`设置发送到ThingSpeak平台的数据`积木块中填入上一步获取的`write api key`在`field1`中插入`随机数`积木块。
 
