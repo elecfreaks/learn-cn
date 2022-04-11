@@ -106,7 +106,7 @@
 ### 现象
 ---
 
-持续向thingspeak上传一次随机的数据。
+持续向thingspeak上传随机的数据。
 
 thingspeak可以查看所有数据。
 
