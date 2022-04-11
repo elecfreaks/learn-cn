@@ -62,7 +62,7 @@
 ## 编程
 ---
 ### 模块连接图
-- 将光线传感器模块连接到P1口。
+- 将micro:bit连接到iot:bit上。
 
 ![](./images/case_ts_17.png)
 
@@ -79,43 +79,34 @@
 
 ### 步骤 2
 
-在`on start`中插入`set 8266`积木块，参数选择RX`P8`TX`P12`baud rate`115200`。
+在`当开机时`中插入`设置ESP8266模块`积木块，参数选择RX`P8`TX`P12`波特率`115200`。
 
-然后插入`connect wifi`积木块，填入可用的wifi名称与密码，
+然后插入`连接 wifi 无线网络`积木块，填入可用的wifi名称与密码，
 
 ![](./images/case_ts_11.png)
 
 ***注意：8266模块暂时不支持5G路由器WIFI信号，请连接2.4G路由器WIKI信号***
 ### 步骤 3
 
-在`forever`中依次插入`connect thinkspeak`积木块，`set data`积木块，`send data`积木块和`pause`积木块。
+在`无限循环`中依次插入`连接thinkspeak`积木块，`设置发送到ThingSpeak平台的数据`积木块，`send data`积木块和`pause`积木块。
 
-其中在`set data`积木块中填入上一步获取的`write api key`在`field1`中插入`光线传感器值`积木块。
-
-暂停`60s`，一分钟发送一次。
+其中在`设置发送到ThingSpeak平台的数据`积木块中填入上一步获取的`write api key`在`field1`中插入`随机数`积木块。
 
 ![](./images/case_ts_12.png)
 
-### 步骤 4
-
-在`On start`中初始化OLED`initialize OLED`以显示IoT工作状态。
-
-在`serial on data received`当串口收到数据中插入显示积木块，显示串口读取字符直到遇到换行。
-
-![](./images/case_ts_21.png)
 
 ### 程序
 
-请参考程序连接：[https://makecode.microbit.org/_CP72qe7ykMph](https://makecode.microbit.org/_CP72qe7ykMph)
+请参考程序连接：[https://makecode.microbit.org/_0MqJdw99D2hV](https://makecode.microbit.org/_0MqJdw99D2hV)
 
 你也可以通过以下网页修改程序。
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_CP72qe7ykMph" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_0MqJdw99D2hV" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
 ### 现象
 ---
 
-每隔一分钟都会向thingspeak上传一次当前光线值的数据。
+持续向thingspeak上传一次随机的数据。
 
 thingspeak可以查看所有数据。
 
