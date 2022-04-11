@@ -6,7 +6,7 @@
 
 
 ### 添加python文件
-下载压缩包并解压[EF_Produce_MicroPython-master](https://github.com/lionyhw/EF_Produce_MicroPython/archive/master.zip)
+下载压缩包并解压[EF_Produce_MicroPython-master](https://github.com/elecfreaks/EF_Produce_MicroPython/archive/refs/heads/master.zip)
 打开[Python editor](https://python.microbit.org/v/2.0)
 
 ![](./images/cutebot-py-01.png)
