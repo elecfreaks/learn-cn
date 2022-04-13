@@ -28,6 +28,7 @@
    microbitKit/Mecanum_wheel_car_kit/index
    microbitKit/TPbot_tianpeng/index
    microbitKit/iot_kit/index
+   microbitKit/straw-manipulator/index
    microbitOctopus/input/index
    microbitOctopus/output/index
    microbitOctopus/sensor/index
