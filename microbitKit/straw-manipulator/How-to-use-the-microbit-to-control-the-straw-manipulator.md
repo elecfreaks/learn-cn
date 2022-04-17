@@ -2,7 +2,7 @@
 
 
 
-![](.\images\straw-manipulator-01.gif)
+![](./images/straw-manipulator-01.gif)
 
 
 
@@ -14,7 +14,7 @@
 
 ### 悟空扩展板
 
-![](.\images\straw-manipulator-03.png)
+![](./images/straw-manipulator-03.png)
 
 
 
@@ -28,37 +28,37 @@
 
 
 
-![](.\images\straw-manipulator-08.png)
+![](./images/straw-manipulator-08.png)
 
 总材料清单
 
 
 
-![](.\images\straw-manipulator-04.png)
+![](./images/straw-manipulator-04.png)
 
 英国广播公司：micro:bit × 1
 
 
 
-![](.\images\straw-manipulator-02.png)
+![](./images/straw-manipulator-02.png)
 
 悟空扩展板 × 1
 
 
 
-![](.\images\straw-manipulator-05.png)
+![](./images/straw-manipulator-05.png)
 
 180度舵机 × 5
 
 
 
-![](.\images\straw-manipulator-06.png)
+![](./images/straw-manipulator-06.png)
 
 亚克力手板 × 1
 
 
 
-![](.\images\straw-manipulator-07.png)
+![](./images/straw-manipulator-07.png)
 
 吸管 × 5
 
@@ -72,9 +72,9 @@
 
 将180度舵机出线的一端朝下分别安装到亚克力手板的长方形孔中，并用平头螺丝固定，如图所示：
 
-![](.\images\straw-manipulator-09-1.png)
+![](./images/straw-manipulator-09-1.png)
 
-![](.\images\straw-manipulator-09.png)
+![](./images/straw-manipulator-09.png)
 
 
 
@@ -90,19 +90,19 @@
 | S5   | 无名指 |
 | S7   | 小拇指 |
 
-![](.\images\straw-manipulator-10-2.png)
+![](./images/straw-manipulator-10-2.png)
 
-![](.\images\straw-manipulator-10.png)
+![](./images/straw-manipulator-10.png)
 
-![](.\images\straw-manipulator-10-1.png)
+![](./images/straw-manipulator-10-1.png)
 
-![](.\images\straw-manipulator-11.png)
+![](./images/straw-manipulator-11.png)
 
 #### 步骤三
 
 将 micro:bit 安装到悟空扩展板的插槽中。如图所示：
 
-![](.\images\straw-manipulator-12.png)
+![](./images/straw-manipulator-12.png)
 
 
 
@@ -110,11 +110,11 @@
 
 将5根平头吸管按如图形状剪切，并在上面一端从中间剪开5mm的裂口用于固定线头,如图所示：
 
-![](.\images\straw-manipulator-14-1.png)
+![](./images/straw-manipulator-14-1.png)
 
-![](.\images\straw-manipulator-14-2.png)
+![](./images/straw-manipulator-14-2.png)
 
-![](.\images\straw-manipulator-14.png)
+![](./images/straw-manipulator-14.png)
 
 
 
@@ -124,13 +124,13 @@
 
 将棉线线缠绕单摆臂一端，然后将单摆臂从吸管上头经内部落下，同时捏住线头将吸管固定到亚克力手板的“手指”上，将单摆臂固定到舵机上，将棉线另一端打结固定到吸管最顶部的裂口处。如图所示：
 
-![](.\images\straw-manipulator-14-3.png)
+![](./images/straw-manipulator-14-3.png)
 
-![](.\images\straw-manipulator-14-4.png)
+![](./images/straw-manipulator-14-4.png)
 
-![](.\images\straw-manipulator-15.png)
+![](./images/straw-manipulator-15.png)
 
-![](.\images\straw-manipulator-16.png)
+![](./images/straw-manipulator-16.png)
 
 *注意：棉线一端是穿过单摆臂最上面的空洞并打结，另一端是打结形成小颗粒固定到吸管裂口处*
 
@@ -150,7 +150,7 @@ micro:bit编程是使用 [Makecode](https://makecode.microbit.org) 编程平台�
 
 
 
-![](.\images\straw-manipulator-18.png)
+![](./images/straw-manipulator-18.png)
 
 
 
@@ -162,9 +162,9 @@ micro:bit编程是使用 [Makecode](https://makecode.microbit.org) 编程平台�
 
 
 
-![](.\images\straw-manipulator-21.png)
+![](./images/straw-manipulator-21.png)
 
-![](.\images\straw-manipulator-22.png)
+![](./images/straw-manipulator-22.png)
 
 
 
@@ -174,13 +174,13 @@ micro:bit编程是使用 [Makecode](https://makecode.microbit.org) 编程平台�
 
 
 
-![](.\images\straw-manipulator-19.png)
+![](./images/straw-manipulator-19.png)
 
-![](.\images\straw-manipulator-20.png)
+![](./images/straw-manipulator-20.png)
 
-![](.\images\straw-manipulator-23.png)
+![](./images/straw-manipulator-23.png)
 
-![](.\images\straw-manipulator-24.png)
+![](./images/straw-manipulator-24.png)
 
 
 
@@ -204,7 +204,7 @@ micro:bit编程是使用 [Makecode](https://makecode.microbit.org) 编程平台�
 
 
 
-![](.\images\straw-manipulator-25.png)
+![](./images/straw-manipulator-25.png)
 
 
 
