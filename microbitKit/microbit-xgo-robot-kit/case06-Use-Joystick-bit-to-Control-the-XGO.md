@@ -1,4 +1,4 @@
-# Case 06 - joystick:bit控制XGO
+# 案例 06 - joystick:bit控制XGO
 
 
 
