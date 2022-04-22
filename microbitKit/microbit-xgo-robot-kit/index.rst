@@ -8,11 +8,11 @@ XGO Robot Kit
     :maxdepth: 2
     :numbered: 2
 
-    1.microbit-xgo-robot-kit-Introduction.md
-    2.start-programming.md
-    3.case01-out-of-the-square.md
-    4.case02-chasing-dog.md
-    5.case03-foraging.md
-    6.case04-aural-debate.md
-    7.case05-touch-dog.md
-    8.case06-Use-Joystick-bit-to-Control-the-XGO.md
+    microbit-xgo-robot-kit-Introduction.md
+    start-programming.md
+    case01-out-of-the-square.md
+    case02-chasing-dog.md
+    case03-foraging.md
+    case04-aural-debate.md
+    case05-touch-dog.md
+    case06-Use-Joystick-bit-to-Control-the-XGO.md
