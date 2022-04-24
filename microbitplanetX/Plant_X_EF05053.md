@@ -76,7 +76,7 @@ SKU|EF05053
 *注意：*如果你得到一个提示说一些代码库因为不兼容的原因将被删除，你可以根据提示继续操作，或者在项目菜单栏里面新建一个项目。
 ### 步骤 2
 ### 如图所示编写程序
-示例一：
+示例一：数字巡线示例代码
 
 ![](./images/05053_06.png)
 
@@ -88,7 +88,7 @@ SKU|EF05053
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_hAxbq6EY7307" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>  
 
-示例二：
+示例二：PID巡线示例代码
 
 ![](./images/05053_07.png)
 
