@@ -4,7 +4,7 @@
 
 ## 目的
 
-实现joystick:bit控制XGO做出动作。关于joystick:bit的相关文档请参考：[Joystick:bit]([14. Joystick:bit V2 — micro bit tutorial (elecfreaks.com)](https://www.elecfreaks.com/learn-en/microbitExtensionModule/joystick_bit_v2.html))
+实现joystick:bit控制XGO做出动作。关于joystick:bit的相关文档请参考：[Joystick:bit](https://www.elecfreaks.com/learn-en/microbitExtensionModule/joystick_bit_v2.html)
 
 
 
