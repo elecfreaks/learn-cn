@@ -66,6 +66,8 @@ AI摄像头会不定期更新一些新功能和性能优化，在发布新版本
 
 ### 最新版本固件
 
+AI摄像头有V1和V2两个版本，AI摄像头V2版本的背后有一个固件下载按键，我们可以这个固件下载按键对这两个版本的摄像头进行区分。
+
 最新版固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
 
 ### 如何更新固件
