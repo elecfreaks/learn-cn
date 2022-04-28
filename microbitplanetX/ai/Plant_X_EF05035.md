@@ -63,10 +63,15 @@ AI摄像头会不定期更新一些新功能和性能优化，在发布新版本
 
 AI摄像头有AiCam V1.2和AiCam V1.7两个版本，AiCam V1.7版本的背后有一个固件下载按键，我们可以这个固件下载按键对这两个版本的摄像头进行区分。
 
-![](./images/AI-gj-07.png)
+![](./images/AI-gj-08.png)
 
 
 ### 如何检查当前固件版本
+
+
+摄像头开机页面右下角会提示当前版本号，（如果没有提示，则是最旧的版本请及时更新）
+
+![](./images/AI-gj-05.png)
 
 最新版固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
 
@@ -75,9 +80,6 @@ AI摄像头有AiCam V1.2和AiCam V1.7两个版本，AiCam V1.7版本的背后有
 ### 最新版本固件
 
 
-摄像头开机页面右下角会提示当前版本号，（如果没有提示，则是最旧的版本请及时更新）
-
-![](./images/AI-gj-05.png)
 
 
 ### 如何更新固件
