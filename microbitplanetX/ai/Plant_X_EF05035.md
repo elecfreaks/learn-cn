@@ -73,7 +73,7 @@ AI摄像头有AiCam V1.2和AiCam V1.7两个版本，AiCam V1.7版本的背后有
 
 ![](./images/AI-gj-05.png)
 
-最新版固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
+AiCam V1.2版本固件 v1.0.12 [点击下载](https://github.com/elecfreaks/learn-cn/raw/master/microbitplanetX/ai/v1.0.12.kfpkg)。
 
 
 
