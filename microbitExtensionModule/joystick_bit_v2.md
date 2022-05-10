@@ -51,7 +51,7 @@ Joystick:bit V2是一款基于micro:bit 的游戏手柄。它包含可控制4个
 
  X & Y分别连接至micro:bit 主板的P1,P2接口。
  
- ![](./images/joystick_v2_15.png)
+ ![](./images/joystick_v2_16.png)
  
  X & Y的坐标信息。
 
