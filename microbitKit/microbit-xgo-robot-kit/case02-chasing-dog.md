@@ -56,11 +56,11 @@
 
 
 
-请参考程序链接：[Chasing Dog](https://makecode.microbit.org/_bCE5mbi6hcR8)
+请参考程序链接：[Chasing Dog](https://makecode.microbit.org/_YVJe8eefmbqo)
 
 同时，可以直接下载下方程序；
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_bCE5mbi6hcR8" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div> 
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_YVJe8eefmbqo" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div> 
 
 
 
