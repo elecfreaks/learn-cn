@@ -34,7 +34,7 @@
    
 .. toctree::
    :maxdepth: 2
-   :caption: 传感器
+   :caption: 电子积木
  
    microbitOctopus/index
    microbitplanetX/index
@@ -46,9 +46,9 @@
    
    microbitExtensionModule/index
    
-   .. toctree::
+.. toctree::
    :maxdepth: 2
-   :caption: arduino
+   :caption: Arduino 3合1主控盒
    
    Arduino-3-in-1-box/index
 
