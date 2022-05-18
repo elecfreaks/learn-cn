@@ -42,7 +42,7 @@
    
 .. toctree::
    :maxdepth: 2
-   :caption: 扩展版
+   :caption: micro:bit 扩展板
    
    microbitExtensionModule/index
    
