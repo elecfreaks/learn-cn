@@ -8,6 +8,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :caption: micro:bit
 
    heard/index
    micropythonTutorial/index
@@ -29,10 +30,25 @@
    microbitKit/TPbot_tianpeng/index
    microbitKit/iot_kit/index
    microbitKit/microbit-xgo-robot-kit/index
-   microbitOctopus/input/index
-   microbitOctopus/output/index
-   microbitOctopus/sensor/index
-   microbitplanetX/index
-   microbitExtensionModule/index
-   Arduino-3-in-1-box/index
    microbitKit/straw-manipulator/index
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: 传感器
+ 
+   microbitOctopus/index
+   microbitplanetX/index
+   
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: 扩展版
+   
+   microbitExtensionModule/index
+   
+   .. toctree::
+   :maxdepth: 2
+   :caption: arduino
+   
+   Arduino-3-in-1-box/index
+
