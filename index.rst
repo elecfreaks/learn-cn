@@ -34,7 +34,7 @@
    
 .. toctree::
    :maxdepth: 2
-   :caption: 电子积木
+   :caption: 电子积木传感器
  
    microbitOctopus/index
    microbitplanetX/index
