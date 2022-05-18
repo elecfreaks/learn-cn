@@ -3,6 +3,5 @@
 
 .. toctree::
     :maxdepth: 2
-    :numbered: 2
-     
+    
     欢迎来到microbit知识库.md
