@@ -16,3 +16,4 @@ XGO Robot Kit
     case04-aural-debate.md
     case05-touch-dog.md
     case06-Use-Joystick-bit-to-Control-the-XGO.md
+    case07-remote-control-XGO-with-the-app.md
