@@ -1,15 +1,17 @@
 # 案例07-移动端XGO APP控制XGO
 
 ## 目的
-
+---
 通过移动端XGO APP控制XGO做出特定的动作。
 
 ## 使用材料
+---
 1 × micro:bit XGO Robot Kit 套件
 
 1 × 智能手机
 
 ## 硬件连接
+---
 ### 下载XGO APP
 
 安卓用户可以在百度或者小米应用商店搜索XGO，苹果用户可以在苹果应用市场搜索XGO，下载安装后并打开，XGO app界面如图。
@@ -29,6 +31,7 @@
 ![xgo app蓝牙打开界面](./images/microbit-xgo-robot-kit-08-7.png)
 
 ## 控制
+---
 xgo app有四种方式可以控制xgo，分别是**表演模式**、**整机模式**、**单腿控制**、**舵机控制**。
 
 **表演模式**是集成预定指令，可以让xgo做出预定好的动作，自由度低，操作性高；
@@ -46,6 +49,7 @@ xgo app有四种方式可以控制xgo，分别是**表演模式**、**整机模�
 ![xgo app蓝牙打开界面](./images/microbit-xgo-robot-kit-08-11.png)
 
 ## 案例
+---
 这节课程使用xgo app**整机控制**模式控制xgo前后左右行走。演示视频如图所示。
 
 ![xgo app蓝牙打开界面](./images/microbit-xgo-robot-kit-08-12.gif)
