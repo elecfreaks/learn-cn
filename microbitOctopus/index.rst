@@ -1,6 +1,6 @@
-电子积木
+octopus系列传感器
 =======
-电子积木
+octopus系列传感器
 
 
 .. toctree::
