@@ -9,28 +9,28 @@
 ---
 - 每个套件都有单独的文件夹，以如下规则命名
 
-- 套件kit：`xxxx_kit_0x.jpg`
+- 套件kit：`xxxx-ki-0x.jpg`
 
-- 扩展板bit:`xxxx_bit_0x.png`
+- 扩展板bit:`xxxx-bit-0x.png`
 
-- 案例：`case_0x_0x.jpg`
+- 案例：`case-0x-0x.jpg`
 
 
 ## 电子积木插图命名
 ---
 - 同类型电子积木放在同一个文件夹下。
 
-- 电子积木：`040xx_01.jpg`
+- 电子积木：`040xx-01.jpg`
 
-- 电子积木：`040xx_02.png`
+- 电子积木：`040xx-02.png`
 
 ## 扩展板插图命名
 ---
 - 扩展板放在同一文件夹下。
 
-- 扩展板：`xxx_bit_01.jpg`
+- 扩展板：`xxx-bit-01.jpg`
 
-- 扩展板：`xxx_bit_v2_02.png`
+- 扩展板：`xxx-bit-v2-02.png`
 
 ---
 
