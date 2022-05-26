@@ -34,4 +34,4 @@
 
 ---
 
-Eg：`https://raw.githubusercontent.com/elecfreaks/learn-en/master//microbitKit/microbit-xgo-robot-kit/images/microbit-xgo-robot-kit-square-01.png
+Eg：https://raw.githubusercontent.com/elecfreaks/learn-en/master//microbitKit/microbit-xgo-robot-kit/images/microbit-xgo-robot-kit-square-01.png
