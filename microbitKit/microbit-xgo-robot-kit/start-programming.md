@@ -82,7 +82,7 @@ XGO 的程序编写是在 [Makecode](https://makecode.microbit.org/#) 平台进�
 
 ![](./images/microbit-xgo-robot-kit-13.png)
 
-注意：若通过搜索 XGO 没有得到相应的结果，可以输入：
+注意：若通过搜索 XGO 没有得到相应的结果，可以输入：https://github.com/elecfreaks/pxt-xgo，如下：
 
 
 
