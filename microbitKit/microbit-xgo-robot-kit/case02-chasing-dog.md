@@ -3,19 +3,19 @@
 
 
 ## 目的
-
+---
 让 XGO 实现根据光线照在micro:bit上的强弱而前进或者趴下。
 
 
 
 ## 使用材料
-
+---
 1 × micro:bit XGO Robot Kit 套件
 
 
 
 ## 硬件连接
-
+---
 使用数据线将电脑与micro:bit 相连。
 
 ![](./images/microbit-xgo-robot-kit-22.png)
@@ -23,7 +23,7 @@
 
 
 ## 软件平台
-
+---
 [Makecode](https://makecode.microbit.org/#)
 
 ![](./images/microbit-xgo-robot-kit-10.png)
@@ -31,7 +31,7 @@
 
 
 ## 编程
-
+---
 
 
 将 XGO 的扩展库添加到 makecode 中。
@@ -47,8 +47,9 @@
 
 
 ## 程序
+---
 
-#### 示例程序
+### 示例程序
 
 
 
@@ -65,11 +66,11 @@
 
 
 ## 相关问题
-
+---
 如果 XGO 没有行走，可以适当调整光源亮度
 
 
 
 ## 思考
-
+---
 能否让 XGO 根据光照强度做出更多的动作？
