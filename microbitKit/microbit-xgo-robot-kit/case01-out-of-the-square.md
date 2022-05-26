@@ -3,19 +3,19 @@
 
 
 ## 目的
-
+---
 让 XGO 实现经过的路线为正方形；
 
 
 
 ## 使用材料
-
+---
 1 × micro:bit XGO Robot Kit 套件
 
 
 
 ## 硬件连接
-
+---
 使用数据线将电脑与micro:bit 相连；
 
 ![](./images/microbit-xgo-robot-kit-22.png)
@@ -23,7 +23,7 @@
 
 
 ## 软件平台
-
+---
 [Makecode](https://makecode.microbit.org/#)
 
 ![](./images/microbit-xgo-robot-kit-10.png)
@@ -31,7 +31,7 @@
 
 
 ## 编程
-
+---
 
 
 将 XGO 的扩展库添加到 makecode 中;
@@ -47,8 +47,8 @@
 
 
 ## 程序
-
-#### 示例程序
+---
+### 示例程序
 
 
 
@@ -65,11 +65,11 @@
 
 
 ## 相关问题
-
+---
 如果 XGO 没有完全走出正方形轨迹，可适当调整时间和速度；
 
 
 
 ## 思考
-
+---
 能否让 XGO 走出圆形轨迹？
