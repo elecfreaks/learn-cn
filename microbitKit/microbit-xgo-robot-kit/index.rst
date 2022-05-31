@@ -10,6 +10,7 @@ XGO Robot Kit
 
     microbit-xgo-robot-kit-Introduction.md
     start-programming.md
+    calibrate-xgo-with-the-standards.md
     case01-out-of-the-square.md
     case02-chasing-dog.md
     case03-foraging.md
