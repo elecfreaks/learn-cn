@@ -14,7 +14,7 @@ Micro：bit小小科学家套件可以帮助您进入一个美好的电子世界
 
 ## 套件包含
 ---
-![](./images/NJPB9qt.jpg)
+![](./images/Micro-bit-Starter-Kit-01.png)
 
 ## 常见问题
 ---
