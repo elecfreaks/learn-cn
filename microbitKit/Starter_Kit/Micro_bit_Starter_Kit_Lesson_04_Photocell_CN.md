@@ -14,7 +14,7 @@
 - 1 x micro:bit面包板扩展板  
 - 1 x 面包板83 x 55 mm  
 - 1 x 光敏电阻  
-- 1 x 10k欧姆电阻   
+- 1 x 10Ω电阻   
 - 若干跳线
 
 **温馨提示：如果你需要以上所有元件，你可以购买我们的[Elecfreaks小小科学家套件](https://item.taobao.com/item.htm?ft=t&id=597096675822)。**
