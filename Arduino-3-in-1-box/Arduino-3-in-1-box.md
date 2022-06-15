@@ -60,7 +60,7 @@ Arduino 官方网站上下载最新版本的 Arduino IDE： [https://www.arduino
 
 ![](./images/Arduino-3-in-1-box-08.png)
 
-选择并打开USmart文件夹，添加[哪吒A主控盒](https://www.elecfreaks.com/arduino-3-in-1-master-control-box.html)的扩展库文件。
+选择NezhaA-main.zip，添加[哪吒A主控盒](https://www.elecfreaks.com/arduino-3-in-1-master-control-box.html)的扩展库文件。
 
 ![](./images/Arduino-3-in-1-box-09.png)
 
