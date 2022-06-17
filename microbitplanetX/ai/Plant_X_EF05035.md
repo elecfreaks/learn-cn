@@ -160,6 +160,12 @@ macOS系统下载完成后打开下图图标。
 
 ![](./images/AI-gj-16.png)
 
+点击`一键刷机`，点击`浏览`，选择[AI-Cam-V1.7-V2.0.1](https://github.com/elecfreaks/learn-cn/releases/download/V2.0.1/AI-Cam-V1.7-V2.0.1.zip)中的`tina_v831-sipeed_uart0_ov9732.img`，点击立即升级。
+
+![](./images/AI-gj-18.png)
+
+![](./images/AI-gj-19.png)
+
 拔下USB线，在完全断电的情况下按下固件下载按钮，然后再使用USB连接AI摄像头，进入固件下载模式。
 
 ![](./images/AI-gj-15.png)
@@ -172,20 +178,9 @@ macOS系统下载完成后打开下图图标。
 
 ![](./images/AI-gj-21.png)
 
-点击`一键刷机`，点击`浏览`，选择[AI-Cam-V1.7-V2.0.1](https://github.com/elecfreaks/learn-cn/releases/download/V2.0.1/AI-Cam-V1.7-V2.0.1.zip)中的`tina_v831-sipeed_uart0_ov9732.img`，点击立即升级。
-
-![](./images/AI-gj-18.png)
-
-![](./images/AI-gj-19.png)
-
-在弹出界面选择`是`，进行固件更新。
-
-![](./images/AI-gj-20.png)
-
 ### 更新软件包步骤
 
 下载并解压[AiCam V1.7版本软件包 v2.0.1](https://github.com/elecfreaks/learn-cn/releases/download/V2.0.1/AI-Cam-V1.7-V2.0.1.zip)，打开U盘,将`AI-Cam-V1.7-V2.0.1`文件夹中的`maix_dist`，`res`两个文件拷贝到U盘中,**等待拷贝完成,然后手动卸载U盘**.重新连接AI摄像头即可。
-
 ![](./images/AI-gj-22.png)
 
 
