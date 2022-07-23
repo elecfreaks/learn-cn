@@ -4,8 +4,11 @@
 使用cutebot智能赛车搭配AI摄像头实现小车根据卡片颜色来自动启动和停车的功能。
 
 ## 使用材料
+
 1 × [Cutebot 智能赛车](https://www.elecfreaks.com/micro-bit-smart-cutebot.html)
+
 1 × [Cutebot套件锂电池扩展包](https://www.elecfreaks.com/cutebot-lithium-battery-pack.html)
+
 1 × [AI摄像头](https://www.elecfreaks.com/elecfreaks-smart-ai-lens-kit.html)
 
 
