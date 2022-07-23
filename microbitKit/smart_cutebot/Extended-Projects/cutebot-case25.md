@@ -4,7 +4,9 @@
 通过8×16点阵屏幕显示表情。
 
 ## 使用材料
+
 1 × [Cutebot 智能赛车](https://www.elecfreaks.com/micro-bit-smart-cutebot.html)
+
 1 × [ELECFREAKS 8x16 Matrix Module](https://www.elecfreaks.com/8x16-matrix-module.html)
 
 
@@ -13,7 +15,7 @@
 ### 硬件连接
 将8*16点阵屏插入cutebot智能赛车的IIC接口，需要注意连接接口是否正确。
 
-![](./images/cutebot-case-25-step-01.png)
+
 
 
 
