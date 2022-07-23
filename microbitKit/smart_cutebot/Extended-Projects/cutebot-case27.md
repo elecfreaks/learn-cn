@@ -3,9 +3,14 @@
 ## 目的
 使用cutebot智能赛车制作一辆可以将对手推出比赛场地或者失去移动能力的小车。
 
+![](./images/cutebot-case-27-01.png)
+
 ## 使用材料
+
 1 × [Cutebot 智能赛车](https://www.elecfreaks.com/micro-bit-smart-cutebot.html)
+
 1 × [Cutebot套件锂电池扩展包](https://www.elecfreaks.com/cutebot-lithium-battery-pack.html)
+
 n × 积木零件（积木零件需要自行准备）
 
 
@@ -23,6 +28,7 @@ n × 积木零件（积木零件需要自行准备）
 搭建步骤：
 
 ![](./images/cutebot-case-27-step-02.png)
+
 ![](./images/cutebot-case-27-step-03.png)
 
 ![](./images/cutebot-case-27-step-04.png)
