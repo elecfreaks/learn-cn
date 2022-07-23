@@ -4,8 +4,11 @@
 使用cutebot智能赛车搭配机械爪来制作一辆拥有抓取物品功能的小车。
 
 ## 使用材料
+
 1 × [Cutebot 智能赛车](https://www.elecfreaks.com/micro-bit-smart-cutebot.html)
+
 1 × [ELECFREAKS Mechanical Catch](https://www.elecfreaks.com/elecfreaks-mechanical-catch-use-with-cutebot.html)
+
 1 x [Joystick:bit V2](https://www.elecfreaks.com/joystick-bit-2-for-micro-bit.html)
 
 ## 安装方式
