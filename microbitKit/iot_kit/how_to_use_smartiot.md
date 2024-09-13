@@ -1,7 +1,7 @@
 # 第一节：SmartIot平台使用手册
 ---
 - SmartIot是恩孚科技出品的一个简单易用的物联网平台，3分钟连接物联网，实施远程操控microbit。（中/英文切换文暂时没有更新）
- 平台链接：[SmartIot云平台: https://www.smartiot.cn/](https://www.smartiot.cn/)
+ 平台链接：[SmartIot云平台: https://www.smartiot.space/](https://www.smartiot.space/)
 
 ![](./images/smartiot_01.jpg)
 
